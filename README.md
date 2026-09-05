@@ -3,7 +3,6 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Models-EB6100?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Power BI](https://img.shields.io/badge/Power_BI-Semantic_Model-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 **RefundShield AI** is an industry-grade, explainable, multi-layer fraud detection platform engineered to protect e-commerce enterprises and payment platforms against repeated, distributed, and coordinated refund and return fraud.
@@ -116,7 +115,6 @@ RefundShield_Dataset/
 ├── app.py                         # Interactive Streamlit Web Command Center & Live Simulator
 ├── README.md                      # Primary project documentation
 ├── ARCHITECTURE.md                # In-depth technical architecture blueprint
-├── INTERVIEW_STUDY_GUIDE.md       # 15+ Interview Q&A, elevator pitch, fraud taxonomy cheat sheet
 ├── sql/
 │   ├── schema.sql                 # DDL relational schema for SQLite / PostgreSQL
 │   └── analytics_queries.sql      # 10+ industry analytical SQL queries for fraud investigators
@@ -137,10 +135,6 @@ RefundShield_Dataset/
 │   │   └── network_analyzer.py    # NetworkX identity graph engine & Sybil ring detector
 │   └── scoring/
 │       └── hybrid_engine.py       # Unified scoring orchestrator combining Rules, ML, and Graph
-├── power_bi/
-│   ├── PowerBI_Dashboard_Guide.md # Visual wireframes, star schema, and step-by-step setup
-│   ├── measures.dax               # 25+ enterprise DAX formulas for Power BI
-│   └── data/                      # 7 Star Schema CSV exports (Fact_Orders, Dim_Customer, etc.)
 ├── reports/
 │   └── figures/                   # Generated evaluation plots (roc_curve.png, confusion_matrix.png, etc.)
 └── saved_models/                  # Serialized XGBoost, Random Forest, and typology models
@@ -159,9 +153,6 @@ python -m src.db.database
 python -m src.models.train_models
 python -m src.models.fraud_type_classifier
 python -m src.models.evaluator
-
-# Export Power BI Star Schema tables
-python -m power_bi.export_powerbi_data
 ```
 
 ### 2. Launch the Interactive Web Command Center
@@ -169,14 +160,6 @@ python -m power_bi.export_powerbi_data
 streamlit run app.py
 ```
 *Access the dashboard in your browser at `http://localhost:8501`.*
-
----
-
-## 📊 Power BI Enterprise Integration
-
-The project includes an enterprise-ready dimensional star schema in [`power_bi/data/`](power_bi/data) and 25+ production DAX formulas in [`power_bi/measures.dax`](power_bi/measures.dax).
-
-Refer to [`power_bi/PowerBI_Dashboard_Guide.md`](power_bi/PowerBI_Dashboard_Guide.md) for page-by-page visual wireframes and relationship modeling instructions.
 
 ---
 

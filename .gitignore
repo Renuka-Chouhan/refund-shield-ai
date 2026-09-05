@@ -56,3 +56,7 @@ $RECYCLE.BIN/
 # Private notes
 INTERVIEW_STUDY_GUIDE.md
 
+# Power BI local package
+power_bi/
+
+
