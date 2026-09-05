@@ -1,0 +1,1395 @@
+return_id,order_id,customer_id,return_date,return_reason,return_status,returned_weight_kg,product_condition,item_match_flag,packaging_condition
+R00001,O00002,C0021,2026-05-21,Wrong Item,Received,2.24,Good,1,Intact
+R00002,O00008,C0075,2026-05-21,Wrong Item,Received,4.41,Good,0,Intact
+R00003,O00010,C0409,2026-07-20,Wrong Item,Received,1.43,Good,1,Intact
+R00004,O00011,C0022,2026-05-28,Color mismatch,Received,4.12,Good,1,Intact
+R00005,O00012,C0418,2026-06-22,Package arrived damaged,Received,0.3,Missing,0,Intact
+R00006,O00013,C0021,2026-09-01,Defective product,Received,7.14,Good,1,Intact
+R00007,O00014,C0404,2026-05-14,Duplicate order,Received,3.44,Good,1,Intact
+R00008,O00017,C0212,2026-09-04,Defective product,Received,3.69,Defective,1,Intact
+R00009,O00019,C0052,2026-09-05,Color mismatch,Received,1.94,Good,1,Intact
+R00010,O00023,C0157,2026-07-07,Item not received,Received,1.37,Defective,1,Damaged
+R00011,O00027,C0087,2026-08-12,Wrong Item,Received,1.51,Good,1,Intact
+R00012,O00028,C0030,2026-07-23,Changed mind,Received,1.5,Used,1,Intact
+R00013,O00029,C0087,2026-08-03,Color mismatch,Received,0.57,Good,1,Intact
+R00014,O00030,C0054,2026-05-25,Package arrived damaged,Received,7.27,Defective,1,Intact
+R00015,O00036,C0367,2026-08-20,Color mismatch,Received,0.9,Good,1,Intact
+R00016,O00037,C0060,2026-07-26,Defective product,Received,0.94,Good,1,Intact
+R00017,O00041,C0054,2026-08-04,Size issue,Received,2.52,Good,1,Intact
+R00018,O00042,C0034,2026-06-05,Changed mind,Received,1.3,Used,1,Intact
+R00019,O00043,C0038,2026-09-07,Changed mind,Received,0.9,Used,1,Intact
+R00020,O00044,C0350,2026-06-01,Size issue,Received,7.13,Good,1,Intact
+R00021,O00045,C0041,2026-05-22,Size issue,Received,1.13,Used,1,Intact
+R00022,O00046,C0080,2026-07-27,Item not received,Received,2.92,Good,1,Intact
+R00023,O00047,C0059,2026-08-09,Changed mind,Received,0.55,Defective,1,Intact
+R00024,O00048,C0051,2026-08-08,Duplicate order,Received,2.42,Defective,1,Intact
+R00025,O00051,C0052,2026-07-18,Package arrived damaged,Received,0.64,Good,1,Intact
+R00026,O00054,C0022,2026-07-20,Item not received,Received,1.07,Good,1,Intact
+R00027,O00055,C0074,2026-07-09,Wrong Item,Received,2.46,Good,0,Intact
+R00028,O00056,C0448,2026-08-25,Size issue,Received,5.78,Good,1,Intact
+R00029,O00057,C0056,2026-07-28,Color mismatch,Received,16.87,Defective,1,Intact
+R00030,O00059,C0365,2026-08-20,Wrong Item,Received,3.53,Good,1,Intact
+R00031,O00060,C0094,2026-08-12,Item not received,Received,0.58,Good,1,Intact
+R00032,O00061,C0125,2026-08-02,Size issue,Received,3.98,Good,1,Intact
+R00033,O00062,C0182,2026-08-18,Changed mind,Received,2.65,Good,1,Intact
+R00034,O00063,C0252,2026-08-18,Size issue,Received,1.27,Defective,1,Intact
+R00035,O00065,C0037,2026-06-23,Changed mind,Received,1.12,Used,1,Intact
+R00036,O00066,C0051,2026-08-02,Defective product,Received,1.41,Good,1,Intact
+R00037,O00068,C0036,2026-07-10,Size issue,Received,0.76,Used,1,Intact
+R00038,O00072,C0051,2026-07-09,Package arrived damaged,Received,1.44,Good,1,Intact
+R00039,O00074,C0382,2026-07-24,Item not received,Received,0.39,Good,1,Intact
+R00040,O00075,C0072,2026-08-03,Wrong Item,Received,3.09,Good,0,Intact
+R00041,O00077,C0318,2026-05-13,Wrong Item,Received,0.54,Good,1,Intact
+R00042,O00079,C0061,2026-06-14,Defective product,Received,2.59,Good,1,Intact
+R00043,O00081,C0155,2026-06-20,Size issue,Received,0.34,Good,1,Intact
+R00044,O00082,C0049,2026-08-26,Defective product,Received,2.38,Defective,1,Intact
+R00045,O00084,C0080,2026-07-02,Size issue,Received,1.14,Defective,1,Intact
+R00046,O00085,C0021,2026-06-10,Defective product,Received,1.38,Good,1,Intact
+R00047,O00086,C0035,2026-08-04,Changed mind,Received,1.19,Used,1,Intact
+R00048,O00088,C0056,2026-07-20,Defective product,Received,1.21,Good,1,Intact
+R00049,O00094,C0084,2026-05-15,Package arrived damaged,Received,3.63,Good,1,Damaged
+R00050,O00098,C0061,2026-06-22,Duplicate order,Received,7.35,Good,1,Intact
+R00051,O00099,C0035,2026-08-29,Changed mind,Received,1.28,Used,1,Intact
+R00052,O00100,C0040,2026-06-05,Changed mind,Received,1.33,Used,1,Intact
+R00053,O00101,C0064,2026-06-21,Item not received,Received,5.81,Defective,1,Intact
+R00054,O00102,C0030,2026-05-21,Changed mind,Received,0.71,Used,1,Intact
+R00055,O00103,C0025,2026-05-26,Changed mind,Received,0.52,Defective,1,Intact
+R00056,O00106,C0054,2026-06-09,Package arrived damaged,Received,7.3,Good,1,Intact
+R00057,O00108,C0150,2026-08-10,Duplicate order,Received,1.03,Good,1,Intact
+R00058,O00109,C0365,2026-06-13,Item not received,Received,5.84,Good,1,Intact
+R00059,O00112,C0020,2026-07-19,Item not received,Received,4.22,Good,1,Intact
+R00060,O00114,C0054,2026-07-10,Color mismatch,Received,8.37,Good,1,Intact
+R00061,O00115,C0327,2026-08-06,Size issue,Received,0.85,Good,1,Intact
+R00062,O00116,C0020,2026-07-22,Defective product,Received,3.66,Defective,1,Intact
+R00063,O00117,C0342,2026-08-23,Size issue,Received,3.98,Defective,1,Intact
+R00064,O00118,C0010,2026-05-18,Item not received,Received,0.49,Good,1,Intact
+R00065,O00119,C0020,2026-08-24,Wrong Item,Received,1.43,Defective,1,Intact
+R00066,O00120,C0050,2026-08-18,Package arrived damaged,Received,1.0,Good,1,Intact
+R00067,O00121,C0030,2026-06-06,Changed mind,Received,0.53,Used,1,Intact
+R00068,O00122,C0023,2026-06-04,Defective product,Received,2.83,Good,1,Intact
+R00069,O00125,C0030,2026-06-16,Changed mind,Received,0.59,Used,1,Intact
+R00070,O00127,C0296,2026-09-01,Changed mind,Received,0.53,Good,1,Intact
+R00071,O00128,C0409,2026-06-14,Package arrived damaged,Received,1.92,Defective,1,Intact
+R00072,O00131,C0241,2026-06-23,Changed mind,Received,2.33,Defective,1,Intact
+R00073,O00132,C0331,2026-09-06,Wrong Item,Received,1.34,Good,1,Intact
+R00074,O00134,C0394,2026-06-01,Size issue,Received,0.92,Good,1,Intact
+R00075,O00136,C0213,2026-08-15,Wrong Item,Received,3.68,Good,0,Intact
+R00076,O00137,C0036,2026-08-28,Changed mind,Received,1.11,Used,1,Damaged
+R00077,O00138,C0331,2026-07-11,Color mismatch,Received,2.21,Good,1,Intact
+R00078,O00139,C0393,2026-06-04,Item not received,Received,0.41,Good,1,Intact
+R00079,O00140,C0052,2026-05-20,Changed mind,Received,0.55,Good,1,Intact
+R00080,O00141,C0158,2026-07-10,Package arrived damaged,Received,3.42,Good,1,Damaged
+R00081,O00143,C0061,2026-07-26,Defective product,Received,7.05,Good,1,Intact
+R00082,O00144,C0057,2026-08-30,Package arrived damaged,Received,3.21,Good,1,Intact
+R00083,O00145,C0052,2026-06-09,Item not received,Received,1.98,Defective,1,Intact
+R00084,O00146,C0249,2026-05-19,Duplicate order,Received,2.71,Defective,1,Intact
+R00085,O00147,C0393,2026-07-28,Color mismatch,Received,7.21,Good,1,Damaged
+R00086,O00149,C0063,2026-08-03,Size issue,Received,1.86,Defective,1,Intact
+R00087,O00150,C0060,2026-08-08,Duplicate order,Received,5.82,Defective,1,Intact
+R00088,O00153,C0211,2026-08-21,Package arrived damaged,Received,0.65,Good,1,Damaged
+R00089,O00154,C0034,2026-06-21,Size issue,Received,1.12,Used,1,Intact
+R00090,O00157,C0038,2026-08-15,Size issue,Received,1.47,Used,1,Intact
+R00091,O00166,C0055,2026-05-24,Size issue,Received,3.96,Good,1,Intact
+R00092,O00167,C0063,2026-08-23,Package arrived damaged,Received,3.82,Good,1,Intact
+R00093,O00169,C0152,2026-07-21,Package arrived damaged,Received,2.79,Defective,1,Intact
+R00094,O00171,C0357,2026-07-29,Package arrived damaged,Received,0.12,Missing,0,Intact
+R00095,O00173,C0060,2026-07-12,Defective product,Received,1.36,Good,1,Intact
+R00096,O00176,C0022,2026-09-05,Changed mind,Received,1.13,Good,1,Intact
+R00097,O00178,C0202,2026-05-21,Package arrived damaged,Received,3.02,Defective,1,Intact
+R00098,O00179,C0058,2026-07-16,Color mismatch,Received,1.96,Good,1,Intact
+R00099,O00181,C0042,2026-07-08,Defective product,Received,7.24,Good,1,Intact
+R00100,O00182,C0287,2026-06-27,Color mismatch,Received,2.77,Defective,1,Intact
+R00101,O00184,C0020,2026-08-05,Wrong Item,Received,7.14,Good,1,Intact
+R00102,O00185,C0023,2026-07-14,Defective product,Received,3.94,Good,1,Intact
+R00103,O00187,C0050,2026-07-23,Wrong Item,Received,3.64,Good,1,Intact
+R00104,O00189,C0326,2026-07-28,Defective product,Received,0.99,Defective,1,Damaged
+R00105,O00190,C0404,2026-08-31,Item not received,Received,0.45,Good,1,Intact
+R00106,O00191,C0059,2026-07-20,Package arrived damaged,Received,2.65,Defective,1,Intact
+R00107,O00192,C0290,2026-05-28,Wrong Item,Received,2.39,Good,0,Intact
+R00108,O00193,C0058,2026-06-09,Size issue,Received,5.89,Defective,1,Intact
+R00109,O00194,C0127,2026-09-02,Color mismatch,Received,3.69,Good,1,Intact
+R00110,O00195,C0062,2026-07-13,Defective product,Received,1.24,Good,1,Intact
+R00111,O00200,C0022,2026-06-16,Duplicate order,Received,0.6,Defective,1,Intact
+R00112,O00202,C0058,2026-07-04,Size issue,Received,5.61,Defective,1,Damaged
+R00113,O00203,C0053,2026-08-21,Item not received,Received,4.13,Good,1,Intact
+R00114,O00204,C0060,2026-06-18,Color mismatch,Received,2.92,Defective,1,Intact
+R00115,O00205,C0066,2026-08-11,Defective product,Received,2.9,Good,1,Intact
+R00116,O00209,C0032,2026-05-24,Changed mind,Received,1.5,Used,1,Intact
+R00117,O00210,C0038,2026-08-09,Size issue,Received,1.23,Used,1,Intact
+R00118,O00211,C0030,2026-07-22,Size issue,Received,0.68,Used,1,Intact
+R00119,O00213,C0084,2026-06-29,Package arrived damaged,Received,1.35,Defective,1,Intact
+R00120,O00214,C0084,2026-07-27,Item not received,Received,0.66,Good,1,Intact
+R00121,O00217,C0126,2026-07-22,Item not received,Received,3.76,Good,1,Intact
+R00122,O00222,C0099,2026-07-26,Changed mind,Received,7.15,Good,1,Intact
+R00123,O00223,C0390,2026-07-01,Defective product,Received,1.45,Defective,1,Intact
+R00124,O00227,C0094,2026-06-07,Changed mind,Received,2.69,Defective,1,Intact
+R00125,O00228,C0025,2026-07-26,Changed mind,Received,1.39,Defective,1,Intact
+R00126,O00234,C0356,2026-05-25,Wrong Item,Received,5.15,Good,0,Intact
+R00127,O00235,C0057,2026-07-13,Defective product,Received,1.05,Good,1,Intact
+R00128,O00236,C0075,2026-08-10,Wrong Item,Received,2.38,Good,0,Intact
+R00129,O00237,C0059,2026-07-03,Color mismatch,Received,1.83,Good,1,Intact
+R00130,O00238,C0414,2026-08-25,Defective product,Received,1.19,Defective,1,Intact
+R00131,O00239,C0363,2026-05-31,Size issue,Received,6.87,Good,1,Intact
+R00132,O00246,C0051,2026-07-06,Changed mind,Received,10.98,Good,1,Intact
+R00133,O00247,C0030,2026-08-20,Size issue,Received,0.57,Used,1,Intact
+R00134,O00249,C0053,2026-07-09,Wrong Item,Received,5.37,Defective,1,Intact
+R00135,O00252,C0034,2026-09-03,Size issue,Received,0.88,Used,1,Intact
+R00136,O00253,C0386,2026-08-12,Item not received,Received,4.38,Good,1,Damaged
+R00137,O00254,C0032,2026-07-25,Size issue,Received,0.74,Used,1,Intact
+R00138,O00256,C0053,2026-06-13,Duplicate order,Received,3.56,Defective,1,Intact
+R00139,O00257,C0038,2026-05-25,Item not received,Received,0.61,Good,1,Intact
+R00140,O00258,C0058,2026-06-19,Wrong Item,Received,2.64,Defective,1,Intact
+R00141,O00260,C0216,2026-05-24,Defective product,Received,1.12,Defective,1,Damaged
+R00142,O00261,C0063,2026-05-24,Defective product,Received,11.76,Good,1,Intact
+R00143,O00263,C0055,2026-06-22,Wrong Item,Received,10.55,Good,1,Intact
+R00144,O00265,C0022,2026-05-30,Color mismatch,Received,3.71,Good,1,Intact
+R00145,O00266,C0074,2026-08-17,Wrong Item,Received,2.67,Good,0,Intact
+R00146,O00267,C0064,2026-07-06,Changed mind,Received,5.44,Defective,1,Intact
+R00147,O00272,C0439,2026-07-31,Item not received,Received,2.41,Good,1,Intact
+R00148,O00274,C0050,2026-07-30,Size issue,Received,1.4,Good,1,Intact
+R00149,O00277,C0061,2026-08-15,Package arrived damaged,Received,0.84,Good,1,Intact
+R00150,O00278,C0186,2026-07-09,Changed mind,Received,0.56,Defective,1,Intact
+R00151,O00279,C0082,2026-05-31,Item not received,Received,0.74,Defective,1,Intact
+R00152,O00280,C0023,2026-05-22,Size issue,Received,7.27,Good,1,Intact
+R00153,O00281,C0450,2026-05-23,Duplicate order,Received,2.34,Defective,1,Intact
+R00154,O00283,C0056,2026-05-08,Package arrived damaged,Received,3.53,Defective,1,Intact
+R00155,O00284,C0050,2026-08-11,Item not received,Received,3.28,Good,1,Intact
+R00156,O00286,C0050,2026-06-01,Wrong Item,Received,1.0,Good,1,Intact
+R00157,O00287,C0097,2026-06-19,Duplicate order,Received,0.81,Good,1,Intact
+R00158,O00288,C0036,2026-06-16,Changed mind,Received,1.18,Used,1,Intact
+R00159,O00289,C0064,2026-06-14,Changed mind,Received,8.64,Good,1,Intact
+R00160,O00290,C0353,2026-05-29,Duplicate order,Received,3.92,Good,1,Damaged
+R00161,O00291,C0050,2026-06-03,Changed mind,Received,1.25,Good,1,Intact
+R00162,O00293,C0025,2026-06-11,Defective product,Received,2.53,Defective,1,Intact
+R00163,O00294,C0024,2026-08-30,Defective product,Received,1.12,Defective,1,Intact
+R00164,O00295,C0149,2026-06-06,Item not received,Received,1.05,Good,1,Intact
+R00165,O00297,C0028,2026-08-08,Changed mind,Received,1.22,Defective,1,Intact
+R00166,O00302,C0064,2026-08-22,Size issue,Received,13.76,Defective,1,Intact
+R00167,O00304,C0373,2026-06-03,Duplicate order,Received,1.37,Defective,1,Intact
+R00168,O00305,C0063,2026-07-21,Wrong Item,Received,2.5,Good,1,Intact
+R00169,O00306,C0169,2026-05-13,Duplicate order,Received,2.04,Good,1,Intact
+R00170,O00307,C0062,2026-08-08,Duplicate order,Received,7.29,Good,1,Intact
+R00171,O00308,C0117,2026-05-10,Package arrived damaged,Received,2.91,Good,1,Intact
+R00172,O00310,C0333,2026-08-25,Item not received,Received,0.32,Defective,1,Intact
+R00173,O00313,C0030,2026-07-25,Size issue,Received,0.6,Used,1,Intact
+R00174,O00315,C0055,2026-06-29,Duplicate order,Received,20.53,Good,1,Intact
+R00175,O00316,C0072,2026-07-20,Wrong Item,Received,1.43,Good,0,Intact
+R00176,O00317,C0035,2026-07-11,Changed mind,Received,0.87,Used,1,Intact
+R00177,O00319,C0038,2026-06-21,Size issue,Received,1.46,Used,1,Intact
+R00178,O00320,C0428,2026-08-10,Color mismatch,Received,0.77,Good,1,Damaged
+R00179,O00322,C0024,2026-08-02,Color mismatch,Received,1.97,Defective,1,Intact
+R00180,O00324,C0061,2026-07-31,Size issue,Received,1.19,Good,1,Intact
+R00181,O00325,C0058,2026-06-19,Duplicate order,Received,3.79,Defective,1,Intact
+R00182,O00327,C0023,2026-08-16,Duplicate order,Received,0.82,Good,1,Intact
+R00183,O00328,C0171,2026-07-25,Size issue,Received,2.92,Defective,1,Intact
+R00184,O00329,C0353,2026-08-31,Item not received,Received,1.04,Good,1,Intact
+R00185,O00331,C0391,2026-07-27,Wrong Item,Received,1.19,Defective,1,Intact
+R00186,O00332,C0061,2026-06-11,Color mismatch,Received,3.41,Good,1,Intact
+R00187,O00334,C0191,2026-06-13,Size issue,Received,3.8,Defective,1,Intact
+R00188,O00335,C0035,2026-05-15,Size issue,Received,0.65,Used,1,Intact
+R00189,O00336,C0039,2026-08-14,Defective product,Received,1.22,Defective,1,Damaged
+R00190,O00337,C0062,2026-08-21,Item not received,Received,0.86,Good,1,Intact
+R00191,O00338,C0129,2026-06-05,Wrong Item,Received,0.94,Good,0,Intact
+R00192,O00339,C0258,2026-06-21,Package arrived damaged,Received,0.29,Missing,0,Intact
+R00193,O00340,C0414,2026-08-16,Size issue,Received,1.45,Good,1,Damaged
+R00194,O00343,C0061,2026-08-10,Item not received,Received,2.46,Good,1,Intact
+R00195,O00344,C0096,2026-08-26,Item not received,Received,0.45,Defective,1,Intact
+R00196,O00348,C0052,2026-07-15,Color mismatch,Received,6.96,Good,1,Intact
+R00197,O00349,C0301,2026-06-24,Changed mind,Received,0.55,Good,1,Intact
+R00198,O00352,C0130,2026-05-11,Item not received,Received,1.36,Good,1,Intact
+R00199,O00353,C0021,2026-08-01,Color mismatch,Received,2.52,Good,1,Intact
+R00200,O00354,C0097,2026-08-05,Wrong Item,Received,1.16,Good,1,Intact
+R00201,O00359,C0076,2026-08-13,Wrong Item,Received,1.67,Good,0,Intact
+R00202,O00362,C0023,2026-06-21,Changed mind,Received,3.54,Defective,1,Intact
+R00203,O00363,C0366,2026-06-18,Color mismatch,Received,3.52,Defective,1,Intact
+R00204,O00364,C0025,2026-09-04,Wrong Item,Received,4.11,Defective,1,Intact
+R00205,O00371,C0041,2026-07-01,Size issue,Received,1.35,Used,1,Intact
+R00206,O00372,C0200,2026-08-02,Color mismatch,Received,3.94,Defective,1,Intact
+R00207,O00374,C0219,2026-08-28,Package arrived damaged,Received,4.34,Good,1,Intact
+R00208,O00375,C0379,2026-08-10,Package arrived damaged,Received,0.16,Missing,0,Intact
+R00209,O00376,C0394,2026-06-01,Changed mind,Received,2.3,Defective,1,Damaged
+R00210,O00377,C0104,2026-06-11,Size issue,Received,7.0,Good,1,Intact
+R00211,O00378,C0057,2026-06-15,Item not received,Received,9.59,Good,1,Intact
+R00212,O00380,C0078,2026-05-20,Package arrived damaged,Received,0.16,Missing,0,Intact
+R00213,O00381,C0075,2026-06-11,Defective product,Received,3.03,Good,1,Intact
+R00214,O00383,C0025,2026-08-23,Wrong Item,Received,1.43,Good,1,Intact
+R00215,O00385,C0061,2026-07-19,Changed mind,Received,6.97,Good,1,Intact
+R00216,O00386,C0073,2026-08-16,Wrong Item,Received,2.58,Good,0,Intact
+R00217,O00387,C0061,2026-06-29,Size issue,Received,5.94,Good,1,Intact
+R00218,O00389,C0037,2026-05-14,Size issue,Received,1.45,Used,1,Intact
+R00219,O00390,C0040,2026-07-31,Size issue,Received,1.36,Used,1,Intact
+R00220,O00391,C0036,2026-08-21,Size issue,Received,0.52,Used,1,Damaged
+R00221,O00394,C0161,2026-06-03,Package arrived damaged,Received,0.11,Missing,0,Intact
+R00222,O00395,C0039,2026-08-18,Changed mind,Received,0.71,Used,1,Intact
+R00223,O00396,C0126,2026-06-10,Color mismatch,Received,7.01,Defective,1,Intact
+R00224,O00397,C0077,2026-08-08,Wrong Item,Received,3.19,Good,0,Intact
+R00225,O00400,C0128,2026-05-16,Size issue,Received,0.75,Good,1,Intact
+R00226,O00402,C0075,2026-08-26,Wrong Item,Received,1.45,Good,0,Intact
+R00227,O00404,C0060,2026-07-29,Color mismatch,Received,4.0,Good,1,Intact
+R00228,O00405,C0022,2026-07-27,Defective product,Received,2.02,Defective,1,Intact
+R00229,O00406,C0114,2026-07-10,Package arrived damaged,Received,0.26,Missing,0,Intact
+R00230,O00407,C0052,2026-07-03,Package arrived damaged,Received,0.88,Good,1,Intact
+R00231,O00412,C0063,2026-07-29,Duplicate order,Received,1.55,Good,1,Intact
+R00232,O00413,C0206,2026-07-10,Duplicate order,Received,0.91,Defective,1,Intact
+R00233,O00414,C0097,2026-08-27,Changed mind,Received,5.61,Good,1,Intact
+R00234,O00416,C0025,2026-06-23,Defective product,Received,1.98,Good,1,Intact
+R00235,O00417,C0128,2026-05-25,Package arrived damaged,Received,0.17,Missing,0,Intact
+R00236,O00418,C0039,2026-05-27,Changed mind,Received,1.24,Used,1,Intact
+R00237,O00419,C0013,2026-06-14,Wrong Item,Received,2.12,Good,1,Intact
+R00238,O00422,C0061,2026-08-10,Package arrived damaged,Received,3.07,Defective,1,Intact
+R00239,O00423,C0441,2026-05-28,Defective product,Received,2.15,Good,1,Intact
+R00240,O00426,C0238,2026-06-30,Wrong Item,Received,1.22,Good,1,Intact
+R00241,O00427,C0037,2026-08-30,Size issue,Received,1.38,Used,1,Intact
+R00242,O00429,C0025,2026-08-16,Duplicate order,Received,1.32,Good,1,Intact
+R00243,O00430,C0076,2026-06-26,Wrong Item,Received,3.49,Good,0,Intact
+R00244,O00431,C0306,2026-08-09,Color mismatch,Received,6.91,Defective,1,Intact
+R00245,O00433,C0166,2026-05-24,Duplicate order,Received,1.94,Good,1,Intact
+R00246,O00434,C0056,2026-05-17,Wrong Item,Received,14.15,Defective,1,Intact
+R00247,O00437,C0039,2026-08-06,Changed mind,Received,1.43,Used,1,Intact
+R00248,O00439,C0024,2026-07-29,Package arrived damaged,Received,0.65,Defective,1,Intact
+R00249,O00440,C0016,2026-07-01,Package arrived damaged,Received,0.49,Missing,0,Intact
+R00250,O00441,C0428,2026-08-12,Item not received,Received,4.19,Good,1,Intact
+R00251,O00450,C0036,2026-05-26,Size issue,Received,0.55,Used,1,Intact
+R00252,O00453,C0094,2026-07-17,Size issue,Received,2.5,Defective,1,Damaged
+R00253,O00454,C0035,2026-06-27,Changed mind,Received,0.77,Used,1,Intact
+R00254,O00456,C0202,2026-06-09,Changed mind,Received,1.96,Good,1,Intact
+R00255,O00457,C0021,2026-06-26,Defective product,Received,1.48,Good,1,Intact
+R00256,O00458,C0139,2026-08-25,Color mismatch,Received,0.41,Defective,1,Damaged
+R00257,O00460,C0034,2026-07-17,Changed mind,Received,1.33,Used,1,Intact
+R00258,O00464,C0035,2026-07-13,Changed mind,Received,0.88,Used,1,Intact
+R00259,O00465,C0050,2026-05-30,Defective product,Received,5.8,Good,1,Intact
+R00260,O00466,C0225,2026-07-07,Package arrived damaged,Received,1.46,Defective,1,Intact
+R00261,O00468,C0194,2026-08-04,Changed mind,Received,4.01,Good,1,Intact
+R00262,O00472,C0304,2026-05-16,Duplicate order,Received,2.96,Good,1,Intact
+R00263,O00473,C0052,2026-05-29,Package arrived damaged,Received,1.77,Good,1,Intact
+R00264,O00475,C0037,2026-08-01,Size issue,Received,0.76,Used,1,Intact
+R00265,O00477,C0050,2026-05-28,Changed mind,Received,4.01,Defective,1,Intact
+R00266,O00479,C0063,2026-05-26,Wrong Item,Received,7.14,Good,1,Intact
+R00267,O00481,C0034,2026-05-22,Changed mind,Received,1.3,Used,1,Intact
+R00268,O00482,C0318,2026-06-09,Package arrived damaged,Received,0.14,Missing,0,Intact
+R00269,O00483,C0040,2026-08-12,Size issue,Received,0.76,Used,1,Intact
+R00270,O00484,C0070,2026-08-23,Wrong Item,Received,3.88,Good,0,Intact
+R00271,O00485,C0218,2026-06-16,Size issue,Received,1.19,Defective,1,Intact
+R00272,O00489,C0034,2026-07-20,Changed mind,Received,0.8,Defective,1,Intact
+R00273,O00490,C0403,2026-06-26,Changed mind,Received,5.55,Good,1,Intact
+R00274,O00495,C0112,2026-07-31,Wrong Item,Received,1.9,Defective,1,Intact
+R00275,O00497,C0030,2026-06-09,Changed mind,Received,0.51,Used,1,Intact
+R00276,O00498,C0075,2026-07-04,Wrong Item,Received,2.07,Good,0,Intact
+R00277,O00499,C0039,2026-07-04,Changed mind,Received,0.87,Used,1,Intact
+R00278,O00500,C0041,2026-06-25,Size issue,Received,0.82,Used,1,Intact
+R00279,O00502,C0041,2026-06-01,Changed mind,Received,0.52,Used,1,Intact
+R00280,O00503,C0134,2026-07-26,Item not received,Received,0.55,Defective,1,Intact
+R00281,O00505,C0399,2026-05-21,Package arrived damaged,Received,0.06,Missing,0,Intact
+R00282,O00506,C0041,2026-06-17,Changed mind,Received,0.79,Used,1,Intact
+R00283,O00509,C0033,2026-07-19,Changed mind,Received,1.42,Used,1,Intact
+R00284,O00510,C0124,2026-05-29,Changed mind,Received,3.8,Defective,1,Intact
+R00285,O00511,C0062,2026-06-24,Duplicate order,Received,0.67,Defective,1,Intact
+R00286,O00513,C0058,2026-08-23,Wrong Item,Received,2.58,Good,1,Damaged
+R00287,O00515,C0054,2026-06-20,Duplicate order,Received,3.39,Defective,1,Intact
+R00288,O00516,C0072,2026-05-22,Wrong Item,Received,3.77,Good,0,Intact
+R00289,O00517,C0438,2026-08-14,Item not received,Received,2.49,Good,1,Intact
+R00290,O00518,C0070,2026-08-03,Wrong Item,Received,2.9,Good,0,Intact
+R00291,O00519,C0064,2026-07-02,Defective product,Received,17.34,Defective,1,Intact
+R00292,O00521,C0115,2026-08-27,Package arrived damaged,Received,0.24,Missing,0,Intact
+R00293,O00522,C0440,2026-08-21,Item not received,Received,1.35,Defective,1,Intact
+R00294,O00524,C0161,2026-06-26,Package arrived damaged,Received,0.02,Missing,0,Intact
+R00295,O00525,C0280,2026-06-01,Wrong Item,Received,0.97,Good,1,Intact
+R00296,O00527,C0036,2026-07-25,Size issue,Received,0.66,Used,1,Intact
+R00297,O00528,C0349,2026-08-10,Package arrived damaged,Received,0.08,Missing,0,Intact
+R00298,O00529,C0022,2026-08-10,Defective product,Received,1.3,Good,1,Damaged
+R00299,O00531,C0055,2026-08-20,Size issue,Received,7.06,Good,1,Intact
+R00300,O00535,C0075,2026-06-11,Wrong Item,Received,1.81,Good,0,Intact
+R00301,O00537,C0025,2026-06-26,Size issue,Received,1.27,Good,1,Intact
+R00302,O00538,C0316,2026-07-18,Color mismatch,Received,0.3,Good,1,Intact
+R00303,O00540,C0063,2026-06-27,Color mismatch,Received,7.91,Good,1,Intact
+R00304,O00541,C0082,2026-07-25,Defective product,Received,6.98,Defective,1,Intact
+R00305,O00542,C0055,2026-07-26,Wrong Item,Received,10.35,Good,1,Damaged
+R00306,O00544,C0031,2026-05-31,Size issue,Received,0.81,Used,1,Intact
+R00307,O00545,C0110,2026-08-11,Wrong Item,Received,3.55,Good,1,Damaged
+R00308,O00549,C0059,2026-06-28,Duplicate order,Received,0.32,Defective,1,Damaged
+R00309,O00551,C0062,2026-05-23,Wrong Item,Received,5.81,Defective,1,Intact
+R00310,O00552,C0030,2026-08-09,Changed mind,Received,1.17,Used,1,Intact
+R00311,O00553,C0022,2026-05-12,Package arrived damaged,Received,0.24,Missing,0,Intact
+R00312,O00554,C0037,2026-07-01,Package arrived damaged,Received,1.15,Good,1,Damaged
+R00313,O00555,C0037,2026-05-21,Size issue,Received,0.66,Used,1,Intact
+R00314,O00556,C0061,2026-05-14,Duplicate order,Received,1.64,Defective,1,Intact
+R00315,O00557,C0071,2026-05-08,Wrong Item,Received,3.55,Good,0,Intact
+R00316,O00559,C0041,2026-05-30,Changed mind,Received,0.74,Used,1,Intact
+R00317,O00566,C0072,2026-08-04,Wrong Item,Received,2.72,Good,0,Intact
+R00318,O00569,C0125,2026-07-12,Size issue,Received,2.68,Good,1,Intact
+R00319,O00570,C0075,2026-05-24,Wrong Item,Received,1.49,Good,0,Intact
+R00320,O00572,C0374,2026-07-19,Color mismatch,Received,4.25,Good,1,Intact
+R00321,O00574,C0185,2026-05-17,Duplicate order,Received,4.02,Good,1,Intact
+R00322,O00575,C0414,2026-06-25,Color mismatch,Received,4.21,Good,1,Intact
+R00323,O00577,C0439,2026-06-04,Item not received,Received,1.26,Defective,1,Intact
+R00324,O00581,C0125,2026-05-12,Changed mind,Received,2.3,Good,1,Intact
+R00325,O00586,C0032,2026-07-16,Size issue,Received,0.79,Used,1,Intact
+R00326,O00587,C0149,2026-05-26,Item not received,Received,1.18,Good,1,Intact
+R00327,O00589,C0303,2026-07-25,Size issue,Received,0.82,Defective,1,Intact
+R00328,O00590,C0093,2026-07-03,Duplicate order,Received,5.69,Good,1,Intact
+R00329,O00593,C0071,2026-06-11,Wrong Item,Received,1.89,Good,0,Intact
+R00330,O00597,C0034,2026-08-25,Package arrived damaged,Received,0.6,Good,1,Intact
+R00331,O00600,C0051,2026-08-08,Wrong Item,Received,5.62,Good,1,Intact
+R00332,O00601,C0030,2026-06-13,Size issue,Received,0.56,Used,1,Intact
+R00333,O00604,C0077,2026-06-20,Wrong Item,Received,3.66,Good,0,Intact
+R00334,O00605,C0257,2026-06-12,Size issue,Received,2.21,Good,1,Intact
+R00335,O00607,C0031,2026-08-24,Changed mind,Received,1.23,Used,1,Intact
+R00336,O00609,C0038,2026-06-03,Size issue,Received,0.86,Used,1,Intact
+R00337,O00611,C0080,2026-08-17,Package arrived damaged,Received,0.09,Missing,0,Intact
+R00338,O00612,C0031,2026-06-11,Size issue,Received,1.13,Used,1,Intact
+R00339,O00614,C0037,2026-07-30,Size issue,Received,1.36,Used,1,Intact
+R00340,O00619,C0034,2026-06-16,Changed mind,Received,0.65,Used,1,Intact
+R00341,O00620,C0326,2026-06-10,Changed mind,Received,1.45,Defective,1,Intact
+R00342,O00621,C0055,2026-06-26,Size issue,Received,8.09,Defective,1,Intact
+R00343,O00622,C0334,2026-06-03,Size issue,Received,1.2,Defective,1,Intact
+R00344,O00623,C0061,2026-06-03,Defective product,Received,14.0,Defective,1,Intact
+R00345,O00624,C0092,2026-07-01,Duplicate order,Received,1.27,Good,1,Intact
+R00346,O00625,C0082,2026-06-02,Wrong Item,Received,1.98,Good,1,Intact
+R00347,O00626,C0033,2026-05-29,Size issue,Received,1.33,Used,1,Intact
+R00348,O00627,C0033,2026-08-24,Size issue,Received,0.5,Used,1,Intact
+R00349,O00628,C0018,2026-07-23,Wrong Item,Received,0.63,Defective,1,Intact
+R00350,O00629,C0432,2026-06-08,Item not received,Received,0.78,Good,1,Intact
+R00351,O00631,C0053,2026-06-20,Color mismatch,Received,1.22,Defective,1,Intact
+R00352,O00640,C0359,2026-07-19,Package arrived damaged,Received,2.39,Defective,1,Intact
+R00353,O00642,C0051,2026-08-30,Wrong Item,Received,5.97,Good,1,Intact
+R00354,O00643,C0025,2026-06-07,Item not received,Received,0.35,Good,1,Intact
+R00355,O00644,C0037,2026-08-11,Size issue,Received,1.11,Used,1,Intact
+R00356,O00646,C0032,2026-06-05,Changed mind,Received,0.59,Used,1,Intact
+R00357,O00648,C0030,2026-07-14,Changed mind,Received,0.54,Used,1,Intact
+R00358,O00650,C0035,2026-08-19,Size issue,Received,1.48,Used,1,Intact
+R00359,O00652,C0021,2026-07-13,Duplicate order,Received,0.5,Defective,1,Intact
+R00360,O00653,C0419,2026-07-09,Changed mind,Received,6.83,Good,1,Intact
+R00361,O00654,C0062,2026-07-27,Package arrived damaged,Received,7.29,Good,1,Intact
+R00362,O00655,C0051,2026-07-23,Duplicate order,Received,1.18,Defective,1,Intact
+R00363,O00656,C0238,2026-05-27,Changed mind,Received,2.02,Defective,1,Intact
+R00364,O00657,C0060,2026-05-29,Size issue,Received,1.28,Defective,1,Intact
+R00365,O00658,C0024,2026-07-07,Size issue,Received,3.68,Good,1,Intact
+R00366,O00659,C0039,2026-05-29,Changed mind,Received,1.17,Used,1,Intact
+R00367,O00660,C0063,2026-07-26,Defective product,Received,20.81,Good,1,Intact
+R00368,O00661,C0100,2026-05-13,Defective product,Received,2.96,Good,1,Damaged
+R00369,O00662,C0095,2026-06-17,Defective product,Received,7.44,Good,1,Intact
+R00370,O00666,C0070,2026-07-25,Wrong Item,Received,1.77,Good,0,Intact
+R00371,O00668,C0020,2026-07-14,Changed mind,Received,0.36,Defective,1,Intact
+R00372,O00669,C0395,2026-08-22,Changed mind,Received,2.2,Good,1,Intact
+R00373,O00670,C0064,2026-06-28,Changed mind,Received,3.69,Defective,1,Intact
+R00374,O00671,C0054,2026-08-02,Duplicate order,Received,16.95,Good,1,Intact
+R00375,O00672,C0095,2026-05-11,Duplicate order,Received,1.32,Good,1,Intact
+R00376,O00674,C0057,2026-07-16,Defective product,Received,4.18,Good,1,Intact
+R00377,O00675,C0025,2026-06-23,Defective product,Received,4.13,Good,1,Intact
+R00378,O00676,C0091,2026-06-16,Wrong Item,Received,7.06,Good,1,Intact
+R00379,O00679,C0059,2026-07-23,Defective product,Received,0.37,Good,1,Intact
+R00380,O00683,C0063,2026-08-26,Defective product,Received,1.42,Good,1,Intact
+R00381,O00685,C0037,2026-08-13,Changed mind,Received,0.87,Used,1,Intact
+R00382,O00687,C0338,2026-05-31,Item not received,Received,3.37,Good,1,Intact
+R00383,O00690,C0261,2026-08-12,Changed mind,Received,2.4,Good,1,Intact
+R00384,O00691,C0106,2026-06-21,Package arrived damaged,Received,0.11,Missing,0,Intact
+R00385,O00692,C0012,2026-06-30,Wrong Item,Received,0.65,Good,0,Intact
+R00386,O00694,C0075,2026-08-20,Wrong Item,Received,1.15,Good,0,Intact
+R00387,O00695,C0037,2026-08-05,Changed mind,Received,1.26,Used,1,Intact
+R00388,O00697,C0051,2026-08-02,Wrong Item,Received,4.12,Good,1,Intact
+R00389,O00698,C0068,2026-06-27,Package arrived damaged,Received,0.55,Good,1,Intact
+R00390,O00699,C0321,2026-05-21,Size issue,Received,2.99,Defective,1,Intact
+R00391,O00700,C0208,2026-08-25,Package arrived damaged,Received,0.04,Missing,0,Intact
+R00392,O00702,C0024,2026-05-12,Package arrived damaged,Received,1.13,Defective,1,Intact
+R00393,O00703,C0053,2026-07-20,Size issue,Received,1.21,Defective,1,Intact
+R00394,O00704,C0436,2026-06-05,Package arrived damaged,Received,0.35,Missing,0,Intact
+R00395,O00706,C0059,2026-06-16,Item not received,Received,1.22,Good,1,Intact
+R00396,O00707,C0050,2026-08-17,Defective product,Received,5.77,Good,1,Intact
+R00397,O00708,C0353,2026-08-16,Defective product,Received,1.25,Defective,1,Damaged
+R00398,O00709,C0072,2026-05-08,Wrong Item,Received,2.56,Good,0,Intact
+R00399,O00710,C0382,2026-05-31,Package arrived damaged,Received,0.05,Missing,0,Intact
+R00400,O00714,C0024,2026-05-26,Item not received,Received,0.78,Good,1,Intact
+R00401,O00715,C0042,2026-08-29,Duplicate order,Received,5.66,Good,1,Intact
+R00402,O00716,C0084,2026-06-01,Wrong Item,Received,0.29,Defective,1,Intact
+R00403,O00717,C0050,2026-06-16,Duplicate order,Received,7.35,Good,1,Intact
+R00404,O00718,C0060,2026-06-18,Package arrived damaged,Received,5.63,Good,1,Intact
+R00405,O00720,C0034,2026-07-10,Size issue,Received,1.37,Used,1,Intact
+R00406,O00723,C0039,2026-05-21,Changed mind,Received,1.38,Used,1,Intact
+R00407,O00724,C0051,2026-08-22,Defective product,Received,12.43,Good,1,Intact
+R00408,O00725,C0059,2026-06-21,Duplicate order,Received,3.4,Defective,1,Intact
+R00409,O00731,C0040,2026-05-17,Size issue,Received,0.89,Used,1,Intact
+R00410,O00734,C0401,2026-05-15,Defective product,Received,1.17,Good,1,Intact
+R00411,O00735,C0040,2026-08-22,Changed mind,Received,1.28,Used,1,Damaged
+R00412,O00737,C0144,2026-06-08,Duplicate order,Received,1.98,Defective,1,Damaged
+R00413,O00739,C0119,2026-05-25,Duplicate order,Received,0.83,Defective,1,Intact
+R00414,O00741,C0318,2026-06-04,Wrong Item,Received,0.93,Good,0,Intact
+R00415,O00742,C0084,2026-08-01,Duplicate order,Received,3.88,Defective,1,Intact
+R00416,O00743,C0248,2026-07-02,Duplicate order,Received,6.95,Defective,1,Intact
+R00417,O00744,C0364,2026-05-29,Changed mind,Received,0.62,Good,1,Intact
+R00418,O00745,C0034,2026-08-10,Size issue,Received,1.2,Used,1,Intact
+R00419,O00746,C0056,2026-05-12,Wrong Item,Received,3.22,Good,1,Intact
+R00420,O00747,C0054,2026-05-19,Defective product,Received,10.86,Good,1,Intact
+R00421,O00748,C0059,2026-05-16,Item not received,Received,0.7,Defective,1,Intact
+R00422,O00749,C0200,2026-08-09,Size issue,Received,1.32,Good,1,Intact
+R00423,O00751,C0077,2026-07-20,Wrong Item,Received,1.71,Good,0,Intact
+R00424,O00752,C0036,2026-08-01,Size issue,Received,0.52,Used,1,Intact
+R00425,O00753,C0030,2026-08-14,Changed mind,Received,1.44,Used,1,Intact
+R00426,O00754,C0045,2026-05-28,Changed mind,Received,1.22,Good,1,Intact
+R00427,O00757,C0217,2026-06-27,Item not received,Received,3.01,Good,1,Intact
+R00428,O00759,C0031,2026-06-19,Size issue,Received,0.81,Used,1,Intact
+R00429,O00760,C0075,2026-07-21,Wrong Item,Received,4.65,Good,0,Intact
+R00430,O00762,C0060,2026-06-26,Package arrived damaged,Received,1.45,Good,1,Intact
+R00431,O00763,C0040,2026-07-01,Size issue,Received,1.26,Used,1,Intact
+R00432,O00764,C0216,2026-06-13,Item not received,Received,1.23,Good,1,Intact
+R00433,O00765,C0192,2026-06-06,Duplicate order,Received,1.31,Good,1,Intact
+R00434,O00770,C0038,2026-05-24,Changed mind,Received,0.87,Used,1,Damaged
+R00435,O00771,C0054,2026-08-07,Defective product,Received,12.44,Defective,1,Intact
+R00436,O00772,C0038,2026-05-09,Size issue,Received,1.35,Used,1,Intact
+R00437,O00774,C0031,2026-06-20,Size issue,Received,1.36,Used,1,Intact
+R00438,O00775,C0382,2026-07-14,Item not received,Received,0.82,Good,1,Intact
+R00439,O00777,C0019,2026-06-27,Changed mind,Received,3.86,Good,1,Intact
+R00440,O00779,C0075,2026-06-25,Wrong Item,Received,3.79,Good,0,Intact
+R00441,O00780,C0431,2026-07-23,Color mismatch,Received,2.98,Good,1,Intact
+R00442,O00782,C0149,2026-07-22,Wrong Item,Received,3.51,Good,0,Intact
+R00443,O00783,C0055,2026-06-25,Size issue,Received,0.73,Defective,1,Intact
+R00444,O00787,C0080,2026-08-29,Size issue,Received,0.64,Defective,1,Intact
+R00445,O00790,C0356,2026-05-26,Color mismatch,Received,3.85,Defective,1,Intact
+R00446,O00791,C0418,2026-09-01,Changed mind,Received,6.92,Defective,1,Intact
+R00447,O00792,C0023,2026-07-24,Package arrived damaged,Received,1.49,Good,1,Intact
+R00448,O00793,C0061,2026-05-27,Changed mind,Received,3.18,Good,1,Intact
+R00449,O00794,C0227,2026-07-01,Item not received,Received,7.16,Good,1,Intact
+R00450,O00796,C0293,2026-07-30,Item not received,Received,7.09,Defective,1,Intact
+R00451,O00797,C0039,2026-06-13,Item not received,Received,0.79,Defective,1,Intact
+R00452,O00798,C0383,2026-07-22,Wrong Item,Received,6.87,Defective,1,Intact
+R00453,O00800,C0074,2026-06-28,Wrong Item,Received,4.28,Good,0,Intact
+R00454,O00801,C0020,2026-08-14,Item not received,Received,4.2,Good,1,Intact
+R00455,O00804,C0055,2026-05-15,Item not received,Received,10.21,Defective,1,Intact
+R00456,O00805,C0074,2026-08-31,Wrong Item,Received,3.89,Good,0,Intact
+R00457,O00806,C0352,2026-07-20,Color mismatch,Received,0.57,Defective,1,Intact
+R00458,O00808,C0304,2026-06-19,Duplicate order,Received,0.97,Good,1,Intact
+R00459,O00809,C0144,2026-08-11,Changed mind,Received,1.06,Good,1,Intact
+R00460,O00810,C0094,2026-07-19,Size issue,Received,0.78,Good,1,Intact
+R00461,O00811,C0281,2026-07-28,Package arrived damaged,Received,0.2,Missing,0,Intact
+R00462,O00813,C0096,2026-08-18,Defective product,Received,0.98,Good,1,Intact
+R00463,O00817,C0063,2026-08-22,Changed mind,Received,2.35,Good,1,Intact
+R00464,O00821,C0020,2026-08-08,Changed mind,Received,0.79,Defective,1,Intact
+R00465,O00823,C0330,2026-08-24,Package arrived damaged,Received,0.68,Missing,0,Intact
+R00466,O00824,C0061,2026-08-03,Item not received,Received,5.53,Good,1,Intact
+R00467,O00825,C0298,2026-05-20,Duplicate order,Received,1.17,Defective,1,Damaged
+R00468,O00826,C0053,2026-05-17,Color mismatch,Received,3.89,Good,1,Damaged
+R00469,O00827,C0050,2026-05-23,Size issue,Received,1.2,Defective,1,Intact
+R00470,O00828,C0050,2026-07-01,Package arrived damaged,Received,2.28,Good,1,Intact
+R00471,O00829,C0010,2026-06-08,Defective product,Received,5.78,Defective,1,Damaged
+R00472,O00831,C0032,2026-06-26,Changed mind,Received,1.27,Used,1,Intact
+R00473,O00837,C0072,2026-05-25,Wrong Item,Received,4.52,Good,0,Intact
+R00474,O00839,C0083,2026-05-30,Package arrived damaged,Received,0.01,Missing,0,Intact
+R00475,O00842,C0021,2026-08-17,Package arrived damaged,Received,1.28,Good,1,Intact
+R00476,O00843,C0051,2026-08-24,Size issue,Received,1.46,Defective,1,Intact
+R00477,O00844,C0022,2026-08-02,Size issue,Received,1.98,Defective,1,Intact
+R00478,O00845,C0061,2026-05-21,Defective product,Received,1.53,Good,1,Intact
+R00479,O00847,C0107,2026-08-22,Item not received,Received,5.88,Good,1,Intact
+R00480,O00848,C0216,2026-08-10,Item not received,Received,2.46,Good,1,Intact
+R00481,O00849,C0338,2026-06-06,Size issue,Received,2.84,Good,1,Intact
+R00482,O00850,C0423,2026-08-18,Duplicate order,Received,5.77,Defective,1,Damaged
+R00483,O00852,C0090,2026-06-15,Package arrived damaged,Received,2.12,Defective,1,Intact
+R00484,O00854,C0199,2026-07-05,Item not received,Received,5.62,Defective,1,Intact
+R00485,O00855,C0024,2026-06-05,Size issue,Received,5.66,Good,1,Damaged
+R00486,O00856,C0162,2026-08-29,Item not received,Received,2.77,Good,1,Intact
+R00487,O00857,C0415,2026-06-10,Changed mind,Received,5.73,Good,1,Damaged
+R00488,O00858,C0077,2026-06-09,Wrong Item,Received,2.44,Good,0,Intact
+R00489,O00859,C0051,2026-06-06,Defective product,Received,1.45,Good,1,Intact
+R00490,O00860,C0061,2026-07-03,Package arrived damaged,Received,2.69,Defective,1,Intact
+R00491,O00862,C0421,2026-05-21,Color mismatch,Received,7.36,Defective,1,Intact
+R00492,O00867,C0056,2026-05-29,Color mismatch,Received,5.63,Good,1,Intact
+R00493,O00868,C0081,2026-06-20,Package arrived damaged,Received,0.06,Missing,0,Intact
+R00494,O00869,C0040,2026-07-24,Size issue,Received,0.66,Used,1,Intact
+R00495,O00870,C0052,2026-08-23,Color mismatch,Received,2.97,Good,1,Intact
+R00496,O00871,C0354,2026-08-13,Changed mind,Received,7.38,Good,1,Intact
+R00497,O00872,C0048,2026-08-27,Changed mind,Received,2.1,Defective,1,Intact
+R00498,O00876,C0032,2026-08-26,Size issue,Received,0.87,Used,1,Intact
+R00499,O00877,C0237,2026-07-19,Size issue,Received,4.11,Good,1,Damaged
+R00500,O00879,C0039,2026-06-03,Changed mind,Received,1.3,Used,1,Intact
+R00501,O00880,C0348,2026-07-03,Wrong Item,Received,0.87,Defective,1,Damaged
+R00502,O00882,C0328,2026-06-18,Wrong Item,Received,3.54,Defective,1,Damaged
+R00503,O00884,C0053,2026-08-30,Wrong Item,Received,5.0,Good,0,Intact
+R00504,O00887,C0320,2026-06-21,Package arrived damaged,Received,0.21,Missing,0,Intact
+R00505,O00888,C0063,2026-08-07,Wrong Item,Received,1.15,Good,1,Intact
+R00506,O00889,C0258,2026-07-27,Wrong Item,Received,0.9,Good,1,Intact
+R00507,O00890,C0061,2026-06-25,Defective product,Received,0.55,Good,1,Intact
+R00508,O00891,C0001,2026-07-31,Duplicate order,Received,2.69,Defective,1,Intact
+R00509,O00892,C0057,2026-07-22,Item not received,Received,5.65,Good,1,Intact
+R00510,O00893,C0059,2026-07-01,Duplicate order,Received,7.89,Good,1,Intact
+R00511,O00894,C0054,2026-08-03,Changed mind,Received,3.54,Good,1,Intact
+R00512,O00897,C0220,2026-06-10,Wrong Item,Received,1.43,Defective,1,Intact
+R00513,O00898,C0354,2026-08-16,Wrong Item,Received,0.72,Good,1,Intact
+R00514,O00899,C0433,2026-08-17,Wrong Item,Received,4.99,Good,0,Intact
+R00515,O00900,C0031,2026-08-17,Item not received,Received,1.15,Good,1,Intact
+R00516,O00907,C0080,2026-05-23,Package arrived damaged,Received,0.06,Missing,0,Intact
+R00517,O00908,C0025,2026-08-11,Color mismatch,Received,0.63,Good,1,Intact
+R00518,O00909,C0062,2026-07-05,Defective product,Received,3.92,Defective,1,Intact
+R00519,O00910,C0036,2026-05-06,Changed mind,Received,1.11,Used,1,Intact
+R00520,O00911,C0122,2026-08-05,Size issue,Received,0.54,Defective,1,Intact
+R00521,O00914,C0101,2026-08-23,Size issue,Received,7.43,Good,1,Intact
+R00522,O00915,C0091,2026-07-21,Wrong Item,Received,0.47,Good,1,Intact
+R00523,O00919,C0077,2026-05-21,Wrong Item,Received,3.91,Good,0,Intact
+R00524,O00926,C0159,2026-07-23,Duplicate order,Received,2.15,Good,1,Intact
+R00525,O00929,C0051,2026-05-14,Wrong Item,Received,1.38,Defective,1,Intact
+R00526,O00931,C0030,2026-08-11,Size issue,Received,1.45,Used,1,Intact
+R00527,O00932,C0039,2026-05-15,Changed mind,Received,1.21,Used,1,Intact
+R00528,O00933,C0223,2026-07-07,Size issue,Received,4.11,Good,1,Damaged
+R00529,O00934,C0056,2026-05-13,Defective product,Received,12.55,Defective,1,Intact
+R00530,O00935,C0295,2026-06-19,Defective product,Received,3.02,Good,1,Intact
+R00531,O00936,C0063,2026-07-08,Changed mind,Received,3.22,Good,1,Intact
+R00532,O00937,C0063,2026-07-30,Package arrived damaged,Received,1.14,Good,1,Intact
+R00533,O00938,C0022,2026-06-04,Wrong Item,Received,1.42,Good,1,Intact
+R00534,O00940,C0351,2026-09-03,Color mismatch,Received,3.78,Good,1,Intact
+R00535,O00942,C0041,2026-07-11,Size issue,Received,1.47,Used,1,Intact
+R00536,O00943,C0061,2026-05-26,Wrong Item,Received,10.55,Defective,1,Intact
+R00537,O00944,C0024,2026-07-13,Duplicate order,Received,1.28,Good,1,Intact
+R00538,O00950,C0053,2026-06-01,Duplicate order,Received,0.41,Good,1,Intact
+R00539,O00953,C0069,2026-05-28,Size issue,Received,2.06,Good,1,Intact
+R00540,O00955,C0263,2026-06-03,Package arrived damaged,Received,1.21,Good,1,Intact
+R00541,O00956,C0059,2026-08-10,Package arrived damaged,Received,4.07,Defective,1,Intact
+R00542,O00958,C0031,2026-07-18,Size issue,Received,1.22,Used,1,Intact
+R00543,O00963,C0095,2026-05-18,Wrong Item,Received,2.81,Defective,1,Intact
+R00544,O00964,C0267,2026-05-24,Package arrived damaged,Received,6.89,Good,1,Intact
+R00545,O00965,C0055,2026-07-21,Wrong Item,Received,2.0,Good,1,Intact
+R00546,O00966,C0061,2026-08-11,Wrong Item,Received,2.41,Defective,1,Damaged
+R00547,O00967,C0025,2026-07-06,Duplicate order,Received,2.07,Good,1,Intact
+R00548,O00968,C0072,2026-08-26,Wrong Item,Received,4.36,Good,0,Intact
+R00549,O00977,C0077,2026-08-28,Wrong Item,Received,3.25,Good,0,Intact
+R00550,O00978,C0263,2026-07-31,Size issue,Received,5.69,Good,1,Intact
+R00551,O00982,C0056,2026-06-12,Package arrived damaged,Received,3.48,Good,1,Intact
+R00552,O00984,C0059,2026-05-29,Defective product,Received,2.66,Good,1,Intact
+R00553,O00985,C0055,2026-07-05,Package arrived damaged,Received,7.66,Defective,1,Intact
+R00554,O00986,C0035,2026-08-24,Changed mind,Received,1.44,Used,1,Intact
+R00555,O00987,C0062,2026-07-21,Changed mind,Received,14.17,Good,1,Intact
+R00556,O00990,C0055,2026-05-12,Package arrived damaged,Received,1.42,Defective,1,Intact
+R00557,O00993,C0209,2026-07-26,Defective product,Received,3.81,Good,1,Intact
+R00558,O00994,C0022,2026-05-26,Changed mind,Received,0.84,Defective,1,Intact
+R00559,O00997,C0033,2026-05-28,Changed mind,Received,1.48,Used,1,Intact
+R00560,O00998,C0041,2026-07-30,Size issue,Received,0.62,Used,1,Damaged
+R00561,O00999,C0085,2026-08-12,Item not received,Received,5.62,Good,1,Intact
+R00562,O01001,C0070,2026-06-25,Wrong Item,Received,1.71,Good,0,Intact
+R00563,O01002,C0434,2026-05-25,Package arrived damaged,Received,2.82,Good,1,Intact
+R00564,O01005,C0102,2026-07-31,Wrong Item,Received,4.12,Good,1,Damaged
+R00565,O01006,C0025,2026-07-23,Duplicate order,Received,2.2,Defective,1,Intact
+R00566,O01007,C0074,2026-05-08,Wrong Item,Received,4.69,Good,0,Intact
+R00567,O01009,C0140,2026-07-23,Color mismatch,Received,1.02,Good,1,Intact
+R00568,O01010,C0060,2026-08-23,Defective product,Received,7.57,Good,1,Intact
+R00569,O01011,C0061,2026-08-29,Defective product,Received,1.34,Defective,1,Intact
+R00570,O01014,C0072,2026-07-03,Wrong Item,Received,1.58,Good,0,Intact
+R00571,O01016,C0039,2026-08-06,Changed mind,Received,1.27,Used,1,Damaged
+R00572,O01017,C0305,2026-08-02,Size issue,Received,0.6,Good,1,Intact
+R00573,O01018,C0053,2026-08-10,Defective product,Received,12.79,Defective,1,Intact
+R00574,O01022,C0110,2026-07-08,Item not received,Received,0.74,Good,1,Intact
+R00575,O01023,C0020,2026-05-13,Color mismatch,Received,6.95,Good,1,Intact
+R00576,O01025,C0081,2026-06-05,Changed mind,Received,4.19,Good,1,Intact
+R00577,O01030,C0021,2026-07-11,Wrong Item,Received,0.66,Good,1,Intact
+R00578,O01031,C0392,2026-07-07,Wrong Item,Received,5.32,Good,0,Intact
+R00579,O01032,C0063,2026-06-29,Changed mind,Received,0.86,Defective,1,Intact
+R00580,O01035,C0031,2026-08-27,Changed mind,Received,1.19,Used,1,Intact
+R00581,O01039,C0080,2026-07-06,Wrong Item,Received,1.09,Defective,1,Intact
+R00582,O01040,C0299,2026-08-03,Color mismatch,Received,0.85,Good,1,Intact
+R00583,O01042,C0054,2026-07-05,Defective product,Received,7.35,Defective,1,Intact
+R00584,O01043,C0063,2026-06-02,Color mismatch,Received,13.58,Good,1,Intact
+R00585,O01046,C0305,2026-07-03,Wrong Item,Received,0.56,Good,1,Intact
+R00586,O01048,C0021,2026-06-28,Item not received,Received,2.65,Defective,1,Intact
+R00587,O01051,C0010,2026-05-15,Defective product,Received,3.8,Good,1,Intact
+R00588,O01053,C0347,2026-05-15,Package arrived damaged,Received,0.02,Missing,0,Intact
+R00589,O01054,C0056,2026-06-08,Duplicate order,Received,2.61,Good,1,Intact
+R00590,O01056,C0419,2026-07-08,Changed mind,Received,7.1,Defective,1,Intact
+R00591,O01057,C0064,2026-06-08,Duplicate order,Received,1.75,Good,1,Intact
+R00592,O01058,C0037,2026-06-20,Size issue,Received,0.63,Used,1,Intact
+R00593,O01059,C0020,2026-08-05,Defective product,Received,1.14,Good,1,Intact
+R00594,O01060,C0073,2026-07-23,Wrong Item,Received,2.37,Good,0,Intact
+R00595,O01062,C0373,2026-06-22,Color mismatch,Received,6.03,Good,1,Damaged
+R00596,O01066,C0041,2026-06-14,Changed mind,Received,1.49,Used,1,Intact
+R00597,O01069,C0035,2026-08-20,Size issue,Received,1.3,Used,1,Intact
+R00598,O01070,C0041,2026-08-11,Changed mind,Received,1.17,Used,1,Intact
+R00599,O01071,C0060,2026-08-02,Defective product,Received,0.64,Good,1,Intact
+R00600,O01072,C0419,2026-05-31,Defective product,Received,0.3,Good,1,Damaged
+R00601,O01073,C0030,2026-07-25,Size issue,Received,1.26,Used,1,Intact
+R00602,O01074,C0054,2026-06-30,Defective product,Received,1.48,Good,1,Intact
+R00603,O01075,C0038,2026-07-15,Changed mind,Received,1.27,Used,1,Intact
+R00604,O01076,C0079,2026-05-26,Package arrived damaged,Received,2.94,Good,1,Damaged
+R00605,O01077,C0218,2026-06-28,Defective product,Received,7.2,Good,1,Intact
+R00606,O01080,C0060,2026-07-31,Duplicate order,Received,3.81,Defective,1,Intact
+R00607,O01082,C0314,2026-08-24,Size issue,Received,1.23,Good,1,Intact
+R00608,O01084,C0378,2026-05-18,Color mismatch,Received,3.74,Defective,1,Intact
+R00609,O01090,C0091,2026-07-08,Changed mind,Received,3.85,Defective,1,Intact
+R00610,O01091,C0025,2026-08-10,Defective product,Received,5.83,Good,1,Intact
+R00611,O01093,C0032,2026-07-06,Changed mind,Received,0.72,Used,1,Damaged
+R00612,O01095,C0040,2026-08-17,Size issue,Received,1.19,Used,1,Intact
+R00613,O01096,C0022,2026-06-27,Duplicate order,Received,3.67,Good,1,Intact
+R00614,O01097,C0431,2026-05-09,Defective product,Received,7.27,Good,1,Intact
+R00615,O01098,C0225,2026-06-13,Changed mind,Received,7.34,Good,1,Intact
+R00616,O01101,C0072,2026-09-05,Wrong Item,Received,4.73,Good,0,Intact
+R00617,O01103,C0281,2026-08-17,Package arrived damaged,Received,0.11,Missing,0,Intact
+R00618,O01104,C0403,2026-08-25,Duplicate order,Received,1.21,Good,1,Intact
+R00619,O01105,C0034,2026-07-11,Size issue,Received,0.78,Used,1,Intact
+R00620,O01106,C0052,2026-06-12,Color mismatch,Received,0.55,Good,1,Intact
+R00621,O01107,C0056,2026-05-26,Changed mind,Received,2.77,Good,1,Intact
+R00622,O01108,C0063,2026-09-06,Item not received,Received,2.0,Good,1,Intact
+R00623,O01111,C0037,2026-08-01,Size issue,Received,1.21,Used,1,Intact
+R00624,O01113,C0216,2026-07-21,Package arrived damaged,Received,0.51,Good,1,Intact
+R00625,O01114,C0365,2026-08-24,Duplicate order,Received,1.04,Good,1,Intact
+R00626,O01115,C0038,2026-06-18,Changed mind,Received,1.26,Used,1,Intact
+R00627,O01118,C0029,2026-07-29,Item not received,Received,1.14,Defective,1,Intact
+R00628,O01119,C0056,2026-07-23,Package arrived damaged,Received,6.88,Good,1,Intact
+R00629,O01125,C0053,2026-08-02,Changed mind,Received,0.67,Good,1,Intact
+R00630,O01126,C0425,2026-06-28,Color mismatch,Received,7.22,Good,1,Intact
+R00631,O01128,C0185,2026-07-23,Duplicate order,Received,2.05,Good,1,Damaged
+R00632,O01129,C0077,2026-07-05,Wrong Item,Received,2.28,Good,0,Intact
+R00633,O01131,C0034,2026-05-28,Size issue,Received,1.3,Used,1,Intact
+R00634,O01132,C0061,2026-05-19,Changed mind,Received,1.77,Defective,1,Intact
+R00635,O01135,C0031,2026-08-28,Changed mind,Received,1.15,Used,1,Intact
+R00636,O01136,C0034,2026-06-21,Changed mind,Received,1.39,Used,1,Intact
+R00637,O01137,C0055,2026-07-23,Item not received,Received,4.21,Defective,1,Intact
+R00638,O01138,C0050,2026-09-05,Defective product,Received,1.78,Defective,1,Intact
+R00639,O01139,C0023,2026-07-09,Item not received,Received,2.92,Good,1,Intact
+R00640,O01141,C0097,2026-07-24,Size issue,Received,7.15,Good,1,Intact
+R00641,O01142,C0058,2026-06-15,Changed mind,Received,1.3,Good,1,Intact
+R00642,O01145,C0328,2026-07-21,Wrong Item,Received,4.14,Good,1,Intact
+R00643,O01147,C0056,2026-05-17,Changed mind,Received,2.69,Good,1,Intact
+R00644,O01148,C0059,2026-06-23,Package arrived damaged,Received,1.95,Good,1,Intact
+R00645,O01149,C0020,2026-05-28,Size issue,Received,0.89,Good,1,Intact
+R00646,O01150,C0051,2026-08-03,Color mismatch,Received,5.09,Good,1,Intact
+R00647,O01151,C0337,2026-08-25,Size issue,Received,1.48,Good,1,Intact
+R00648,O01152,C0449,2026-07-13,Duplicate order,Received,1.93,Defective,1,Intact
+R00649,O01156,C0037,2026-05-26,Changed mind,Received,1.23,Used,1,Intact
+R00650,O01158,C0425,2026-06-16,Item not received,Received,5.74,Good,1,Intact
+R00651,O01159,C0249,2026-08-24,Size issue,Received,4.33,Defective,1,Intact
+R00652,O01160,C0034,2026-07-17,Changed mind,Received,1.3,Used,1,Intact
+R00653,O01161,C0074,2026-06-06,Wrong Item,Received,2.69,Good,0,Intact
+R00654,O01162,C0041,2026-06-17,Changed mind,Received,1.31,Used,1,Intact
+R00655,O01163,C0021,2026-07-06,Item not received,Received,1.24,Good,1,Damaged
+R00656,O01164,C0024,2026-06-24,Package arrived damaged,Received,4.04,Good,1,Intact
+R00657,O01166,C0079,2026-06-30,Duplicate order,Received,7.12,Defective,1,Intact
+R00658,O01167,C0031,2026-07-21,Defective product,Received,0.67,Defective,1,Intact
+R00659,O01168,C0331,2026-06-07,Wrong Item,Received,3.19,Good,0,Intact
+R00660,O01170,C0030,2026-08-11,Changed mind,Received,0.82,Used,1,Intact
+R00661,O01172,C0054,2026-08-29,Size issue,Received,13.63,Good,1,Intact
+R00662,O01176,C0082,2026-05-24,Package arrived damaged,Received,5.85,Good,1,Intact
+R00663,O01178,C0060,2026-07-09,Item not received,Received,1.99,Good,1,Intact
+R00664,O01179,C0076,2026-07-24,Wrong Item,Received,4.3,Good,0,Intact
+R00665,O01180,C0050,2026-08-13,Wrong Item,Received,11.33,Good,1,Intact
+R00666,O01181,C0080,2026-08-25,Changed mind,Received,3.55,Good,1,Intact
+R00667,O01182,C0082,2026-08-07,Defective product,Received,7.23,Defective,1,Intact
+R00668,O01184,C0061,2026-07-16,Changed mind,Received,2.2,Good,1,Intact
+R00669,O01185,C0375,2026-06-08,Defective product,Received,1.37,Good,1,Damaged
+R00670,O01187,C0060,2026-07-28,Changed mind,Received,1.05,Good,1,Intact
+R00671,O01188,C0070,2026-07-27,Wrong Item,Received,2.39,Good,0,Intact
+R00672,O01189,C0054,2026-08-14,Duplicate order,Received,14.57,Good,1,Intact
+R00673,O01192,C0145,2026-09-04,Duplicate order,Received,3.54,Good,1,Intact
+R00674,O01198,C0343,2026-08-31,Wrong Item,Received,3.35,Good,1,Intact
+R00675,O01199,C0022,2026-09-08,Color mismatch,Received,1.2,Good,1,Intact
+R00676,O01200,C0038,2026-08-18,Size issue,Received,0.62,Used,1,Intact
+R00677,O01201,C0039,2026-08-04,Changed mind,Received,1.22,Used,1,Intact
+R00678,O01202,C0035,2026-08-07,Changed mind,Received,1.42,Used,1,Intact
+R00679,O01203,C0414,2026-07-12,Wrong Item,Received,1.97,Good,1,Intact
+R00680,O01205,C0070,2026-08-27,Changed mind,Received,5.73,Good,1,Intact
+R00681,O01206,C0052,2026-07-26,Duplicate order,Received,8.1,Defective,1,Intact
+R00682,O01207,C0364,2026-07-03,Changed mind,Received,6.98,Good,1,Damaged
+R00683,O01208,C0055,2026-08-21,Color mismatch,Received,5.84,Good,1,Intact
+R00684,O01209,C0023,2026-07-14,Wrong Item,Received,1.45,Good,1,Intact
+R00685,O01210,C0021,2026-08-20,Color mismatch,Received,1.17,Good,1,Intact
+R00686,O01211,C0072,2026-07-13,Wrong Item,Received,2.43,Good,0,Intact
+R00687,O01212,C0233,2026-06-11,Defective product,Received,3.43,Good,1,Intact
+R00688,O01213,C0085,2026-08-04,Package arrived damaged,Received,0.02,Missing,0,Intact
+R00689,O01214,C0036,2026-07-10,Changed mind,Received,0.5,Used,1,Intact
+R00690,O01218,C0022,2026-07-26,Size issue,Received,2.22,Good,1,Intact
+R00691,O01221,C0077,2026-08-08,Item not received,Received,5.54,Good,1,Intact
+R00692,O01223,C0056,2026-08-11,Duplicate order,Received,2.77,Good,1,Intact
+R00693,O01224,C0059,2026-07-10,Wrong Item,Received,4.12,Good,1,Intact
+R00694,O01228,C0058,2026-07-31,Size issue,Received,5.83,Good,1,Intact
+R00695,O01229,C0203,2026-08-23,Package arrived damaged,Received,0.26,Missing,0,Intact
+R00696,O01230,C0053,2026-06-16,Wrong Item,Received,3.69,Good,1,Intact
+R00697,O01232,C0033,2026-05-18,Size issue,Received,1.38,Used,1,Intact
+R00698,O01233,C0055,2026-08-19,Duplicate order,Received,3.52,Defective,1,Intact
+R00699,O01234,C0063,2026-08-29,Color mismatch,Received,1.14,Defective,1,Intact
+R00700,O01235,C0052,2026-07-08,Size issue,Received,1.44,Good,1,Intact
+R00701,O01237,C0038,2026-07-13,Changed mind,Received,0.76,Used,1,Intact
+R00702,O01238,C0057,2026-05-24,Defective product,Received,14.35,Good,1,Damaged
+R00703,O01239,C0149,2026-08-08,Wrong Item,Received,2.53,Defective,1,Intact
+R00704,O01240,C0219,2026-08-10,Package arrived damaged,Received,0.72,Good,1,Intact
+R00705,O01241,C0057,2026-07-31,Duplicate order,Received,0.88,Good,1,Intact
+R00706,O01243,C0053,2026-08-12,Package arrived damaged,Received,3.88,Defective,1,Intact
+R00707,O01244,C0423,2026-07-15,Color mismatch,Received,0.44,Good,1,Intact
+R00708,O01245,C0106,2026-07-16,Size issue,Received,1.45,Defective,1,Intact
+R00709,O01249,C0244,2026-06-05,Duplicate order,Received,1.27,Good,1,Intact
+R00710,O01251,C0369,2026-08-19,Item not received,Received,7.0,Good,1,Intact
+R00711,O01256,C0117,2026-07-07,Wrong Item,Received,2.1,Good,1,Intact
+R00712,O01258,C0059,2026-05-11,Package arrived damaged,Received,3.79,Good,1,Intact
+R00713,O01261,C0062,2026-07-17,Item not received,Received,7.46,Good,1,Intact
+R00714,O01263,C0335,2026-06-01,Changed mind,Received,3.0,Good,1,Intact
+R00715,O01265,C0372,2026-08-18,Defective product,Received,6.75,Good,1,Intact
+R00716,O01266,C0074,2026-08-25,Wrong Item,Received,1.43,Good,0,Intact
+R00717,O01269,C0037,2026-05-22,Size issue,Received,1.11,Used,1,Intact
+R00718,O01270,C0099,2026-08-18,Defective product,Received,0.94,Good,1,Intact
+R00719,O01272,C0064,2026-09-04,Package arrived damaged,Received,7.02,Good,1,Intact
+R00720,O01276,C0037,2026-06-08,Package arrived damaged,Received,0.84,Good,1,Intact
+R00721,O01278,C0260,2026-06-03,Wrong Item,Received,6.82,Good,1,Intact
+R00722,O01279,C0034,2026-07-07,Changed mind,Received,0.75,Used,1,Intact
+R00723,O01281,C0031,2026-08-28,Changed mind,Received,1.27,Used,1,Intact
+R00724,O01283,C0032,2026-06-21,Changed mind,Received,0.53,Used,1,Intact
+R00725,O01284,C0077,2026-08-30,Wrong Item,Received,1.78,Good,0,Intact
+R00726,O01285,C0070,2026-05-29,Wrong Item,Received,3.55,Good,0,Intact
+R00727,O01289,C0218,2026-06-15,Color mismatch,Received,7.41,Good,1,Damaged
+R00728,O01291,C0064,2026-08-04,Changed mind,Received,0.75,Good,1,Intact
+R00729,O01293,C0305,2026-06-20,Wrong Item,Received,5.85,Defective,1,Intact
+R00730,O01294,C0013,2026-08-23,Package arrived damaged,Received,5.65,Good,1,Intact
+R00731,O01296,C0427,2026-07-30,Wrong Item,Received,1.36,Good,1,Intact
+R00732,O01300,C0170,2026-05-22,Duplicate order,Received,4.09,Good,1,Intact
+R00733,O01303,C0212,2026-06-27,Duplicate order,Received,2.01,Good,1,Intact
+R00734,O01304,C0039,2026-08-09,Changed mind,Received,0.51,Used,1,Intact
+R00735,O01307,C0029,2026-06-01,Color mismatch,Received,4.21,Good,1,Damaged
+R00736,O01311,C0053,2026-05-17,Changed mind,Received,5.86,Good,1,Intact
+R00737,O01313,C0321,2026-07-17,Package arrived damaged,Received,0.29,Missing,0,Intact
+R00738,O01314,C0063,2026-08-25,Changed mind,Received,3.52,Defective,1,Intact
+R00739,O01315,C0372,2026-06-30,Color mismatch,Received,3.48,Good,1,Intact
+R00740,O01316,C0059,2026-08-28,Item not received,Received,2.67,Good,1,Damaged
+R00741,O01317,C0120,2026-07-31,Wrong Item,Received,0.75,Good,0,Intact
+R00742,O01318,C0071,2026-08-06,Wrong Item,Received,2.41,Good,0,Intact
+R00743,O01319,C0075,2026-05-20,Wrong Item,Received,3.23,Good,0,Intact
+R00744,O01324,C0284,2026-07-01,Package arrived damaged,Received,0.6,Missing,0,Intact
+R00745,O01325,C0020,2026-06-27,Changed mind,Received,3.47,Good,1,Intact
+R00746,O01326,C0105,2026-05-26,Wrong Item,Received,1.53,Good,1,Intact
+R00747,O01330,C0252,2026-05-07,Item not received,Received,3.51,Good,1,Damaged
+R00748,O01332,C0063,2026-06-12,Item not received,Received,3.59,Good,1,Intact
+R00749,O01333,C0037,2026-05-08,Changed mind,Received,0.66,Used,1,Intact
+R00750,O01334,C0050,2026-06-05,Wrong Item,Received,2.27,Good,1,Intact
+R00751,O01336,C0241,2026-07-03,Item not received,Received,5.89,Defective,1,Intact
+R00752,O01338,C0031,2026-08-10,Size issue,Received,0.69,Used,1,Intact
+R00753,O01343,C0070,2026-09-01,Wrong Item,Received,1.45,Good,0,Intact
+R00754,O01345,C0081,2026-05-15,Size issue,Received,4.22,Defective,1,Intact
+R00755,O01348,C0061,2026-05-12,Defective product,Received,3.62,Good,1,Intact
+R00756,O01349,C0022,2026-08-11,Size issue,Received,4.28,Defective,1,Intact
+R00757,O01352,C0115,2026-05-12,Color mismatch,Received,3.37,Good,1,Intact
+R00758,O01353,C0031,2026-07-21,Size issue,Received,0.77,Used,1,Intact
+R00759,O01354,C0329,2026-07-05,Defective product,Received,0.68,Defective,1,Intact
+R00760,O01355,C0061,2026-07-25,Color mismatch,Received,3.79,Defective,1,Intact
+R00761,O01356,C0448,2026-05-28,Item not received,Received,2.88,Good,1,Intact
+R00762,O01357,C0308,2026-07-16,Wrong Item,Received,0.36,Defective,1,Intact
+R00763,O01358,C0063,2026-08-03,Item not received,Received,13.62,Good,1,Intact
+R00764,O01359,C0056,2026-09-02,Changed mind,Received,2.42,Defective,1,Intact
+R00765,O01360,C0041,2026-08-21,Size issue,Received,1.24,Used,1,Intact
+R00766,O01361,C0073,2026-08-11,Wrong Item,Received,3.61,Good,0,Intact
+R00767,O01362,C0022,2026-08-06,Color mismatch,Received,5.85,Good,1,Damaged
+R00768,O01363,C0024,2026-07-09,Changed mind,Received,0.87,Good,1,Intact
+R00769,O01367,C0072,2026-07-03,Wrong Item,Received,1.82,Good,0,Intact
+R00770,O01369,C0051,2026-07-15,Item not received,Received,0.57,Good,1,Intact
+R00771,O01370,C0054,2026-07-07,Item not received,Received,1.0,Good,1,Intact
+R00772,O01373,C0128,2026-07-10,Package arrived damaged,Received,0.43,Missing,0,Intact
+R00773,O01374,C0360,2026-07-12,Duplicate order,Received,2.35,Good,1,Intact
+R00774,O01376,C0111,2026-07-18,Defective product,Received,1.31,Defective,1,Damaged
+R00775,O01379,C0024,2026-07-03,Size issue,Received,0.5,Good,1,Intact
+R00776,O01380,C0052,2026-05-11,Wrong Item,Received,3.44,Defective,1,Intact
+R00777,O01381,C0077,2026-08-17,Wrong Item,Received,4.56,Good,0,Damaged
+R00778,O01385,C0083,2026-08-25,Duplicate order,Received,5.72,Defective,1,Intact
+R00779,O01386,C0081,2026-05-19,Wrong Item,Received,6.9,Good,1,Intact
+R00780,O01388,C0336,2026-05-16,Wrong Item,Received,1.43,Good,1,Intact
+R00781,O01390,C0208,2026-06-10,Defective product,Received,0.41,Good,1,Intact
+R00782,O01391,C0003,2026-05-26,Duplicate order,Received,2.99,Good,1,Intact
+R00783,O01394,C0049,2026-08-13,Changed mind,Received,3.63,Defective,1,Intact
+R00784,O01397,C0320,2026-06-17,Package arrived damaged,Received,0.84,Good,1,Intact
+R00785,O01400,C0360,2026-07-15,Wrong Item,Received,0.43,Good,1,Intact
+R00786,O01401,C0051,2026-07-12,Duplicate order,Received,3.71,Defective,1,Intact
+R00787,O01402,C0041,2026-06-09,Size issue,Received,0.66,Used,1,Intact
+R00788,O01405,C0063,2026-08-07,Changed mind,Received,0.54,Defective,1,Damaged
+R00789,O01406,C0228,2026-06-20,Package arrived damaged,Received,0.45,Missing,0,Intact
+R00790,O01407,C0022,2026-07-23,Size issue,Received,1.18,Good,1,Intact
+R00791,O01408,C0038,2026-08-27,Changed mind,Received,1.31,Used,1,Intact
+R00792,O01410,C0085,2026-07-17,Size issue,Received,5.86,Defective,1,Intact
+R00793,O01411,C0166,2026-08-02,Wrong Item,Received,3.62,Defective,1,Intact
+R00794,O01413,C0098,2026-08-31,Duplicate order,Received,2.09,Good,1,Intact
+R00795,O01414,C0097,2026-06-20,Duplicate order,Received,1.21,Defective,1,Intact
+R00796,O01415,C0076,2026-05-23,Wrong Item,Received,3.76,Good,0,Intact
+R00797,O01416,C0033,2026-06-28,Color mismatch,Received,0.72,Defective,1,Intact
+R00798,O01417,C0032,2026-06-02,Size issue,Received,0.75,Used,1,Intact
+R00799,O01419,C0221,2026-08-26,Package arrived damaged,Received,2.49,Good,1,Intact
+R00800,O01420,C0403,2026-05-31,Package arrived damaged,Received,7.2,Good,1,Damaged
+R00801,O01423,C0021,2026-06-16,Item not received,Received,4.11,Good,1,Intact
+R00802,O01425,C0079,2026-07-28,Color mismatch,Received,2.79,Good,1,Intact
+R00803,O01427,C0033,2026-06-19,Size issue,Received,0.65,Used,1,Intact
+R00804,O01428,C0060,2026-06-16,Changed mind,Received,7.74,Defective,1,Intact
+R00805,O01429,C0255,2026-08-26,Duplicate order,Received,0.8,Defective,1,Intact
+R00806,O01431,C0059,2026-08-01,Wrong Item,Received,5.55,Good,1,Intact
+R00807,O01432,C0054,2026-08-30,Color mismatch,Received,1.47,Defective,1,Intact
+R00808,O01434,C0053,2026-05-21,Size issue,Received,3.42,Good,1,Intact
+R00809,O01435,C0040,2026-06-25,Changed mind,Received,0.63,Used,1,Intact
+R00810,O01436,C0064,2026-07-23,Wrong Item,Received,4.84,Good,1,Damaged
+R00811,O01437,C0081,2026-07-15,Changed mind,Received,4.08,Defective,1,Damaged
+R00812,O01440,C0039,2026-06-15,Size issue,Received,0.63,Used,1,Intact
+R00813,O01443,C0034,2026-09-01,Size issue,Received,1.23,Used,1,Intact
+R00814,O01445,C0391,2026-08-31,Wrong Item,Received,2.46,Good,0,Intact
+R00815,O01446,C0061,2026-07-05,Duplicate order,Received,1.06,Good,1,Intact
+R00816,O01447,C0025,2026-07-28,Color mismatch,Received,6.98,Good,1,Intact
+R00817,O01448,C0035,2026-07-28,Changed mind,Received,1.32,Used,1,Intact
+R00818,O01449,C0055,2026-08-20,Duplicate order,Received,1.85,Good,1,Intact
+R00819,O01450,C0267,2026-08-31,Package arrived damaged,Received,0.31,Missing,0,Intact
+R00820,O01451,C0058,2026-06-28,Package arrived damaged,Received,0.39,Good,1,Intact
+R00821,O01452,C0377,2026-08-25,Package arrived damaged,Received,4.43,Good,1,Intact
+R00822,O01453,C0024,2026-05-30,Size issue,Received,0.51,Defective,1,Damaged
+R00823,O01455,C0021,2026-06-25,Wrong Item,Received,2.03,Good,1,Intact
+R00824,O01456,C0447,2026-06-16,Color mismatch,Received,7.41,Defective,1,Intact
+R00825,O01457,C0193,2026-07-30,Color mismatch,Received,1.47,Good,1,Intact
+R00826,O01458,C0056,2026-06-07,Duplicate order,Received,3.64,Defective,1,Intact
+R00827,O01459,C0020,2026-06-17,Package arrived damaged,Received,1.21,Good,1,Intact
+R00828,O01461,C0059,2026-08-01,Color mismatch,Received,0.58,Good,1,Damaged
+R00829,O01462,C0098,2026-07-01,Wrong Item,Received,0.78,Good,0,Intact
+R00830,O01463,C0025,2026-06-21,Size issue,Received,0.38,Good,1,Intact
+R00831,O01465,C0083,2026-07-11,Wrong Item,Received,3.65,Defective,1,Intact
+R00832,O01466,C0053,2026-07-31,Wrong Item,Received,0.61,Good,1,Intact
+R00833,O01467,C0100,2026-09-02,Color mismatch,Received,5.85,Good,1,Intact
+R00834,O01468,C0032,2026-08-02,Size issue,Received,1.45,Used,1,Intact
+R00835,O01470,C0345,2026-07-04,Duplicate order,Received,1.86,Good,1,Intact
+R00836,O01471,C0052,2026-08-23,Wrong Item,Received,1.17,Good,1,Damaged
+R00837,O01474,C0393,2026-06-03,Defective product,Received,1.83,Good,1,Intact
+R00838,O01475,C0067,2026-06-04,Item not received,Received,4.04,Good,1,Damaged
+R00839,O01478,C0033,2026-06-22,Changed mind,Received,1.23,Used,1,Intact
+R00840,O01479,C0081,2026-08-16,Duplicate order,Received,3.59,Good,1,Intact
+R00841,O01480,C0228,2026-08-29,Package arrived damaged,Received,0.95,Good,1,Intact
+R00842,O01481,C0059,2026-08-30,Item not received,Received,11.03,Good,1,Intact
+R00843,O01482,C0163,2026-08-18,Size issue,Received,3.48,Good,1,Intact
+R00844,O01484,C0315,2026-06-30,Item not received,Received,0.82,Defective,1,Intact
+R00845,O01487,C0110,2026-05-20,Duplicate order,Received,2.13,Defective,1,Intact
+R00846,O01488,C0054,2026-06-30,Color mismatch,Received,3.63,Good,1,Intact
+R00847,O01491,C0054,2026-06-17,Wrong Item,Received,2.68,Good,1,Damaged
+R00848,O01493,C0326,2026-05-11,Defective product,Received,0.63,Defective,1,Intact
+R00849,O01495,C0071,2026-07-04,Wrong Item,Received,1.44,Good,0,Intact
+R00850,O01496,C0412,2026-08-18,Defective product,Received,0.87,Good,1,Intact
+R00851,O01497,C0058,2026-08-14,Duplicate order,Received,2.9,Defective,1,Intact
+R00852,O01498,C0023,2026-05-21,Color mismatch,Received,2.07,Defective,1,Intact
+R00853,O01499,C0053,2026-05-13,Defective product,Received,2.14,Defective,1,Intact
+R00854,O01500,C0052,2026-08-13,Defective product,Received,17.35,Good,1,Intact
+R00855,O01501,C0096,2026-08-24,Color mismatch,Received,0.62,Defective,1,Intact
+R00856,O01504,C0054,2026-06-29,Item not received,Received,2.46,Good,1,Intact
+R00857,O01505,C0053,2026-05-21,Changed mind,Received,0.98,Defective,1,Intact
+R00858,O01507,C0143,2026-08-23,Wrong Item,Received,6.69,Good,1,Intact
+R00859,O01508,C0081,2026-07-03,Color mismatch,Received,1.5,Good,1,Intact
+R00860,O01509,C0041,2026-07-31,Changed mind,Received,1.27,Used,1,Intact
+R00861,O01510,C0051,2026-07-15,Wrong Item,Received,0.99,Defective,1,Intact
+R00862,O01511,C0313,2026-07-25,Wrong Item,Received,4.14,Good,1,Damaged
+R00863,O01514,C0171,2026-08-23,Defective product,Received,5.74,Good,1,Intact
+R00864,O01516,C0054,2026-08-09,Package arrived damaged,Received,10.18,Good,1,Intact
+R00865,O01517,C0060,2026-09-03,Item not received,Received,2.75,Good,1,Intact
+R00866,O01518,C0181,2026-08-09,Size issue,Received,2.72,Defective,1,Damaged
+R00867,O01521,C0075,2026-08-25,Wrong Item,Received,2.25,Good,0,Intact
+R00868,O01523,C0051,2026-05-25,Wrong Item,Received,1.69,Good,1,Intact
+R00869,O01524,C0031,2026-08-15,Size issue,Received,0.83,Used,1,Intact
+R00870,O01525,C0231,2026-06-15,Wrong Item,Received,1.83,Good,0,Intact
+R00871,O01529,C0024,2026-07-16,Duplicate order,Received,3.63,Good,1,Intact
+R00872,O01530,C0092,2026-06-19,Package arrived damaged,Received,0.04,Missing,0,Intact
+R00873,O01531,C0263,2026-06-11,Item not received,Received,3.56,Good,1,Intact
+R00874,O01532,C0040,2026-07-23,Size issue,Received,0.66,Used,1,Intact
+R00875,O01534,C0248,2026-07-16,Size issue,Received,1.33,Good,1,Intact
+R00876,O01539,C0061,2026-06-15,Color mismatch,Received,3.82,Good,1,Intact
+R00877,O01542,C0022,2026-06-28,Changed mind,Received,1.31,Good,1,Intact
+R00878,O01544,C0023,2026-05-27,Wrong Item,Received,1.25,Good,1,Intact
+R00879,O01546,C0405,2026-08-03,Wrong Item,Received,1.18,Good,1,Damaged
+R00880,O01547,C0003,2026-08-05,Duplicate order,Received,4.29,Good,1,Intact
+R00881,O01549,C0449,2026-07-09,Package arrived damaged,Received,0.45,Missing,0,Intact
+R00882,O01551,C0050,2026-08-27,Wrong Item,Received,6.31,Defective,1,Damaged
+R00883,O01555,C0020,2026-06-17,Defective product,Received,2.67,Good,1,Intact
+R00884,O01556,C0294,2026-08-05,Color mismatch,Received,7.0,Good,1,Intact
+R00885,O01557,C0428,2026-06-24,Item not received,Received,4.1,Good,1,Intact
+R00886,O01558,C0041,2026-07-10,Size issue,Received,0.56,Used,1,Intact
+R00887,O01560,C0162,2026-08-05,Color mismatch,Received,2.03,Defective,1,Intact
+R00888,O01562,C0035,2026-08-26,Size issue,Received,1.47,Used,1,Intact
+R00889,O01567,C0061,2026-07-11,Size issue,Received,5.82,Defective,1,Intact
+R00890,O01568,C0262,2026-07-09,Duplicate order,Received,2.31,Defective,1,Damaged
+R00891,O01573,C0096,2026-08-04,Package arrived damaged,Received,2.93,Good,1,Intact
+R00892,O01574,C0295,2026-07-19,Package arrived damaged,Received,1.18,Good,1,Intact
+R00893,O01575,C0415,2026-07-27,Package arrived damaged,Received,0.13,Missing,0,Intact
+R00894,O01577,C0072,2026-08-03,Wrong Item,Received,3.22,Good,0,Intact
+R00895,O01579,C0062,2026-08-16,Wrong Item,Received,0.4,Good,1,Intact
+R00896,O01580,C0064,2026-07-25,Package arrived damaged,Received,1.77,Good,1,Intact
+R00897,O01581,C0431,2026-07-10,Wrong Item,Received,2.38,Defective,1,Intact
+R00898,O01582,C0289,2026-06-15,Package arrived damaged,Received,3.94,Defective,1,Intact
+R00899,O01583,C0009,2026-08-16,Item not received,Received,3.54,Good,1,Intact
+R00900,O01584,C0031,2026-06-14,Size issue,Received,1.36,Used,1,Intact
+R00901,O01585,C0364,2026-07-14,Defective product,Received,1.39,Good,1,Intact
+R00902,O01587,C0144,2026-07-31,Color mismatch,Received,1.9,Good,1,Intact
+R00903,O01589,C0249,2026-06-21,Package arrived damaged,Received,1.42,Good,1,Intact
+R00904,O01590,C0038,2026-08-28,Size issue,Received,1.2,Used,1,Intact
+R00905,O01595,C0398,2026-06-18,Wrong Item,Received,4.23,Defective,1,Intact
+R00906,O01598,C0389,2026-07-23,Package arrived damaged,Received,0.31,Missing,0,Intact
+R00907,O01600,C0059,2026-08-19,Wrong Item,Received,1.09,Defective,1,Intact
+R00908,O01601,C0020,2026-05-24,Size issue,Received,3.48,Defective,1,Intact
+R00909,O01604,C0033,2026-08-09,Size issue,Received,0.65,Used,1,Intact
+R00910,O01607,C0031,2026-07-27,Size issue,Received,0.54,Used,1,Intact
+R00911,O01608,C0062,2026-07-09,Color mismatch,Received,3.08,Defective,1,Intact
+R00912,O01610,C0054,2026-05-16,Defective product,Received,1.77,Good,1,Intact
+R00913,O01611,C0313,2026-05-18,Package arrived damaged,Received,0.02,Missing,0,Intact
+R00914,O01612,C0035,2026-05-16,Changed mind,Received,0.72,Used,1,Intact
+R00915,O01614,C0070,2026-06-15,Wrong Item,Received,2.41,Good,0,Intact
+R00916,O01615,C0183,2026-07-21,Item not received,Received,2.15,Good,1,Intact
+R00917,O01616,C0062,2026-06-08,Wrong Item,Received,3.49,Good,1,Intact
+R00918,O01618,C0037,2026-07-30,Changed mind,Received,1.27,Used,1,Intact
+R00919,O01621,C0023,2026-08-26,Duplicate order,Received,1.25,Good,1,Intact
+R00920,O01623,C0025,2026-07-20,Package arrived damaged,Received,2.5,Defective,1,Intact
+R00921,O01625,C0041,2026-06-10,Changed mind,Received,0.82,Used,1,Intact
+R00922,O01626,C0018,2026-07-10,Item not received,Received,3.0,Good,1,Intact
+R00923,O01627,C0055,2026-07-15,Defective product,Received,6.36,Good,1,Intact
+R00924,O01630,C0285,2026-06-09,Size issue,Received,0.71,Good,1,Intact
+R00925,O01631,C0077,2026-08-28,Wrong Item,Received,3.15,Good,0,Intact
+R00926,O01632,C0076,2026-07-23,Wrong Item,Received,3.46,Good,0,Damaged
+R00927,O01633,C0083,2026-08-22,Changed mind,Received,0.54,Defective,1,Damaged
+R00928,O01639,C0031,2026-06-21,Changed mind,Received,0.87,Used,1,Intact
+R00929,O01642,C0021,2026-06-08,Size issue,Received,0.95,Good,1,Intact
+R00930,O01643,C0054,2026-05-20,Package arrived damaged,Received,10.38,Good,1,Intact
+R00931,O01644,C0031,2026-06-06,Changed mind,Received,1.31,Used,1,Intact
+R00932,O01645,C0073,2026-08-04,Wrong Item,Received,1.52,Good,0,Intact
+R00933,O01647,C0014,2026-08-23,Changed mind,Received,1.25,Good,1,Intact
+R00934,O01648,C0030,2026-06-22,Size issue,Received,0.71,Used,1,Intact
+R00935,O01650,C0054,2026-05-17,Package arrived damaged,Received,2.33,Good,1,Intact
+R00936,O01651,C0040,2026-06-25,Changed mind,Received,1.19,Used,1,Intact
+R00937,O01653,C0062,2026-07-12,Defective product,Received,6.99,Good,1,Intact
+R00938,O01656,C0435,2026-08-20,Duplicate order,Received,3.9,Good,1,Intact
+R00939,O01659,C0058,2026-08-18,Wrong Item,Received,1.15,Good,1,Intact
+R00940,O01661,C0050,2026-08-03,Defective product,Received,4.29,Good,1,Intact
+R00941,O01662,C0040,2026-05-12,Color mismatch,Received,0.53,Defective,1,Intact
+R00942,O01663,C0091,2026-07-19,Package arrived damaged,Received,3.76,Good,1,Intact
+R00943,O01664,C0034,2026-07-07,Changed mind,Received,0.79,Used,1,Intact
+R00944,O01666,C0277,2026-06-04,Duplicate order,Received,5.69,Good,1,Intact
+R00945,O01667,C0149,2026-06-06,Wrong Item,Received,0.86,Defective,1,Intact
+R00946,O01668,C0432,2026-08-01,Color mismatch,Received,0.6,Good,1,Intact
+R00947,O01669,C0213,2026-05-29,Package arrived damaged,Received,0.2,Missing,0,Intact
+R00948,O01670,C0057,2026-07-29,Package arrived damaged,Received,14.11,Defective,1,Intact
+R00949,O01671,C0060,2026-08-07,Duplicate order,Received,11.58,Good,1,Intact
+R00950,O01673,C0350,2026-07-25,Size issue,Received,1.26,Good,1,Intact
+R00951,O01674,C0033,2026-07-23,Changed mind,Received,0.54,Used,1,Intact
+R00952,O01675,C0067,2026-07-13,Wrong Item,Received,0.53,Good,1,Intact
+R00953,O01678,C0023,2026-07-03,Item not received,Received,2.53,Good,1,Intact
+R00954,O01679,C0035,2026-07-07,Size issue,Received,1.14,Used,1,Intact
+R00955,O01682,C0067,2026-08-27,Item not received,Received,3.55,Good,1,Intact
+R00956,O01683,C0204,2026-08-24,Color mismatch,Received,2.32,Good,1,Intact
+R00957,O01687,C0051,2026-05-28,Color mismatch,Received,0.73,Defective,1,Intact
+R00958,O01689,C0374,2026-08-07,Package arrived damaged,Received,1.95,Defective,1,Intact
+R00959,O01692,C0081,2026-06-18,Duplicate order,Received,6.94,Good,1,Intact
+R00960,O01696,C0038,2026-05-29,Changed mind,Received,1.31,Used,1,Damaged
+R00961,O01698,C0033,2026-06-25,Size issue,Received,0.73,Used,1,Intact
+R00962,O01702,C0025,2026-06-10,Defective product,Received,0.8,Defective,1,Intact
+R00963,O01703,C0341,2026-06-24,Wrong Item,Received,0.94,Good,1,Intact
+R00964,O01704,C0094,2026-06-19,Changed mind,Received,6.81,Defective,1,Intact
+R00965,O01706,C0368,2026-06-07,Duplicate order,Received,2.88,Good,1,Intact
+R00966,O01707,C0033,2026-08-25,Changed mind,Received,0.61,Used,1,Intact
+R00967,O01709,C0033,2026-05-31,Size issue,Received,0.67,Used,1,Intact
+R00968,O01711,C0097,2026-08-23,Changed mind,Received,5.82,Defective,1,Intact
+R00969,O01712,C0448,2026-07-07,Duplicate order,Received,1.2,Defective,1,Intact
+R00970,O01713,C0297,2026-07-06,Color mismatch,Received,5.85,Good,1,Intact
+R00971,O01716,C0034,2026-06-15,Size issue,Received,1.16,Used,1,Intact
+R00972,O01719,C0061,2026-06-05,Wrong Item,Received,1.37,Defective,1,Intact
+R00973,O01720,C0051,2026-06-08,Size issue,Received,17.54,Good,1,Intact
+R00974,O01721,C0020,2026-06-03,Package arrived damaged,Received,0.55,Defective,1,Intact
+R00975,O01722,C0051,2026-06-07,Package arrived damaged,Received,1.12,Good,1,Intact
+R00976,O01723,C0085,2026-07-14,Wrong Item,Received,6.8,Good,1,Intact
+R00977,O01724,C0313,2026-08-10,Item not received,Received,0.7,Good,1,Intact
+R00978,O01725,C0273,2026-09-01,Package arrived damaged,Received,2.42,Good,1,Intact
+R00979,O01726,C0262,2026-05-22,Changed mind,Received,2.75,Good,1,Intact
+R00980,O01727,C0348,2026-08-02,Defective product,Received,2.72,Defective,1,Intact
+R00981,O01729,C0023,2026-08-04,Size issue,Received,3.65,Good,1,Intact
+R00982,O01730,C0073,2026-06-16,Wrong Item,Received,1.82,Good,0,Intact
+R00983,O01731,C0020,2026-08-22,Wrong Item,Received,0.65,Good,1,Intact
+R00984,O01732,C0285,2026-07-04,Changed mind,Received,5.71,Good,1,Intact
+R00985,O01733,C0032,2026-08-25,Size issue,Received,0.73,Used,1,Intact
+R00986,O01734,C0024,2026-08-20,Changed mind,Received,1.89,Good,1,Intact
+R00987,O01737,C0041,2026-08-15,Changed mind,Received,1.11,Used,1,Intact
+R00988,O01738,C0051,2026-08-24,Package arrived damaged,Received,0.52,Defective,1,Intact
+R00989,O01741,C0050,2026-06-16,Wrong Item,Received,2.07,Good,1,Intact
+R00990,O01742,C0363,2026-08-28,Duplicate order,Received,1.02,Defective,1,Intact
+R00991,O01744,C0214,2026-07-17,Color mismatch,Received,1.42,Good,1,Intact
+R00992,O01745,C0036,2026-08-03,Size issue,Received,0.75,Used,1,Intact
+R00993,O01750,C0032,2026-06-28,Changed mind,Received,1.24,Used,1,Intact
+R00994,O01755,C0055,2026-08-29,Changed mind,Received,1.1,Good,1,Intact
+R00995,O01756,C0076,2026-07-15,Wrong Item,Received,4.62,Good,0,Intact
+R00996,O01759,C0319,2026-07-10,Item not received,Received,4.12,Good,1,Damaged
+R00997,O01761,C0025,2026-06-20,Changed mind,Received,2.21,Good,1,Intact
+R00998,O01763,C0035,2026-08-02,Changed mind,Received,0.85,Used,1,Intact
+R00999,O01764,C0050,2026-06-14,Changed mind,Received,0.54,Defective,1,Intact
+R01000,O01765,C0205,2026-08-13,Defective product,Received,2.91,Defective,1,Intact
+R01001,O01767,C0054,2026-06-15,Defective product,Received,1.73,Defective,1,Intact
+R01002,O01769,C0055,2026-06-01,Color mismatch,Received,16.5,Defective,1,Intact
+R01003,O01770,C0021,2026-05-18,Wrong Item,Received,1.2,Defective,1,Intact
+R01004,O01771,C0022,2026-06-17,Size issue,Received,0.46,Good,1,Intact
+R01005,O01773,C0036,2026-05-29,Size issue,Received,1.47,Used,1,Intact
+R01006,O01775,C0051,2026-05-27,Package arrived damaged,Received,10.49,Defective,1,Intact
+R01007,O01778,C0031,2026-07-05,Changed mind,Received,0.73,Used,1,Intact
+R01008,O01782,C0074,2026-06-16,Wrong Item,Received,1.56,Good,0,Intact
+R01009,O01783,C0234,2026-07-21,Package arrived damaged,Received,0.02,Missing,0,Intact
+R01010,O01785,C0034,2026-05-10,Size issue,Received,0.52,Used,1,Damaged
+R01011,O01786,C0077,2026-07-28,Wrong Item,Received,3.24,Good,0,Intact
+R01012,O01788,C0055,2026-07-25,Defective product,Received,5.61,Good,1,Intact
+R01013,O01789,C0024,2026-06-01,Package arrived damaged,Received,0.91,Defective,1,Intact
+R01014,O01790,C0062,2026-07-22,Color mismatch,Received,3.54,Good,1,Intact
+R01015,O01792,C0084,2026-07-21,Defective product,Received,1.37,Good,1,Intact
+R01016,O01793,C0025,2026-07-18,Package arrived damaged,Received,4.23,Good,1,Intact
+R01017,O01796,C0032,2026-05-31,Changed mind,Received,1.32,Used,1,Intact
+R01018,O01801,C0175,2026-07-27,Size issue,Received,5.56,Defective,1,Intact
+R01019,O01803,C0075,2026-06-23,Wrong Item,Received,2.92,Good,0,Damaged
+R01020,O01804,C0037,2026-06-21,Changed mind,Received,1.49,Used,1,Intact
+R01021,O01805,C0120,2026-06-19,Wrong Item,Received,0.31,Good,1,Intact
+R01022,O01806,C0324,2026-08-29,Defective product,Received,1.04,Defective,1,Intact
+R01023,O01807,C0372,2026-07-12,Color mismatch,Received,2.96,Defective,1,Intact
+R01024,O01809,C0090,2026-08-07,Wrong Item,Received,7.04,Defective,1,Intact
+R01025,O01810,C0324,2026-07-13,Size issue,Received,4.15,Good,1,Intact
+R01026,O01811,C0037,2026-06-18,Changed mind,Received,1.2,Used,1,Intact
+R01027,O01813,C0055,2026-08-13,Duplicate order,Received,1.25,Defective,1,Intact
+R01028,O01816,C0077,2026-08-09,Wrong Item,Received,4.78,Good,0,Intact
+R01029,O01821,C0326,2026-08-10,Package arrived damaged,Received,1.49,Good,1,Intact
+R01030,O01822,C0051,2026-08-22,Defective product,Received,7.08,Defective,1,Intact
+R01031,O01823,C0055,2026-07-31,Duplicate order,Received,1.9,Good,1,Intact
+R01032,O01825,C0061,2026-06-10,Wrong Item,Received,1.39,Defective,1,Intact
+R01033,O01826,C0050,2026-05-29,Changed mind,Received,0.63,Defective,1,Intact
+R01034,O01828,C0307,2026-05-16,Duplicate order,Received,5.9,Defective,1,Intact
+R01035,O01830,C0022,2026-07-17,Duplicate order,Received,1.28,Good,1,Damaged
+R01036,O01832,C0060,2026-08-22,Size issue,Received,1.48,Defective,1,Intact
+R01037,O01834,C0020,2026-07-04,Item not received,Received,5.52,Good,1,Intact
+R01038,O01835,C0084,2026-09-01,Package arrived damaged,Received,0.21,Missing,0,Intact
+R01039,O01838,C0072,2026-08-18,Wrong Item,Received,1.46,Good,0,Intact
+R01040,O01839,C0035,2026-05-25,Size issue,Received,1.15,Used,1,Intact
+R01041,O01843,C0379,2026-08-16,Defective product,Received,3.53,Good,1,Intact
+R01042,O01844,C0148,2026-07-02,Size issue,Received,0.65,Good,1,Intact
+R01043,O01846,C0024,2026-08-02,Duplicate order,Received,1.46,Defective,1,Intact
+R01044,O01848,C0068,2026-06-24,Defective product,Received,4.45,Good,1,Intact
+R01045,O01849,C0060,2026-07-29,Package arrived damaged,Received,2.72,Defective,1,Intact
+R01046,O01850,C0031,2026-08-23,Size issue,Received,1.41,Used,1,Intact
+R01047,O01851,C0031,2026-08-22,Changed mind,Received,0.64,Used,1,Intact
+R01048,O01852,C0050,2026-05-28,Item not received,Received,1.34,Good,1,Intact
+R01049,O01859,C0041,2026-07-29,Size issue,Received,0.88,Used,1,Intact
+R01050,O01864,C0061,2026-06-08,Duplicate order,Received,0.66,Good,1,Intact
+R01051,O01865,C0193,2026-06-21,Color mismatch,Received,0.52,Good,1,Damaged
+R01052,O01866,C0137,2026-08-31,Defective product,Received,2.65,Good,1,Intact
+R01053,O01867,C0056,2026-05-22,Changed mind,Received,7.26,Defective,1,Intact
+R01054,O01869,C0056,2026-05-17,Item not received,Received,5.42,Good,1,Intact
+R01055,O01870,C0095,2026-08-30,Changed mind,Received,0.44,Good,1,Intact
+R01056,O01871,C0088,2026-05-24,Wrong Item,Received,4.6,Good,0,Intact
+R01057,O01874,C0040,2026-06-09,Changed mind,Received,1.41,Used,1,Intact
+R01058,O01875,C0066,2026-08-12,Package arrived damaged,Received,0.15,Missing,0,Intact
+R01059,O01878,C0054,2026-08-17,Color mismatch,Received,1.2,Defective,1,Intact
+R01060,O01879,C0327,2026-08-23,Color mismatch,Received,6.77,Good,1,Intact
+R01061,O01881,C0150,2026-07-01,Item not received,Received,0.9,Good,1,Intact
+R01062,O01882,C0025,2026-06-05,Defective product,Received,1.18,Good,1,Intact
+R01063,O01883,C0063,2026-06-25,Wrong Item,Received,7.25,Good,1,Intact
+R01064,O01885,C0055,2026-06-01,Package arrived damaged,Received,11.28,Defective,1,Intact
+R01065,O01886,C0111,2026-06-25,Item not received,Received,3.45,Good,1,Damaged
+R01066,O01889,C0202,2026-08-23,Wrong Item,Received,2.22,Good,1,Intact
+R01067,O01891,C0257,2026-08-09,Changed mind,Received,0.96,Good,1,Intact
+R01068,O01892,C0183,2026-07-03,Wrong Item,Received,5.61,Good,1,Intact
+R01069,O01893,C0050,2026-07-10,Wrong Item,Received,3.0,Defective,1,Intact
+R01070,O01894,C0066,2026-08-29,Defective product,Received,5.67,Good,1,Intact
+R01071,O01899,C0055,2026-09-01,Package arrived damaged,Received,2.12,Good,1,Intact
+R01072,O01901,C0059,2026-05-20,Package arrived damaged,Received,1.99,Good,1,Intact
+R01073,O01902,C0252,2026-07-25,Wrong Item,Received,7.12,Good,1,Intact
+R01074,O01906,C0351,2026-05-15,Wrong Item,Received,4.12,Defective,1,Intact
+R01075,O01910,C0386,2026-06-05,Item not received,Received,3.53,Good,1,Intact
+R01076,O01911,C0175,2026-05-28,Item not received,Received,5.74,Good,1,Intact
+R01077,O01912,C0332,2026-08-11,Item not received,Received,5.67,Good,1,Intact
+R01078,O01913,C0035,2026-05-20,Changed mind,Received,1.39,Used,1,Damaged
+R01079,O01916,C0041,2026-06-23,Size issue,Received,0.69,Used,1,Intact
+R01080,O01917,C0107,2026-08-30,Size issue,Received,3.08,Defective,1,Damaged
+R01081,O01918,C0276,2026-06-05,Changed mind,Received,5.73,Good,1,Intact
+R01082,O01919,C0034,2026-06-25,Changed mind,Received,1.4,Used,1,Intact
+R01083,O01920,C0076,2026-06-01,Wrong Item,Received,4.37,Good,0,Intact
+R01084,O01924,C0056,2026-06-26,Defective product,Received,3.7,Good,1,Intact
+R01085,O01925,C0021,2026-07-12,Duplicate order,Received,1.35,Good,1,Damaged
+R01086,O01926,C0033,2026-08-10,Size issue,Received,1.37,Used,1,Intact
+R01087,O01927,C0388,2026-07-23,Changed mind,Received,1.08,Good,1,Damaged
+R01088,O01928,C0056,2026-07-25,Package arrived damaged,Received,1.2,Good,1,Intact
+R01089,O01929,C0191,2026-07-04,Wrong Item,Received,1.0,Defective,1,Intact
+R01090,O01931,C0022,2026-05-16,Size issue,Received,1.07,Good,1,Intact
+R01091,O01932,C0074,2026-07-27,Wrong Item,Received,3.25,Good,0,Intact
+R01092,O01933,C0076,2026-06-14,Wrong Item,Received,2.34,Good,0,Intact
+R01093,O01935,C0272,2026-08-24,Item not received,Received,0.34,Good,1,Intact
+R01094,O01937,C0036,2026-06-26,Changed mind,Received,1.45,Used,1,Intact
+R01095,O01939,C0088,2026-07-18,Package arrived damaged,Received,0.05,Missing,0,Intact
+R01096,O01940,C0040,2026-06-21,Size issue,Received,1.3,Used,1,Intact
+R01097,O01944,C0265,2026-07-19,Changed mind,Received,4.28,Good,1,Intact
+R01098,O01945,C0050,2026-08-19,Defective product,Received,1.77,Defective,1,Intact
+R01099,O01946,C0166,2026-08-08,Wrong Item,Received,0.66,Good,1,Intact
+R01100,O01947,C0178,2026-06-30,Wrong Item,Received,0.77,Good,1,Intact
+R01101,O01953,C0022,2026-07-29,Color mismatch,Received,5.68,Defective,1,Intact
+R01102,O01955,C0127,2026-06-20,Changed mind,Received,0.74,Good,1,Damaged
+R01103,O01957,C0040,2026-06-18,Size issue,Received,0.86,Used,1,Intact
+R01104,O01958,C0304,2026-07-10,Color mismatch,Received,1.15,Defective,1,Damaged
+R01105,O01959,C0081,2026-08-12,Duplicate order,Received,6.96,Defective,1,Intact
+R01106,O01960,C0024,2026-07-27,Changed mind,Received,3.53,Good,1,Intact
+R01107,O01962,C0041,2026-05-20,Changed mind,Received,1.25,Used,1,Intact
+R01108,O01963,C0091,2026-07-15,Changed mind,Received,0.66,Good,1,Intact
+R01109,O01968,C0040,2026-06-29,Size issue,Received,0.63,Used,1,Intact
+R01110,O01969,C0074,2026-08-02,Wrong Item,Received,2.34,Good,0,Intact
+R01111,O01970,C0208,2026-06-24,Wrong Item,Received,2.46,Good,1,Intact
+R01112,O01971,C0416,2026-08-02,Package arrived damaged,Received,3.97,Good,1,Intact
+R01113,O01972,C0279,2026-06-01,Duplicate order,Received,1.32,Defective,1,Intact
+R01114,O01973,C0232,2026-07-15,Defective product,Received,0.6,Defective,1,Intact
+R01115,O01976,C0072,2026-08-03,Wrong Item,Received,2.35,Good,0,Intact
+R01116,O01979,C0058,2026-08-11,Duplicate order,Received,1.34,Defective,1,Damaged
+R01117,O01981,C0051,2026-05-27,Size issue,Received,6.33,Defective,1,Intact
+R01118,O01984,C0159,2026-07-22,Size issue,Received,0.97,Good,1,Intact
+R01119,O01985,C0037,2026-05-20,Changed mind,Received,1.22,Used,1,Intact
+R01120,O01986,C0294,2026-06-21,Color mismatch,Received,3.74,Good,1,Intact
+R01121,O01988,C0046,2026-06-13,Size issue,Received,2.25,Good,1,Intact
+R01122,O01989,C0035,2026-08-30,Size issue,Received,1.15,Used,1,Intact
+R01123,O01990,C0020,2026-07-04,Changed mind,Received,6.98,Good,1,Intact
+R01124,O01992,C0056,2026-08-14,Size issue,Received,2.23,Good,1,Intact
+R01125,O01995,C0064,2026-05-19,Defective product,Received,0.41,Good,1,Intact
+R01126,O01997,C0305,2026-05-28,Item not received,Received,2.54,Defective,1,Damaged
+R01127,O01998,C0061,2026-06-06,Duplicate order,Received,6.0,Defective,1,Intact
+R01128,O01999,C0056,2026-05-14,Defective product,Received,2.29,Good,1,Intact
+R01129,O02004,C0090,2026-05-22,Color mismatch,Received,1.16,Good,1,Intact
+R01130,O02005,C0064,2026-07-16,Size issue,Received,3.04,Good,1,Intact
+R01131,O02007,C0063,2026-05-24,Duplicate order,Received,5.63,Defective,1,Damaged
+R01132,O02010,C0076,2026-08-10,Wrong Item,Received,2.43,Good,0,Intact
+R01133,O02013,C0053,2026-06-08,Defective product,Received,4.18,Good,1,Intact
+R01134,O02016,C0031,2026-07-01,Size issue,Received,0.77,Used,1,Intact
+R01135,O02017,C0041,2026-07-14,Changed mind,Received,0.6,Used,1,Intact
+R01136,O02019,C0063,2026-05-22,Size issue,Received,1.23,Good,1,Intact
+R01137,O02020,C0093,2026-07-21,Wrong Item,Received,5.46,Good,1,Intact
+R01138,O02022,C0073,2026-05-08,Wrong Item,Received,2.29,Good,0,Intact
+R01139,O02029,C0034,2026-07-26,Changed mind,Received,0.63,Used,1,Intact
+R01140,O02030,C0036,2026-06-22,Size issue,Received,0.77,Used,1,Intact
+R01141,O02032,C0058,2026-07-12,Item not received,Received,2.73,Good,1,Intact
+R01142,O02033,C0003,2026-05-07,Defective product,Received,3.04,Good,1,Intact
+R01143,O02035,C0159,2026-08-03,Size issue,Received,0.73,Good,1,Intact
+R01144,O02038,C0223,2026-07-08,Defective product,Received,1.1,Good,1,Intact
+R01145,O02040,C0034,2026-07-14,Size issue,Received,0.72,Used,1,Intact
+R01146,O02041,C0033,2026-06-14,Size issue,Received,0.89,Used,1,Intact
+R01147,O02044,C0175,2026-08-15,Color mismatch,Received,1.94,Defective,1,Intact
+R01148,O02046,C0034,2026-05-20,Changed mind,Received,1.48,Used,1,Intact
+R01149,O02047,C0054,2026-08-26,Duplicate order,Received,2.12,Good,1,Intact
+R01150,O02048,C0377,2026-08-29,Changed mind,Received,1.26,Good,1,Intact
+R01151,O02050,C0036,2026-08-10,Size issue,Received,1.33,Used,1,Intact
+R01152,O02051,C0038,2026-07-26,Changed mind,Received,1.1,Used,1,Intact
+R01153,O02053,C0034,2026-06-17,Changed mind,Received,1.19,Used,1,Intact
+R01154,O02054,C0059,2026-08-29,Color mismatch,Received,5.29,Defective,1,Intact
+R01155,O02055,C0064,2026-07-18,Defective product,Received,4.01,Defective,1,Intact
+R01156,O02058,C0032,2026-07-04,Changed mind,Received,0.7,Used,1,Intact
+R01157,O02059,C0083,2026-06-02,Changed mind,Received,1.47,Good,1,Intact
+R01158,O02060,C0315,2026-05-27,Defective product,Received,0.43,Defective,1,Intact
+R01159,O02062,C0025,2026-07-16,Size issue,Received,2.84,Good,1,Intact
+R01160,O02063,C0061,2026-06-13,Package arrived damaged,Received,0.23,Missing,0,Intact
+R01161,O02064,C0056,2026-06-06,Duplicate order,Received,2.96,Good,1,Intact
+R01162,O02065,C0023,2026-05-31,Changed mind,Received,3.12,Good,1,Intact
+R01163,O02066,C0111,2026-07-12,Changed mind,Received,0.62,Defective,1,Intact
+R01164,O02067,C0057,2026-07-02,Duplicate order,Received,6.84,Defective,1,Intact
+R01165,O02070,C0056,2026-08-29,Duplicate order,Received,2.97,Good,1,Intact
+R01166,O02071,C0063,2026-09-08,Wrong Item,Received,2.56,Good,1,Intact
+R01167,O02073,C0071,2026-07-10,Wrong Item,Received,3.37,Good,0,Intact
+R01168,O02074,C0036,2026-07-11,Changed mind,Received,1.15,Used,1,Intact
+R01169,O02075,C0053,2026-06-25,Duplicate order,Received,2.99,Defective,1,Intact
+R01170,O02078,C0051,2026-08-29,Color mismatch,Received,5.12,Defective,1,Intact
+R01171,O02080,C0023,2026-08-31,Wrong Item,Received,0.85,Good,1,Damaged
+R01172,O02081,C0061,2026-08-09,Changed mind,Received,10.68,Good,1,Intact
+R01173,O02089,C0346,2026-08-26,Item not received,Received,0.52,Good,1,Intact
+R01174,O02090,C0410,2026-06-09,Defective product,Received,0.73,Defective,1,Intact
+R01175,O02093,C0239,2026-07-12,Wrong Item,Received,5.5,Good,1,Intact
+R01176,O02094,C0424,2026-08-26,Wrong Item,Received,2.99,Defective,1,Intact
+R01177,O02095,C0365,2026-07-13,Package arrived damaged,Received,0.35,Missing,0,Intact
+R01178,O02096,C0120,2026-06-02,Package arrived damaged,Received,1.13,Good,1,Intact
+R01179,O02098,C0040,2026-08-29,Changed mind,Received,1.35,Used,1,Intact
+R01180,O02102,C0097,2026-05-14,Duplicate order,Received,0.5,Defective,1,Intact
+R01181,O02103,C0034,2026-05-26,Size issue,Received,1.26,Used,1,Intact
+R01182,O02106,C0062,2026-07-17,Changed mind,Received,3.7,Good,1,Intact
+R01183,O02107,C0053,2026-08-18,Changed mind,Received,14.55,Good,1,Intact
+R01184,O02114,C0022,2026-08-04,Package arrived damaged,Received,5.47,Good,1,Intact
+R01185,O02116,C0071,2026-07-11,Wrong Item,Received,2.3,Good,0,Intact
+R01186,O02119,C0031,2026-06-13,Changed mind,Received,1.15,Used,1,Intact
+R01187,O02120,C0170,2026-08-23,Defective product,Received,4.14,Good,1,Intact
+R01188,O02121,C0070,2026-07-15,Wrong Item,Received,1.9,Good,0,Intact
+R01189,O02122,C0032,2026-05-22,Changed mind,Received,0.76,Used,1,Intact
+R01190,O02124,C0036,2026-08-08,Size issue,Received,0.73,Used,1,Intact
+R01191,O02126,C0054,2026-07-10,Package arrived damaged,Received,6.01,Good,1,Intact
+R01192,O02129,C0052,2026-09-05,Duplicate order,Received,10.51,Good,1,Intact
+R01193,O02131,C0056,2026-05-17,Size issue,Received,3.98,Good,1,Damaged
+R01194,O02133,C0040,2026-06-07,Size issue,Received,1.32,Used,1,Intact
+R01195,O02134,C0026,2026-06-29,Changed mind,Received,7.25,Defective,1,Intact
+R01196,O02135,C0260,2026-08-04,Duplicate order,Received,4.03,Defective,1,Intact
+R01197,O02136,C0025,2026-08-11,Duplicate order,Received,6.93,Good,1,Intact
+R01198,O02137,C0062,2026-06-16,Duplicate order,Received,17.08,Good,1,Intact
+R01199,O02138,C0033,2026-06-05,Changed mind,Received,0.7,Used,1,Intact
+R01200,O02143,C0035,2026-07-28,Size issue,Received,0.87,Used,1,Intact
+R01201,O02145,C0062,2026-08-04,Package arrived damaged,Received,1.11,Good,1,Intact
+R01202,O02148,C0295,2026-08-26,Item not received,Received,7.0,Defective,1,Intact
+R01203,O02149,C0173,2026-06-08,Item not received,Received,0.34,Defective,1,Intact
+R01204,O02150,C0417,2026-06-11,Color mismatch,Received,2.15,Defective,1,Intact
+R01205,O02151,C0342,2026-08-07,Wrong Item,Received,1.29,Good,1,Intact
+R01206,O02152,C0022,2026-07-06,Package arrived damaged,Received,1.1,Good,1,Intact
+R01207,O02154,C0154,2026-08-05,Duplicate order,Received,3.99,Defective,1,Damaged
+R01208,O02155,C0022,2026-07-14,Item not received,Received,0.52,Good,1,Intact
+R01209,O02156,C0058,2026-07-20,Item not received,Received,3.82,Defective,1,Intact
+R01210,O02157,C0207,2026-05-08,Item not received,Received,4.19,Good,1,Intact
+R01211,O02162,C0065,2026-08-20,Wrong Item,Received,5.44,Good,0,Intact
+R01212,O02163,C0041,2026-07-22,Changed mind,Received,0.57,Used,1,Intact
+R01213,O02164,C0261,2026-06-23,Package arrived damaged,Received,0.49,Good,1,Intact
+R01214,O02166,C0033,2026-07-31,Size issue,Received,1.35,Used,1,Intact
+R01215,O02167,C0032,2026-07-07,Changed mind,Received,1.14,Used,1,Intact
+R01216,O02168,C0309,2026-05-31,Item not received,Received,1.39,Defective,1,Intact
+R01217,O02171,C0052,2026-06-07,Item not received,Received,1.92,Good,1,Intact
+R01218,O02172,C0057,2026-06-15,Size issue,Received,10.94,Defective,1,Intact
+R01219,O02173,C0020,2026-05-13,Package arrived damaged,Received,7.13,Good,1,Intact
+R01220,O02174,C0169,2026-05-20,Duplicate order,Received,3.65,Good,1,Intact
+R01221,O02181,C0041,2026-07-25,Changed mind,Received,0.86,Used,1,Intact
+R01222,O02185,C0060,2026-05-09,Package arrived damaged,Received,0.6,Defective,1,Intact
+R01223,O02187,C0390,2026-07-23,Wrong Item,Received,0.41,Defective,1,Intact
+R01224,O02188,C0060,2026-06-13,Size issue,Received,2.32,Good,1,Intact
+R01225,O02189,C0021,2026-07-07,Item not received,Received,1.47,Good,1,Intact
+R01226,O02190,C0061,2026-07-22,Changed mind,Received,2.04,Good,1,Intact
+R01227,O02191,C0070,2026-08-01,Wrong Item,Received,1.52,Good,0,Intact
+R01228,O02192,C0022,2026-08-14,Wrong Item,Received,2.15,Good,1,Intact
+R01229,O02193,C0240,2026-08-30,Defective product,Received,3.42,Good,1,Intact
+R01230,O02196,C0387,2026-07-04,Package arrived damaged,Received,0.42,Defective,1,Intact
+R01231,O02198,C0075,2026-05-15,Wrong Item,Received,1.46,Good,0,Intact
+R01232,O02200,C0364,2026-08-01,Package arrived damaged,Received,4.26,Good,1,Intact
+R01233,O02201,C0053,2026-07-26,Item not received,Received,3.62,Good,1,Intact
+R01234,O02207,C0136,2026-07-13,Item not received,Received,5.67,Good,1,Intact
+R01235,O02208,C0084,2026-08-23,Changed mind,Received,2.45,Good,1,Intact
+R01236,O02210,C0392,2026-08-03,Package arrived damaged,Received,0.45,Good,1,Intact
+R01237,O02211,C0032,2026-05-30,Size issue,Received,1.36,Used,1,Intact
+R01238,O02212,C0175,2026-07-01,Wrong Item,Received,3.77,Good,1,Damaged
+R01239,O02214,C0113,2026-06-25,Item not received,Received,3.6,Defective,1,Damaged
+R01240,O02216,C0030,2026-05-13,Size issue,Received,1.14,Used,1,Intact
+R01241,O02217,C0248,2026-07-18,Defective product,Received,3.96,Good,1,Damaged
+R01242,O02219,C0056,2026-08-30,Duplicate order,Received,4.4,Good,1,Intact
+R01243,O02220,C0059,2026-05-14,Wrong Item,Received,20.56,Good,1,Intact
+R01244,O02221,C0033,2026-07-23,Size issue,Received,0.57,Used,1,Intact
+R01245,O02222,C0064,2026-06-05,Defective product,Received,7.44,Good,1,Intact
+R01246,O02223,C0079,2026-05-26,Size issue,Received,0.5,Defective,1,Intact
+R01247,O02224,C0020,2026-07-01,Package arrived damaged,Received,2.05,Good,1,Intact
+R01248,O02225,C0061,2026-08-17,Changed mind,Received,0.91,Defective,1,Intact
+R01249,O02226,C0041,2026-05-25,Changed mind,Received,1.46,Used,1,Intact
+R01250,O02227,C0081,2026-05-30,Item not received,Received,0.86,Good,1,Intact
+R01251,O02232,C0063,2026-05-21,Defective product,Received,1.4,Good,1,Intact
+R01252,O02233,C0033,2026-06-15,Changed mind,Received,1.12,Used,1,Intact
+R01253,O02236,C0054,2026-05-23,Size issue,Received,2.35,Good,1,Intact
+R01254,O02239,C0055,2026-06-17,Wrong Item,Received,11.69,Defective,1,Intact
+R01255,O02241,C0244,2026-05-26,Color mismatch,Received,3.12,Defective,1,Intact
+R01256,O02242,C0252,2026-05-31,Package arrived damaged,Received,0.1,Missing,0,Intact
+R01257,O02243,C0074,2026-05-17,Wrong Item,Received,2.5,Good,0,Intact
+R01258,O02244,C0035,2026-08-23,Changed mind,Received,0.62,Used,1,Intact
+R01259,O02246,C0253,2026-06-09,Size issue,Received,7.21,Good,1,Intact
+R01260,O02247,C0291,2026-08-21,Item not received,Received,1.38,Good,1,Intact
+R01261,O02251,C0007,2026-07-23,Changed mind,Received,0.64,Good,1,Intact
+R01262,O02254,C0190,2026-07-03,Changed mind,Received,4.38,Defective,1,Intact
+R01263,O02255,C0255,2026-07-30,Item not received,Received,0.54,Good,1,Intact
+R01264,O02258,C0137,2026-07-27,Color mismatch,Received,0.72,Good,1,Intact
+R01265,O02261,C0075,2026-06-19,Wrong Item,Received,2.48,Good,0,Damaged
+R01266,O02264,C0073,2026-08-02,Wrong Item,Received,2.9,Good,0,Intact
+R01267,O02267,C0348,2026-08-08,Changed mind,Received,2.44,Good,1,Intact
+R01268,O02268,C0031,2026-07-03,Changed mind,Received,1.47,Used,1,Intact
+R01269,O02269,C0322,2026-07-26,Item not received,Received,1.39,Good,1,Intact
+R01270,O02270,C0173,2026-05-26,Color mismatch,Received,2.21,Good,1,Damaged
+R01271,O02271,C0057,2026-06-12,Duplicate order,Received,13.95,Good,1,Intact
+R01272,O02273,C0041,2026-05-27,Size issue,Received,0.81,Used,1,Intact
+R01273,O02276,C0038,2026-06-07,Size issue,Received,1.42,Used,1,Intact
+R01274,O02280,C0324,2026-07-26,Item not received,Received,0.86,Defective,1,Intact
+R01275,O02281,C0053,2026-07-09,Duplicate order,Received,4.05,Good,1,Intact
+R01276,O02282,C0031,2026-06-29,Size issue,Received,1.24,Used,1,Damaged
+R01277,O02283,C0083,2026-07-20,Color mismatch,Received,0.61,Defective,1,Intact
+R01278,O02284,C0091,2026-06-02,Duplicate order,Received,3.34,Good,1,Intact
+R01279,O02285,C0036,2026-05-27,Changed mind,Received,1.48,Used,1,Intact
+R01280,O02287,C0340,2026-05-30,Duplicate order,Received,3.67,Good,1,Intact
+R01281,O02289,C0033,2026-05-16,Size issue,Received,0.59,Used,1,Intact
+R01282,O02290,C0007,2026-07-25,Package arrived damaged,Received,3.77,Good,1,Intact
+R01283,O02291,C0441,2026-05-29,Item not received,Received,2.45,Good,1,Intact
+R01284,O02292,C0189,2026-09-01,Item not received,Received,3.55,Good,1,Damaged
+R01285,O02294,C0022,2026-06-10,Defective product,Received,0.77,Good,1,Intact
+R01286,O02295,C0053,2026-07-21,Duplicate order,Received,2.73,Good,1,Intact
+R01287,O02297,C0025,2026-07-22,Color mismatch,Received,0.82,Defective,1,Damaged
+R01288,O02298,C0032,2026-06-29,Changed mind,Received,1.21,Used,1,Intact
+R01289,O02300,C0211,2026-05-31,Size issue,Received,0.92,Good,1,Intact
+R01290,O02301,C0021,2026-08-11,Item not received,Received,1.48,Good,1,Intact
+R01291,O02303,C0035,2026-06-17,Size issue,Received,0.85,Used,1,Damaged
+R01292,O02304,C0442,2026-07-11,Package arrived damaged,Received,0.62,Good,1,Intact
+R01293,O02308,C0148,2026-07-20,Defective product,Received,1.12,Good,1,Intact
+R01294,O02309,C0057,2026-07-23,Package arrived damaged,Received,3.68,Good,1,Intact
+R01295,O02312,C0063,2026-06-19,Size issue,Received,3.52,Good,1,Intact
+R01296,O02313,C0055,2026-07-13,Package arrived damaged,Received,17.31,Good,1,Intact
+R01297,O02315,C0020,2026-07-21,Package arrived damaged,Received,1.35,Defective,1,Intact
+R01298,O02317,C0038,2026-07-16,Size issue,Received,1.48,Used,1,Intact
+R01299,O02318,C0058,2026-07-18,Color mismatch,Received,16.69,Good,1,Intact
+R01300,O02321,C0217,2026-08-17,Changed mind,Received,1.44,Good,1,Intact
+R01301,O02323,C0036,2026-08-01,Size issue,Received,0.56,Used,1,Intact
+R01302,O02325,C0342,2026-08-17,Size issue,Received,0.86,Good,1,Damaged
+R01303,O02328,C0020,2026-06-23,Defective product,Received,0.46,Defective,1,Intact
+R01304,O02329,C0030,2026-08-27,Changed mind,Received,1.4,Used,1,Damaged
+R01305,O02331,C0349,2026-09-02,Item not received,Received,5.72,Defective,1,Intact
+R01306,O02335,C0050,2026-05-19,Color mismatch,Received,2.54,Good,1,Damaged
+R01307,O02337,C0023,2026-08-21,Color mismatch,Received,2.92,Good,1,Damaged
+R01308,O02338,C0056,2026-05-16,Color mismatch,Received,0.65,Good,1,Intact
+R01309,O02343,C0063,2026-08-22,Package arrived damaged,Received,2.18,Good,1,Intact
+R01310,O02345,C0081,2026-07-18,Item not received,Received,3.59,Good,1,Intact
+R01311,O02346,C0074,2026-06-05,Wrong Item,Received,1.98,Good,0,Intact
+R01312,O02347,C0278,2026-06-03,Duplicate order,Received,7.01,Defective,1,Intact
+R01313,O02348,C0117,2026-07-07,Color mismatch,Received,4.07,Good,1,Intact
+R01314,O02350,C0385,2026-06-01,Defective product,Received,2.78,Good,1,Intact
+R01315,O02351,C0395,2026-07-25,Package arrived damaged,Received,4.11,Defective,1,Intact
+R01316,O02353,C0445,2026-07-19,Defective product,Received,2.16,Good,1,Intact
+R01317,O02357,C0219,2026-08-03,Defective product,Received,6.03,Defective,1,Intact
+R01318,O02358,C0117,2026-08-22,Item not received,Received,0.46,Good,1,Damaged
+R01319,O02361,C0035,2026-09-04,Size issue,Received,1.45,Used,1,Intact
+R01320,O02364,C0062,2026-05-09,Size issue,Received,18.0,Defective,1,Intact
+R01321,O02365,C0050,2026-08-22,Defective product,Received,2.0,Defective,1,Intact
+R01322,O02366,C0021,2026-08-30,Defective product,Received,4.15,Good,1,Intact
+R01323,O02368,C0099,2026-07-28,Size issue,Received,0.97,Defective,1,Intact
+R01324,O02370,C0249,2026-07-09,Defective product,Received,0.65,Good,1,Intact
+R01325,O02371,C0038,2026-08-22,Size issue,Received,1.47,Used,1,Intact
+R01326,O02372,C0143,2026-06-28,Item not received,Received,2.95,Defective,1,Intact
+R01327,O02374,C0004,2026-05-24,Package arrived damaged,Received,3.48,Defective,1,Intact
+R01328,O02376,C0051,2026-05-25,Size issue,Received,2.43,Good,1,Intact
+R01329,O02380,C0054,2026-05-20,Package arrived damaged,Received,3.52,Defective,1,Intact
+R01330,O02382,C0074,2026-08-25,Wrong Item,Received,2.61,Good,0,Intact
+R01331,O02384,C0051,2026-07-15,Size issue,Received,2.19,Defective,1,Intact
+R01332,O02389,C0072,2026-06-30,Wrong Item,Received,2.93,Good,0,Intact
+R01333,O02390,C0083,2026-07-15,Color mismatch,Received,7.01,Good,1,Damaged
+R01334,O02396,C0147,2026-08-10,Defective product,Received,2.94,Defective,1,Intact
+R01335,O02399,C0017,2026-08-01,Item not received,Received,7.05,Good,1,Intact
+R01336,O02402,C0424,2026-07-01,Changed mind,Received,2.35,Good,1,Intact
+R01337,O02404,C0444,2026-08-09,Item not received,Received,3.35,Good,1,Intact
+R01338,O02405,C0031,2026-07-27,Changed mind,Received,0.59,Used,1,Intact
+R01339,O02406,C0022,2026-08-26,Item not received,Received,6.98,Defective,1,Intact
+R01340,O02407,C0021,2026-06-02,Size issue,Received,7.1,Good,1,Intact
+R01341,O02408,C0041,2026-05-05,Defective product,Received,0.84,Good,1,Intact
+R01342,O02409,C0289,2026-08-09,Item not received,Received,2.5,Defective,1,Intact
+R01343,O02410,C0062,2026-08-03,Defective product,Received,0.53,Good,1,Intact
+R01344,O02413,C0023,2026-07-08,Wrong Item,Received,3.01,Good,1,Damaged
+R01345,O02418,C0039,2026-07-01,Changed mind,Received,0.79,Used,1,Intact
+R01346,O02421,C0071,2026-06-30,Wrong Item,Received,3.27,Good,0,Intact
+R01347,O02422,C0277,2026-07-09,Defective product,Received,1.24,Good,1,Intact
+R01348,O02425,C0059,2026-05-21,Package arrived damaged,Received,3.87,Good,1,Intact
+R01349,O02429,C0063,2026-05-23,Color mismatch,Received,0.8,Good,1,Intact
+R01350,O02430,C0064,2026-07-09,Duplicate order,Received,2.65,Defective,1,Intact
+R01351,O02431,C0020,2026-05-26,Changed mind,Received,0.62,Good,1,Intact
+R01352,O02433,C0021,2026-06-22,Color mismatch,Received,1.06,Defective,1,Intact
+R01353,O02438,C0051,2026-05-15,Changed mind,Received,3.74,Good,1,Intact
+R01354,O02439,C0058,2026-08-18,Wrong Item,Received,1.0,Good,1,Intact
+R01355,O02440,C0021,2026-08-15,Duplicate order,Received,7.08,Good,1,Intact
+R01356,O02442,C0211,2026-05-13,Defective product,Received,4.24,Good,1,Intact
+R01357,O02443,C0260,2026-08-04,Duplicate order,Received,5.77,Good,1,Intact
+R01358,O02444,C0057,2026-06-07,Package arrived damaged,Received,16.89,Defective,1,Intact
+R01359,O02445,C0227,2026-05-23,Item not received,Received,1.97,Defective,1,Intact
+R01360,O02446,C0116,2026-08-02,Duplicate order,Received,7.15,Good,1,Intact
+R01361,O02447,C0055,2026-08-30,Item not received,Received,7.69,Good,1,Intact
+R01362,O02448,C0072,2026-08-02,Wrong Item,Received,2.24,Good,0,Intact
+R01363,O02449,C0064,2026-06-27,Wrong Item,Received,1.31,Good,1,Intact
+R01364,O02451,C0397,2026-07-11,Size issue,Received,7.23,Good,1,Intact
+R01365,O02452,C0033,2026-07-30,Changed mind,Received,1.4,Used,1,Damaged
+R01366,O02454,C0063,2026-06-27,Item not received,Received,3.78,Good,1,Intact
+R01367,O02459,C0083,2026-06-03,Duplicate order,Received,3.45,Good,1,Intact
+R01368,O02460,C0057,2026-08-21,Defective product,Received,1.12,Good,1,Intact
+R01369,O02461,C0021,2026-05-14,Duplicate order,Received,3.79,Good,1,Intact
+R01370,O02462,C0060,2026-05-26,Package arrived damaged,Received,8.52,Good,1,Intact
+R01371,O02463,C0186,2026-08-17,Color mismatch,Received,7.08,Good,1,Intact
+R01372,O02465,C0036,2026-07-26,Size issue,Received,0.74,Used,1,Intact
+R01373,O02467,C0033,2026-05-08,Size issue,Received,0.52,Used,1,Intact
+R01374,O02468,C0063,2026-07-28,Duplicate order,Received,1.09,Good,1,Intact
+R01375,O02471,C0059,2026-06-13,Defective product,Received,3.34,Good,1,Intact
+R01376,O02474,C0059,2026-07-09,Duplicate order,Received,1.36,Good,1,Damaged
+R01377,O02475,C0024,2026-08-22,Wrong Item,Received,2.29,Good,1,Intact
+R01378,O02477,C0403,2026-06-17,Color mismatch,Received,2.87,Defective,1,Intact
+R01379,O02478,C0412,2026-08-07,Item not received,Received,1.29,Good,1,Intact
+R01380,O02479,C0098,2026-05-10,Color mismatch,Received,7.4,Defective,1,Intact
+R01381,O02480,C0053,2026-08-20,Wrong Item,Received,5.6,Good,1,Intact
+R01382,O02482,C0217,2026-08-05,Package arrived damaged,Received,0.42,Missing,0,Intact
+R01383,O02483,C0059,2026-05-29,Defective product,Received,1.04,Good,1,Intact
+R01384,O02484,C0023,2026-06-02,Duplicate order,Received,1.22,Good,1,Intact
+R01385,O02485,C0053,2026-06-02,Defective product,Received,1.1,Defective,1,Intact
+R01386,O02486,C0228,2026-07-16,Duplicate order,Received,2.14,Good,1,Intact
+R01387,O02487,C0037,2026-06-17,Size issue,Received,0.51,Used,1,Intact
+R01388,O02492,C0030,2026-05-21,Size issue,Received,0.66,Used,1,Intact
+R01389,O02493,C0186,2026-07-22,Package arrived damaged,Received,5.87,Good,1,Intact
+R01390,O02494,C0034,2026-08-01,Changed mind,Received,0.72,Used,1,Intact
+R01391,O02497,C0339,2026-08-07,Wrong Item,Received,3.44,Good,1,Intact
+R01392,O02498,C0093,2026-05-27,Size issue,Received,7.35,Defective,1,Intact
+R01393,O02499,C0074,2026-08-20,Wrong Item,Received,1.18,Good,0,Intact
+R01394,O02500,C0050,2026-07-05,Package arrived damaged,Received,1.37,Defective,1,Intact

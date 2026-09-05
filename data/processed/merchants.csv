@@ -1,0 +1,13 @@
+merchant_id,category,total_orders,return_rate,refund_rate,fraud_rate,merchant_risk_score
+M001,Fashion,4711,15.3,14.6,2.2,27
+M002,Electronics,5291,13.5,13.7,1.7,42
+M003,Beauty,9925,13.8,13.7,0.9,22
+M004,Footwear,16665,10.9,9.4,1.1,18
+M005,Home,10227,10.8,10.6,1.3,26
+M006,Grocery,9820,24.1,21.8,5.8,75
+M007,Fashion,5169,14.1,12.5,1.8,20
+M008,Electronics,11573,11.8,12.4,1.7,32
+M009,Beauty,7598,14.8,15.1,1.9,22
+M010,Footwear,17464,8.3,7.6,1.2,21
+M011,Home,13292,30.8,28.1,5.1,67
+M012,Grocery,14532,12.6,11.4,1.1,32
