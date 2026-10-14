@@ -142,24 +142,70 @@ RefundShield_Dataset/
 
 ---
 
+```
+
+---
+
+## ⚡ Real-Time Dynamic FastAPI Platform & Web Dashboard
+
+RefundShield AI is equipped with an enterprise-grade **FastAPI REST API** with live sub-millisecond dynamic relational queries and an interactive dark glassmorphic command center dashboard.
+
+### 🌐 Key Features & Endpoints
+- **Dynamic Customer 360 Dossier (`GET /api/customers/{customer_id}`)**:
+  - Dynamically fetches complete profile, full transaction history, return reasons, weight discrepancies, and linked hardware devices.
+  - Computes real-time **Hybrid Risk Score (0–100)** combining XGBoost ML inference, 14 business rules, and NetworkX identity graph penalties with point-by-point explainability.
+- **Dynamic Order Risk Inspection (`GET /api/orders/{order_id}`)**:
+  - Fetches multi-table relational context across order, carrier tampering, merchant risk, physical weight loss %, and item SKU matching.
+- **Real-Time Transaction Evaluation Sandbox (`POST /api/evaluate`)**:
+  - Evaluates custom transactions or auto-populates historical baseline from `customer_id`.
+- **Instant Global Search & Autocomplete (`GET /api/search?q=...`)**:
+  - Sub-second autocomplete search across Customers (`C0001`–`C0450`), Orders, Devices, and Phone Hashes.
+- **Executive Analytics & Supply Chain (`GET /api/analytics/...`)**:
+  - KPIs, Risk Tier Distribution, Fraud Typology Exposure, and Carrier Tampering rankings.
+- **Interactive OpenAPI Documentation**:
+  - Interactive Swagger UI at `http://127.0.0.1:8000/docs` and ReDoc at `http://127.0.0.1:8000/redoc`.
+
+---
+
 ## 🚀 Quick Start Guide
 
-### 1. Initialize Database & Run Feature Pipeline
+### 1. Ingest Full Dataset & Initialize Database
 ```bash
-# Initialize SQLite database and ingest data
-python -m src.db.database
-
-# Train ML models and generate evaluation charts
-python -m src.models.train_models
-python -m src.models.fraud_type_classifier
-python -m src.models.evaluator
+python -c "from src.db.database import ingest_csv_data, initialize_database; initialize_database(); ingest_csv_data(data_dir='data/processed')"
 ```
 
-### 2. Launch the Interactive Web Command Center
+### 2. Launch the Dynamic FastAPI Platform & Web UI (Recommended)
 ```bash
-streamlit run app.py
+python main.py
+# Or run with uvicorn directly:
+uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
-*Access the dashboard in your browser at `http://localhost:8501`.*
+- **Web Command Center Dashboard**: Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+- **Interactive Swagger API Documentation**: Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+- **Alternative Streamlit App (Legacy)**: `streamlit run app.py`
+
+### 3. Example cURL / API Usage
+
+**Dynamic Customer Dossier:**
+```bash
+curl -X GET "http://127.0.0.1:8000/api/customers/C0022"
+```
+
+**Real-Time Transaction Evaluation:**
+```bash
+curl -X POST "http://127.0.0.1:8000/api/evaluate" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "customer_id": "C0022",
+    "order_amount": 28500,
+    "category": "Electronics",
+    "original_weight_kg": 3.2,
+    "returned_weight_kg": 0.4,
+    "item_match_flag": 0.0,
+    "product_condition": "Missing",
+    "return_reason": "Wrong Item"
+  }'
+```
 
 ---
 

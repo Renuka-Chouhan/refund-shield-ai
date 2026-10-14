@@ -1,0 +1,7 @@
+delivery_partner_id,total_deliveries,return_complaints,tampering_cases,suspicious_returns,partner_risk_score
+DP001,13357,61,12,29,15
+DP002,7043,131,10,12,37
+DP003,5778,117,10,21,37
+DP004,11731,150,15,36,21
+DP005,13783,83,23,32,21
+DP006,7720,126,3,37,65

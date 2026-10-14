@@ -1,0 +1,76 @@
+order_id,customer_id,order_amount,customer_order_count,customer_return_count,return_rate,refund_count,refund_amount,address_changes,phone_changes,account_count,device_account_count,original_weight_kg,returned_weight_kg,weight_difference_pct,previous_fraud,chargeback_count,merchant_return_rate,delivery_partner_risk,item_match_flag,product_condition,fraud_type,fraud_label,risk_score,risk_level,recommended_action
+O00001,C0030,793,2,1.0,50.0,0.0,0.0,0,1,1,1,3.72,0.0,100.0,0,0,9.3,15,0.0,Unknown/Not Returned,Legitimate,0,61,Medium,Manual Review
+O00002,C0005,2023,8,8.0,100.0,1.0,2023.0,0,1,1,1,1.94,1.26,35.05,1,0,26.2,37,0.0,Good,Item Switching,1,73,High,Investigate
+O00003,C0002,27559,5,0.0,0.0,0.0,0.0,0,0,1,2,3.09,0.0,100.0,0,0,20.8,21,0.0,Unknown/Not Returned,Legitimate,0,53,Medium,Manual Review
+O00004,C0002,539,5,0.0,0.0,0.0,0.0,0,0,1,2,0.38,0.0,100.0,0,0,9.3,15,0.0,Unknown/Not Returned,Legitimate,0,52,Medium,Manual Review
+O00005,C0019,5922,5,5.0,100.0,1.0,5922.0,1,1,1,1,2.53,2.42,4.35,0,1,8.8,37,1.0,Good,Fake INR,1,47,Medium,Manual Review
+O00006,C0001,715,5,1.0,20.0,1.0,715.0,0,0,1,1,3.32,3.42,-3.01,0,0,12.6,37,1.0,Good,Legitimate,0,10,Low,Approve
+O00007,C0016,1034,1,0.0,0.0,0.0,0.0,1,0,1,1,1.6,0.0,100.0,0,1,8.8,15,0.0,Unknown/Not Returned,Legitimate,0,63,Medium,Manual Review
+O00008,C0001,1854,5,1.0,20.0,0.0,0.0,0,0,1,1,4.04,0.0,100.0,0,0,26.2,65,0.0,Unknown/Not Returned,Legitimate,0,59,Medium,Manual Review
+O00009,C0005,2565,8,8.0,100.0,1.0,2565.0,0,1,1,1,4.19,2.47,41.05,1,0,26.2,21,0.0,Good,Item Switching,1,72,High,Investigate
+O00010,C0018,2583,1,0.0,0.0,0.0,0.0,1,0,1,1,3.09,0.0,100.0,0,0,26.6,37,0.0,Unknown/Not Returned,Legitimate,0,55,Medium,Manual Review
+O00011,C0001,2898,5,1.0,20.0,0.0,0.0,0,0,1,1,2.4,0.0,100.0,0,0,20.8,37,0.0,Unknown/Not Returned,Legitimate,0,55,Medium,Manual Review
+O00012,C0014,10456,1,0.0,0.0,0.0,0.0,1,0,1,2,1.43,0.0,100.0,0,0,22.3,65,0.0,Unknown/Not Returned,Legitimate,0,64,Medium,Manual Review
+O00013,C0022,3492,2,0.0,0.0,0.0,0.0,0,1,1,2,2.52,0.0,100.0,0,0,26.2,21,0.0,Unknown/Not Returned,Legitimate,0,57,Medium,Manual Review
+O00014,C0030,1770,2,1.0,50.0,1.0,1770.0,0,1,1,1,4.34,3.91,9.91,0,0,20.8,21,1.0,Good,Legitimate,0,20,Low,Approve
+O00015,C0008,8408,1,0.0,0.0,0.0,0.0,1,1,1,1,0.59,0.0,100.0,0,1,12.0,37,0.0,Unknown/Not Returned,Legitimate,0,71,High,Investigate
+O00016,C0026,24484,1,0.0,0.0,0.0,0.0,2,0,1,2,4.28,0.0,100.0,0,0,26.2,65,0.0,Unknown/Not Returned,Legitimate,0,68,Medium,Manual Review
+O00017,C0001,2858,5,1.0,20.0,0.0,0.0,0,0,1,1,3.69,0.0,100.0,0,0,20.8,21,0.0,Unknown/Not Returned,Legitimate,0,52,Medium,Manual Review
+O00018,C0011,4941,4,4.0,100.0,1.0,4941.0,1,1,1,2,0.51,0.46,9.8,0,0,12.0,37,1.0,Good,Bracketing Abuse,1,41,Medium,Manual Review
+O00019,C0021,19854,3,3.0,100.0,1.0,19854.0,5,3,3,5,1.28,1.28,0.0,1,0,9.3,37,1.0,Good,Identity/Account Abuse,1,93,High,Investigate
+O00020,C0009,1047,3,3.0,100.0,1.0,1047.0,2,1,1,1,4.09,3.88,5.13,0,0,22.3,37,1.0,Good,Serial Returning,1,39,Medium,Manual Review
+O00021,C0005,2677,8,8.0,100.0,1.0,2677.0,0,1,1,1,0.45,0.14,68.89,1,0,12.6,15,0.0,Good,Item Switching,1,78,High,Investigate
+O00022,C0012,1437,1,0.0,0.0,0.0,0.0,2,1,1,1,0.55,0.0,100.0,0,0,9.3,37,0.0,Unknown/Not Returned,Legitimate,0,63,Medium,Manual Review
+O00023,C0020,1556,2,0.0,0.0,0.0,0.0,2,1,1,1,2.32,0.0,100.0,0,0,20.8,37,0.0,Unknown/Not Returned,Legitimate,0,63,Medium,Manual Review
+O00024,C0013,4474,8,8.0,100.0,1.0,4474.0,1,1,1,1,4.37,3.78,13.5,0,0,12.0,65,1.0,Good,Receipt Fraud,1,41,Medium,Manual Review
+O00025,C0020,1915,2,0.0,0.0,0.0,0.0,2,1,1,1,0.4,0.0,100.0,0,0,26.2,21,0.0,Unknown/Not Returned,Legitimate,0,60,Medium,Manual Review
+O00026,C0028,2642,1,0.0,0.0,0.0,0.0,0,0,1,1,0.53,0.0,100.0,0,0,26.6,37,0.0,Unknown/Not Returned,Legitimate,0,51,Medium,Manual Review
+O00027,C0013,6456,8,8.0,100.0,1.0,6456.0,1,1,1,1,1.97,1.82,7.61,0,0,20.8,65,1.0,Good,Receipt Fraud,1,40,Medium,Manual Review
+O00028,C0027,4803,1,0.0,0.0,0.0,0.0,1,0,1,2,2.5,0.0,100.0,0,0,26.6,21,0.0,Unknown/Not Returned,Legitimate,0,57,Medium,Manual Review
+O00029,C0019,1769,5,5.0,100.0,1.0,1769.0,1,1,1,1,1.74,1.59,8.62,0,1,9.3,65,1.0,Good,Fake INR,1,52,Medium,Manual Review
+O00030,C0022,3465,2,0.0,0.0,0.0,0.0,0,1,1,2,3.57,0.0,100.0,0,0,26.6,15,0.0,Unknown/Not Returned,Legitimate,0,56,Medium,Manual Review
+O00031,C0002,508,5,0.0,0.0,0.0,0.0,0,0,1,2,4.12,0.0,100.0,0,0,8.8,37,0.0,Unknown/Not Returned,Legitimate,0,56,Medium,Manual Review
+O00032,C0010,4126,1,1.0,100.0,1.0,4126.0,1,1,1,1,2.69,2.38,11.52,0,0,12.0,65,1.0,Good,Legitimate,0,41,Medium,Manual Review
+O00033,C0003,830,6,6.0,100.0,1.0,830.0,0,1,1,2,2.18,1.87,14.22,0,0,26.2,21,1.0,Used,Wardrobing,1,36,Medium,Manual Review
+O00034,C0015,2848,3,3.0,100.0,1.0,2136.0,1,0,1,2,3.42,2.39,30.12,1,0,9.3,21,0.0,Good,Price Switching,1,75,High,Investigate
+O00035,C0013,23000,8,8.0,100.0,1.0,23000.0,1,1,1,1,1.36,1.25,8.09,0,0,26.2,37,1.0,Good,Receipt Fraud,1,36,Medium,Manual Review
+O00036,C0017,3957,3,3.0,100.0,1.0,3957.0,2,0,1,2,0.57,0.5,12.28,1,3,9.3,37,1.0,Good,Chargeback Fraud,1,93,High,Investigate
+O00037,C0005,1703,8,8.0,100.0,1.0,1703.0,0,1,1,1,2.3,1.48,35.65,1,0,26.2,21,0.0,Good,Item Switching,1,71,High,Investigate
+O00038,C0002,9968,5,0.0,0.0,0.0,0.0,0,0,1,2,3.73,0.0,100.0,0,0,9.3,65,0.0,Unknown/Not Returned,Legitimate,0,60,Medium,Manual Review
+O00039,C0005,1302,8,8.0,100.0,1.0,1302.0,0,1,1,1,2.38,1.12,52.94,1,0,20.8,15,0.0,Good,Item Switching,1,74,High,Investigate
+O00040,C0013,5003,8,8.0,100.0,1.0,5003.0,1,1,1,1,3.62,3.76,-3.87,0,0,22.3,15,1.0,Good,Receipt Fraud,1,30,Low,Approve
+O00041,C0003,2807,6,6.0,100.0,1.0,2807.0,0,1,1,2,3.06,3.04,0.65,0,0,22.3,65,1.0,Used,Wardrobing,1,39,Medium,Manual Review
+O00042,C0029,1299,1,0.0,0.0,0.0,0.0,1,1,1,2,2.49,0.0,100.0,0,0,9.3,15,0.0,Unknown/Not Returned,Legitimate,0,60,Medium,Manual Review
+O00043,C0003,1019,6,6.0,100.0,1.0,1019.0,0,1,1,2,0.85,0.81,4.71,0,0,26.2,21,1.0,Used,Wardrobing,1,33,Medium,Manual Review
+O00044,C0001,1365,5,1.0,20.0,0.0,0.0,0,0,1,1,3.63,0.0,100.0,0,0,12.0,21,0.0,Unknown/Not Returned,Legitimate,0,52,Medium,Manual Review
+O00045,C0019,810,5,5.0,100.0,1.0,810.0,1,1,1,1,2.02,1.76,12.87,0,1,20.8,65,1.0,Good,Fake INR,1,53,Medium,Manual Review
+O00046,C0015,4722,3,3.0,100.0,1.0,3542.0,1,0,1,2,1.81,1.27,29.83,1,0,26.6,21,0.0,Good,Price Switching,1,75,High,Investigate
+O00047,C0021,20434,3,3.0,100.0,1.0,20434.0,5,3,3,5,3.4,3.48,-2.35,1,0,26.6,37,1.0,Good,Identity/Account Abuse,1,93,High,Investigate
+O00048,C0002,12610,5,0.0,0.0,0.0,0.0,0,0,1,2,2.68,0.0,100.0,0,0,8.8,37,0.0,Unknown/Not Returned,Legitimate,0,56,Medium,Manual Review
+O00049,C0013,9419,8,8.0,100.0,1.0,9419.0,1,1,1,1,0.99,1.0,-1.01,0,0,26.2,21,1.0,Good,Receipt Fraud,1,31,Medium,Manual Review
+O00050,C0003,3967,6,6.0,100.0,1.0,3967.0,0,1,1,2,2.5,2.29,8.4,0,0,26.2,15,1.0,Used,Wardrobing,1,33,Medium,Manual Review
+O00051,C0015,2426,3,3.0,100.0,1.0,1820.0,1,0,1,2,0.32,0.22,31.25,1,0,26.6,21,0.0,Good,Price Switching,1,75,High,Investigate
+O00052,C0017,9475,3,3.0,100.0,1.0,9475.0,2,0,1,2,4.26,4.25,0.23,1,3,22.3,65,1.0,Good,Chargeback Fraud,1,94,High,Investigate
+O00053,C0007,1386,3,3.0,100.0,1.0,1386.0,1,1,1,1,1.76,0.11,93.75,1,0,8.8,21,0.0,Good,Empty Box,1,90,High,Investigate
+O00054,C0013,9333,8,8.0,100.0,1.0,9333.0,1,1,1,1,0.3,0.26,13.33,0,0,12.6,65,1.0,Good,Receipt Fraud,1,41,Medium,Manual Review
+O00055,C0009,25191,3,3.0,100.0,1.0,25191.0,2,1,1,1,3.0,2.71,9.67,0,0,9.3,21,1.0,Good,Serial Returning,1,38,Medium,Manual Review
+O00056,C0017,26776,3,3.0,100.0,1.0,26776.0,2,0,1,2,1.94,1.68,13.4,1,3,12.0,37,1.0,Good,Chargeback Fraud,1,93,High,Investigate
+O00057,C0021,2011,3,3.0,100.0,1.0,2011.0,5,3,3,5,4.23,4.31,-1.89,1,0,26.2,37,1.0,Good,Identity/Account Abuse,1,93,High,Investigate
+O00058,C0023,1790,2,2.0,100.0,1.0,1790.0,2,1,1,1,1.98,1.71,13.64,1,0,12.0,65,1.0,Good,Delivery Fraud,1,60,Medium,Manual Review
+O00059,C0011,3720,4,4.0,100.0,1.0,3720.0,1,1,1,2,1.0,0.98,2.0,0,0,9.3,21,1.0,Good,Bracketing Abuse,1,37,Medium,Manual Review
+O00060,C0013,1695,8,8.0,100.0,1.0,1695.0,1,1,1,1,0.39,0.35,10.26,0,0,20.8,37,1.0,Good,Receipt Fraud,1,36,Medium,Manual Review
+O00061,C0023,5697,2,2.0,100.0,1.0,5697.0,2,1,1,1,3.19,3.06,4.08,1,0,8.8,65,1.0,Good,Delivery Fraud,1,58,Medium,Manual Review
+O00062,C0019,936,5,5.0,100.0,1.0,936.0,1,1,1,1,4.46,3.85,13.68,0,1,26.2,21,1.0,Good,Fake INR,1,47,Medium,Manual Review
+O00063,C0009,2468,3,3.0,100.0,1.0,2468.0,2,1,1,1,1.65,1.68,-1.82,0,0,12.6,21,1.0,Good,Serial Returning,1,35,Medium,Manual Review
+O00064,C0011,814,4,4.0,100.0,1.0,814.0,1,1,1,2,4.28,4.15,3.04,0,0,9.3,15,1.0,Good,Bracketing Abuse,1,36,Medium,Manual Review
+O00065,C0005,2399,8,8.0,100.0,1.0,2399.0,0,1,1,1,1.71,0.61,64.33,1,0,9.3,37,0.0,Good,Item Switching,1,81,High,Investigate
+O00066,C0005,1457,8,8.0,100.0,1.0,1457.0,0,1,1,1,0.35,0.15,57.14,1,0,26.2,37,0.0,Good,Item Switching,1,79,High,Investigate
+O00067,C0005,5752,8,8.0,100.0,1.0,5752.0,0,1,1,1,3.19,2.06,35.42,1,0,26.6,37,0.0,Good,Item Switching,1,73,High,Investigate
+O00068,C0007,27477,3,3.0,100.0,1.0,27477.0,1,1,1,1,3.63,0.09,97.52,1,0,12.0,37,0.0,Good,Empty Box,1,93,High,Investigate
+O00069,C0013,7978,8,8.0,100.0,1.0,7978.0,1,1,1,1,3.72,3.62,2.69,0,0,12.0,37,1.0,Good,Receipt Fraud,1,34,Medium,Manual Review
+O00070,C0003,14828,6,6.0,100.0,1.0,14828.0,0,1,1,2,2.92,3.04,-4.11,0,0,9.3,37,1.0,Used,Wardrobing,1,35,Medium,Manual Review
+O00071,C0025,472,1,1.0,100.0,1.0,472.0,2,0,1,2,3.42,3.13,8.48,1,0,12.6,65,1.0,Good,Merchant Fraud,1,60,Medium,Manual Review
+O00072,C0007,2642,3,3.0,100.0,1.0,2642.0,1,1,1,1,2.47,0.11,95.55,1,0,9.3,21,0.0,Good,Empty Box,1,90,High,Investigate
+O00073,C0011,1450,4,4.0,100.0,1.0,1450.0,1,1,1,2,1.06,1.11,-4.72,0,0,8.8,37,1.0,Good,Bracketing Abuse,1,39,Medium,Manual Review
+O00074,C0019,1577,5,5.0,100.0,1.0,1577.0,1,1,1,1,1.46,1.24,15.07,0,1,8.8,37,1.0,Good,Fake INR,1,49,Medium,Manual Review
+O00075,C0003,1358,6,6.0,100.0,1.0,1358.0,0,1,1,2,2.06,1.95,5.34,0,0,26.2,65,1.0,Used,Wardrobing,1,40,Medium,Manual Review

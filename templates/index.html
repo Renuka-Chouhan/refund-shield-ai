@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RefundShield AI - Enterprise Fraud Detection Platform</title>
+    <meta name="description" content="Production-ready E-Commerce Return & Refund Fraud Detection Platform. Real-time multi-layer scoring with XGBoost, Identity Graph Syndicates, and Business Rules.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- Dashboard Stylesheet -->
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Top Navigation Header -->
+    <header class="top-header">
+        <div class="header-left">
+            <div class="brand-shield">🛡️</div>
+            <div class="brand-text">
+                <h1>RefundShield AI</h1>
+                <p>Enterprise Return & Refund Abuse Intelligence Console</p>
+            </div>
+        </div>
+
+        <div class="header-meta">
+            <div class="env-pill">
+                <span class="dot"></span>
+                <span>Production • Engine v2.4 Online</span>
+            </div>
+            <span style="font-size: 0.78rem; color: #64748B; background: rgba(255,255,255,0.03); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.06);">
+                ⚡ Latency: <b style="color: #38BDF8;">&lt; 15ms</b>
+            </span>
+            <a href="/docs" target="_blank" class="doc-link-btn" id="navSwaggerLink">
+                <span>⚡ Swagger API</span>
+            </a>
+            <a href="/redoc" target="_blank" class="doc-link-btn" id="navRedocLink">
+                <span>📑 ReDoc</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Global Search & Quick Access Workbench -->
+    <section class="search-workbench" aria-label="Investigation Lookup">
+        <div class="search-label-row">
+            <span class="search-title">
+                <span>🔎 Dynamic Entity Investigation & Dossier Lookup</span>
+            </span>
+            <span class="search-hint">Sub-millisecond indexed relational search</span>
+        </div>
+
+        <div class="search-field-wrapper">
+            <span class="search-icon-svg">🔍</span>
+            <input 
+                type="text" 
+                id="globalSearchInput" 
+                class="search-input" 
+                placeholder="Search Customer ID (e.g. C0022, C0061, C0001) or Order ID (e.g. O00231)..." 
+                autocomplete="off"
+                spellcheck="false"
+            >
+            <button type="button" id="searchClearBtn" class="search-clear-btn" title="Clear Search">&times;</button>
+            <div id="autocompleteDropdown" class="autocomplete-menu"></div>
+        </div>
+
+        <!-- Quick Pick Verification Chips -->
+        <div class="quick-picks-row">
+            <span class="quick-label">Investigation Benchmarks:</span>
+            <button type="button" class="quick-chip chip-danger" onclick="quickPickCustomer('C0022')">
+                🚨 C0022 (Syndicate Fraudster • 93.3% Return Rate)
+            </button>
+            <button type="button" class="quick-chip chip-danger" onclick="quickPickCustomer('C0061')">
+                ⚠️ C0061 (Serial Returner • 35 Returns)
+            </button>
+            <button type="button" class="quick-chip chip-warning" onclick="quickPickCustomer('C0020')">
+                🔍 C0020 (Prior Confirmed Fraud)
+            </button>
+            <button type="button" class="quick-chip chip-success" onclick="quickPickCustomer('C0001')">
+                ✅ C0001 (Clean Legitimate Buyer • 25% Returns)
+            </button>
+            <button type="button" class="quick-chip" onclick="inspectOrder('O00231')">
+                📦 Order O00231 (Package Telemetry)
+            </button>
+        </div>
+    </section>
+
+    <!-- Navigation Tabs Bar (No Horizontal Scrollbar Overflow) -->
+    <nav class="enterprise-tabs" aria-label="Platform Views">
+        <button type="button" class="tab-nav-btn active" data-tab="tab-dossier" id="tabBtnDossier">
+            <span>👤 Customer 360 Dossier</span>
+        </button>
+        <button type="button" class="tab-nav-btn" data-tab="tab-sandbox" id="tabBtnSandbox">
+            <span>⚡ Real-Time Fraud Simulator</span>
+        </button>
+        <button type="button" class="tab-nav-btn" data-tab="tab-command" id="tabBtnCommand">
+            <span>📊 Executive Command Center</span>
+        </button>
+        <button type="button" class="tab-nav-btn" data-tab="tab-rings" id="tabBtnRings">
+            <span>🕸️ Identity Syndicate Graph</span>
+        </button>
+        <button type="button" class="tab-nav-btn" data-tab="tab-supply" id="tabBtnSupply">
+            <span>🚚 Supply Chain & Carrier Telemetry</span>
+        </button>
+    </nav>
+
+    <!-- ====================================================================
+         TAB 1: DYNAMIC CUSTOMER DOSSIER & RISK 360
+         ==================================================================== -->
+    <main id="tab-dossier" class="tab-pane active">
+
+        <!-- Loading State -->
+        <div id="dossierLoading" style="display: none; text-align: center; padding: 48px 20px;">
+            <div class="spinner-ring"></div>
+            <p style="margin-top: 12px; color: var(--accent-cyan); font-weight: 600; font-size: 0.95rem;">
+                Fetching relational ledger & executing multi-layer fraud scoring...
+            </p>
+        </div>
+
+        <!-- Error State Display -->
+        <div id="dossierError" style="display: none; padding: 18px 22px; background: rgba(244, 63, 94, 0.12); border: 1px solid var(--accent-rose); border-radius: var(--radius-md); margin-bottom: 20px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.2rem;">❌</span>
+                <h3 style="color: var(--accent-rose); font-size: 1rem; margin: 0;">Entity Lookup Notice</h3>
+            </div>
+            <p id="dossierErrorMsg" style="color: var(--text-main); font-size: 0.9rem; margin-top: 4px;"></p>
+        </div>
+
+        <!-- Populated Dossier Content -->
+        <div id="dossierContent">
+
+            <!-- Customer Header Meta Bar -->
+            <div class="dossier-header-bar">
+                <div class="customer-avatar-meta">
+                    <div id="customerAvatar" class="customer-avatar">C</div>
+                    <div class="customer-identity">
+                        <h2>
+                            <span id="dossierCustId" style="font-family: 'JetBrains Mono', monospace; color: var(--accent-cyan);">--</span>
+                            <span id="dossierStatus" class="badge-status">Active</span>
+                        </h2>
+                        <p>
+                            📍 <span id="dossierCity">--</span> &bull; 
+                            Registered: <span id="dossierRegDate">--</span> &bull; 
+                            Account Age: <span id="metricAccountAge">--</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <span id="dossierRiskBadge" class="risk-pill-high">EVALUATING</span>
+                </div>
+            </div>
+
+            <!-- 3-Column Workbench Layout -->
+            <div class="grid-3col" style="margin-bottom: 20px;">
+
+                <!-- Column 1: Multi-Layer Decision Engine Card -->
+                <div class="card-box">
+                    <h3 style="font-size: 0.9rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                        🎯 Live Risk Decision
+                    </h3>
+
+                    <div class="gauge-box">
+                        <svg class="gauge-svg" viewBox="0 0 160 160">
+                            <circle class="gauge-track" cx="80" cy="80" r="68"></circle>
+                            <circle id="gaugeCircleProgress" class="gauge-fill" cx="80" cy="80" r="68"></circle>
+                        </svg>
+                        <div class="gauge-center-val">
+                            <div id="gaugeScoreText" class="gauge-number" style="color: #EF4444;">0</div>
+                            <div class="gauge-label">Fraud Score</div>
+                        </div>
+                    </div>
+
+                    <div class="action-box">
+                        <div class="action-label">Action Verdict:</div>
+                        <div id="dossierAction" class="action-text" style="color: #EF4444;">Investigate / Block</div>
+                        <div id="dossierTypology" class="typology-chip">Probable Typology</div>
+                    </div>
+
+                    <!-- Score Decomposition Breakdown -->
+                    <div style="margin-top: 14px;">
+                        <div class="decomp-row">
+                            <span style="color: var(--text-secondary);">Rule Engine Score:</span>
+                            <span id="valRuleScore" style="font-weight: 700;">--/100</span>
+                        </div>
+                        <div class="decomp-track">
+                            <div id="barRuleScore" class="decomp-bar" style="width: 0%; background: #EF4444;"></div>
+                        </div>
+
+                        <div class="decomp-row">
+                            <span style="color: var(--text-secondary);">ML Fraud Probability:</span>
+                            <span id="valMlProb" style="font-weight: 700;">--%</span>
+                        </div>
+                        <div class="decomp-track">
+                            <div id="barMlProb" class="decomp-bar" style="width: 0%; background: #EF4444;"></div>
+                        </div>
+
+                        <div class="decomp-row">
+                            <span style="color: var(--text-secondary);">Network Graph Penalty:</span>
+                            <span id="valNetworkPts" style="font-weight: 700;">+0 pts</span>
+                        </div>
+                        <div class="decomp-track">
+                            <div id="barNetworkPts" class="decomp-bar" style="width: 0%; background: #F59E0B;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Audit Explainability & Triggered Rules -->
+                <div class="card-box">
+                    <h3 style="font-size: 0.9rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">
+                        📋 Itemized Explainability Reasons
+                    </h3>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 10px;">
+                        Transparent point-by-point telemetry triggers:
+                    </p>
+                    <ul id="dossierReasonsList" class="reasons-timeline">
+                        <!-- Populated dynamically -->
+                    </ul>
+                </div>
+
+                <!-- Column 3: Identity & Syndicate Network Footprint -->
+                <div class="card-box">
+                    <h3 style="font-size: 0.9rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 12px;">
+                        🕸️ Syndicate & Device Graph
+                    </h3>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 8px; font-size: 0.88rem; margin-bottom: 14px;">
+                        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;">
+                            <span style="color: var(--text-secondary);">Syndicate Status:</span>
+                            <span id="identSybilStatus" style="font-weight: 700;">Evaluating...</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;">
+                            <span style="color: var(--text-secondary);">Cluster Accounts:</span>
+                            <span id="identRingSize" style="font-weight: 700;">1 account</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;">
+                            <span style="color: var(--text-secondary);">Flagged Connected Neighbors:</span>
+                            <span id="identFlaggedNeighbors" style="font-weight: 700; color: var(--accent-rose);">0</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-subtle); padding-bottom: 5px;">
+                            <span style="color: var(--text-secondary);">Prior Confirmed Fraud:</span>
+                            <span id="metricPriorFraud" style="font-weight: 700;">CLEAN</span>
+                        </div>
+                    </div>
+
+                    <div style="font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 6px;">
+                        Linked Hardware Devices & Shared Fingerprints:
+                    </div>
+                    <div id="identDevices" style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+                        <!-- Devices populated dynamically -->
+                    </div>
+
+                    <div style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; border-top: 1px solid var(--border-subtle); padding-top: 8px;">
+                        <b>Graph Summary:</b> <span id="identNetworkDesc">Clean profile</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Customer Financial & Behavioral KPI Grid -->
+            <div class="grid-5col" style="margin-bottom: 20px;">
+                <div class="kpi-tile">
+                    <span class="kpi-title">Total Orders</span>
+                    <span id="metricOrders" class="kpi-val">--</span>
+                    <span id="metricSpend" class="kpi-sub txt-green">Rs. 0 Volume</span>
+                </div>
+
+                <div class="kpi-tile">
+                    <span class="kpi-title">Returns Requested</span>
+                    <span id="metricReturns" class="kpi-val">--</span>
+                    <span class="kpi-sub txt-amber">Lifetime Return Ratio</span>
+                </div>
+
+                <div class="kpi-tile">
+                    <span class="kpi-title">Refund Disbursements</span>
+                    <span id="metricRefunds" class="kpi-val">--</span>
+                    <span class="kpi-sub txt-rose">Revenue Leakage %</span>
+                </div>
+
+                <div class="kpi-tile">
+                    <span class="kpi-title">Bank Chargebacks</span>
+                    <span id="metricChargebacks" class="kpi-val">0</span>
+                    <span class="kpi-sub txt-amber">Payment Disputes</span>
+                </div>
+
+                <div class="kpi-tile">
+                    <span class="kpi-title">Suspicious Deficits</span>
+                    <span id="metricSuspiciousReturns" class="kpi-val">0</span>
+                    <span class="kpi-sub txt-rose">Weight / SKU Mismatch</span>
+                </div>
+            </div>
+
+            <!-- Complete Relational Order Ledger Table -->
+            <div class="card-box">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                    <div>
+                        <h3 style="font-size: 1.15rem; color: var(--text-main); font-weight: 700;">
+                            📜 Relational Order & Physical Inspection Ledger
+                        </h3>
+                        <p style="font-size: 0.8rem; color: var(--text-secondary);">
+                            Historical purchases, fulfillment weights, package return discrepancy metrics, and refund outcomes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="enterprise-table">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Date</th>
+                                <th>Category</th>
+                                <th>Amount</th>
+                                <th>Delivery</th>
+                                <th>Return Telemetry</th>
+                                <th>Weight Deficit</th>
+                                <th>Condition</th>
+                                <th>SKU Match</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ordersTableBody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ====================================================================
+         TAB 2: REAL-TIME FRAUD SIMULATOR (SANDBOX)
+         ==================================================================== -->
+    <section id="tab-sandbox" class="tab-pane" aria-label="Interactive Simulator">
+        <div class="card-box" style="margin-bottom: 20px;">
+            <h2 style="font-size: 1.3rem; color: var(--accent-cyan); margin-bottom: 4px; font-weight: 800;">
+                ⚡ Real-Time Fraud Simulator & Scenario Sandbox
+            </h2>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 18px;">
+                Tweak package inspection signals, device farming accounts, and return discrepancies to test live multi-layer scoring decisions.
+            </p>
+
+            <form id="sandboxForm">
+                <div class="sim-grid">
+                    <!-- Column 1: Order & Customer -->
+                    <div class="card-box" style="background: rgba(8,13,26,0.6);">
+                        <h4 style="color: #38BDF8; font-size: 0.9rem; margin-bottom: 10px;">🛍️ Order & Profile</h4>
+                        
+                        <div class="input-group">
+                            <label class="input-label">Customer ID (Auto-fills baseline):</label>
+                            <input type="text" id="sbCustomerId" class="input-control" value="C0022">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Order Amount (Rs.):</label>
+                            <input type="number" id="sbAmount" class="input-control" value="24500" min="100" max="500000" step="500">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Category:</label>
+                            <select id="sbCategory" class="input-control">
+                                <option value="Electronics" selected>Electronics</option>
+                                <option value="Fashion">Fashion</option>
+                                <option value="Beauty">Beauty</option>
+                                <option value="Footwear">Footwear</option>
+                                <option value="Home">Home</option>
+                                <option value="Grocery">Grocery</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Lifetime Orders Placed:</label>
+                            <input type="number" id="sbOrderCount" class="input-control" value="8" min="1" max="100">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Lifetime Returns Requested:</label>
+                            <input type="number" id="sbReturnCount" class="input-control" value="7" min="0" max="100">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Prior Fraud Confirmed:</label>
+                            <select id="sbPrevFraud" class="input-control">
+                                <option value="0">0 - Clean Account</option>
+                                <option value="1" selected>1 - Confirmed Fraud History</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Physical Package Return Inspection -->
+                    <div class="card-box" style="background: rgba(8,13,26,0.6);">
+                        <h4 style="color: #F59E0B; font-size: 0.9rem; margin-bottom: 10px;">📦 Physical Return Telemetry</h4>
+
+                        <div class="input-group">
+                            <label class="input-label">Original Delivered Weight (kg):</label>
+                            <input type="number" id="sbOrigWt" class="input-control" value="3.2" min="0.1" max="50" step="0.1">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Returned Package Weight (kg):</label>
+                            <input type="number" id="sbRetWt" class="input-control" value="0.4" min="0.0" max="50" step="0.1">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Barcode / SKU Match Verified:</label>
+                            <select id="sbItemMatch" class="input-control">
+                                <option value="1.0">1.0 - SKU Matches Order</option>
+                                <option value="0.0" selected>0.0 - SKU Mismatch (Counterfeit/Swap)</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Physical Product Condition:</label>
+                            <select id="sbCondition" class="input-control">
+                                <option value="Good">Good</option>
+                                <option value="Used">Used / Wardrobing</option>
+                                <option value="Missing" selected>Missing / Empty Box</option>
+                                <option value="Defective">Defective</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Stated Return Reason:</label>
+                            <select id="sbReason" class="input-control">
+                                <option value="Wrong Item" selected>Wrong Item</option>
+                                <option value="Changed mind">Changed mind</option>
+                                <option value="Size issue">Size issue</option>
+                                <option value="Item not received">Item not received</option>
+                                <option value="Defective product">Defective product</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Identity Velocity & Courier Risk -->
+                    <div class="card-box" style="background: rgba(8,13,26,0.6);">
+                        <h4 style="color: #A855F7; font-size: 0.9rem; margin-bottom: 10px;">📱 Velocity & Third-Party Risk</h4>
+
+                        <div class="input-group">
+                            <label class="input-label">Shipping Address Changes:</label>
+                            <input type="number" id="sbAddressChanges" class="input-control" value="2" min="0" max="20">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Phone Hash Changes:</label>
+                            <input type="number" id="sbPhoneChanges" class="input-control" value="1" min="0" max="20">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Accounts Linked to this Device:</label>
+                            <input type="number" id="sbDeviceAccounts" class="input-control" value="3" min="1" max="50">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Bank Chargebacks Disputed:</label>
+                            <input type="number" id="sbChargebacks" class="input-control" value="1" min="0" max="10">
+                        </div>
+
+                        <div class="input-group">
+                            <label class="input-label">Carrier Risk Index (0-100):</label>
+                            <input type="number" id="sbCourierRisk" class="input-control" value="35" min="0" max="100">
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-execute" id="btnEvaluateSandbox">
+                    <span>⚡ Evaluate Live Transaction Decision</span>
+                </button>
+            </form>
+        </div>
+
+        <!-- Simulation Result Card -->
+        <div id="sandboxResultsCard" class="card-box" style="display: none; border-color: var(--accent-cyan);">
+            <h3 style="font-size: 1.2rem; margin-bottom: 14px; color: var(--accent-cyan); font-weight: 700;">
+                🎯 Simulation Decision & Audit Telemetry
+            </h3>
+
+            <div style="display: grid; grid-template-columns: 190px 1.2fr 1.6fr; gap: 20px; align-items: center;">
+                <div class="gauge-box">
+                    <svg class="gauge-svg" viewBox="0 0 160 160">
+                        <circle class="gauge-track" cx="80" cy="80" r="68"></circle>
+                        <circle id="sbGaugeCircleProgress" class="gauge-fill" cx="80" cy="80" r="68"></circle>
+                    </svg>
+                    <div class="gauge-center-val">
+                        <div id="sbGaugeScoreText" class="gauge-number">0</div>
+                        <div class="gauge-label">Score</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div><span id="sbRiskBadge" class="risk-pill-high">HIGH RISK</span></div>
+                    <div class="action-box">
+                        <div class="action-label">Action Verdict:</div>
+                        <div id="sbActionVal" class="action-text">Investigate / Block</div>
+                        <div id="sbTypologyVal" class="typology-chip">Typology</div>
+                    </div>
+                    <div style="margin-top: 8px; font-size: 0.82rem; color: var(--text-secondary);">
+                        <div>Rule Score: <b id="sbRuleScore" style="color:#FFF;">--</b></div>
+                        <div>ML Probability: <b id="sbMlProb" style="color:#FFF;">--</b></div>
+                        <div>Network Penalty: <b id="sbNetworkPts" style="color:#FFF;">--</b></div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 8px; font-weight: 700;">
+                        Triggered Business Violations:
+                    </h4>
+                    <ul id="sbReasonsList" class="reasons-timeline"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 3: EXECUTIVE COMMAND CENTER & KPIS
+         ==================================================================== -->
+    <section id="tab-command" class="tab-pane" aria-label="Executive KPIs">
+        <div class="grid-5col" style="margin-bottom: 20px;">
+            <div class="kpi-tile">
+                <span class="kpi-title">Total Orders Evaluated</span>
+                <span id="kpiTotalOrders" class="kpi-val">--</span>
+                <span id="kpiTotalSpend" class="kpi-sub txt-green">-- Volume</span>
+            </div>
+            <div class="kpi-tile">
+                <span class="kpi-title">Returns Requested</span>
+                <span id="kpiReturns" class="kpi-val">--</span>
+                <span id="kpiReturnRate" class="kpi-sub txt-amber">-- Return Rate</span>
+            </div>
+            <div class="kpi-tile">
+                <span class="kpi-title">Refund Disbursements</span>
+                <span id="kpiRefunds" class="kpi-val">--</span>
+                <span id="kpiRefundRate" class="kpi-sub txt-rose">-- Revenue Leakage</span>
+            </div>
+            <div class="kpi-tile">
+                <span class="kpi-title">Prevented Fraud Loss</span>
+                <span id="kpiLossPrevented" class="kpi-val" style="color: var(--accent-emerald);">--</span>
+                <span class="kpi-sub txt-green">Intercepted at Gate</span>
+            </div>
+            <div class="kpi-tile">
+                <span class="kpi-title">Flagged High-Risk Entities</span>
+                <span id="kpiHighRisk" class="kpi-val" style="color: var(--accent-rose);">--</span>
+                <span id="kpiHighRiskRate" class="kpi-sub txt-rose">-- Incident Ratio</span>
+            </div>
+        </div>
+
+        <div class="grid-2col">
+            <div class="card-box">
+                <h3 style="margin-bottom: 12px; font-size: 1.05rem; font-weight: 700;">Portfolio Risk Distribution</h3>
+                <div id="kpiTierBar" style="display: flex; border-radius: var(--radius-sm); overflow: hidden; height: 26px; margin-bottom: 14px;"></div>
+                <div style="display: flex; justify-content: space-around; font-size: 0.8rem;">
+                    <div><span style="color: var(--accent-emerald); font-weight: 700;">● Low Risk:</span> 0-30 Score (Auto-Approve)</div>
+                    <div><span style="color: var(--accent-amber); font-weight: 700;">● Medium Risk:</span> 31-70 Score (Manual Review)</div>
+                    <div><span style="color: var(--accent-rose); font-weight: 700;">● High Risk:</span> 71-100 Score (Block / Inspect)</div>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <h3 style="margin-bottom: 12px; font-size: 1.05rem; font-weight: 700;">Fraud Typology Financial Exposure</h3>
+                <div class="table-responsive">
+                    <table class="enterprise-table">
+                        <thead>
+                            <tr>
+                                <th>Typology</th>
+                                <th>Incidents</th>
+                                <th>Exposure (Rs.)</th>
+                                <th>Mean Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="typologiesTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 4: IDENTITY SYNDICATE RINGS
+         ==================================================================== -->
+    <section id="tab-rings" class="tab-pane" aria-label="Syndicate Rings">
+        <div class="card-box" style="margin-bottom: 20px;">
+            <h2 style="font-size: 1.3rem; color: var(--accent-cyan); margin-bottom: 4px; font-weight: 800;">
+                🕸️ Identity Graph Syndicate & Device Rings
+            </h2>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;">
+                Heterogeneous graph mapping Customer &rarr; Hardware Device &rarr; Phone Hash &rarr; Delivery Address &rarr; Payment Fingerprint.
+                Detects multi-account syndicates, account farming, and organized refund rings.
+            </p>
+
+            <div id="ringsListContainer">
+                <div class="spinner-ring"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 5: SUPPLY CHAIN & COURIER RISK
+         ==================================================================== -->
+    <section id="tab-supply" class="tab-pane" aria-label="Supply Chain">
+        <div class="grid-2col">
+            <div class="card-box">
+                <h3 style="font-size: 1.05rem; margin-bottom: 12px; color: var(--text-main); font-weight: 700;">
+                    🚚 Delivery Partner Tampering Rates
+                </h3>
+                <div class="table-responsive">
+                    <table class="enterprise-table">
+                        <thead>
+                            <tr>
+                                <th>Carrier ID</th>
+                                <th>Total Deliveries</th>
+                                <th>Tampering Cases</th>
+                                <th>Suspicious Returns</th>
+                                <th>Risk Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="couriersTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card-box">
+                <h3 style="font-size: 1.05rem; margin-bottom: 12px; color: var(--text-main); font-weight: 700;">
+                    🏬 Merchant Return Rates & Risk Index
+                </h3>
+                <div class="table-responsive">
+                    <table class="enterprise-table">
+                        <thead>
+                            <tr>
+                                <th>Merchant ID</th>
+                                <th>Category</th>
+                                <th>Total Orders</th>
+                                <th>Return Rate</th>
+                                <th>Risk Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="merchantsTableBody"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- Production Dashboard Script -->
+<script src="/static/js/dashboard.js"></script>
+</body>
+</html>
