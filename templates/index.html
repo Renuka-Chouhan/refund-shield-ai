@@ -116,22 +116,37 @@
         <!-- Loading State -->
         <div id="dossierLoading" style="display: none; text-align: center; padding: 48px 20px;">
             <div class="spinner-ring"></div>
-            <p style="margin-top: 12px; color: var(--accent-cyan); font-weight: 600; font-size: 0.95rem;">
+            <p style="margin-top: 14px; color: var(--accent-cyan); font-weight: 700; font-size: 1rem;">
                 Fetching relational ledger & executing multi-layer fraud scoring...
+            </p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+                Connecting to indexed ledger, evaluating 14 business rules, ML model & identity syndicate graph
             </p>
         </div>
 
-        <!-- Error State Display -->
-        <div id="dossierError" style="display: none; padding: 18px 22px; background: rgba(244, 63, 94, 0.12); border: 1px solid var(--accent-rose); border-radius: var(--radius-md); margin-bottom: 20px;">
-            <div style="display: flex; align-items: center; gap: 8px;">
-                <span style="font-size: 1.2rem;">❌</span>
-                <h3 style="color: var(--accent-rose); font-size: 1rem; margin: 0;">Entity Lookup Notice</h3>
+        <!-- Error State Display with Retry & Suggestion Chips -->
+        <div id="dossierError" class="error-banner" style="display: none;">
+            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 1.3rem;">⚠️</span>
+                    <h3 style="color: var(--accent-rose); font-size: 1.05rem; margin: 0; font-weight: 700;">Customer Investigation Notice</h3>
+                </div>
+                <button type="button" class="retry-btn" onclick="retryCustomerLookup()">
+                    <span>🔄 Retry Lookup</span>
+                </button>
             </div>
-            <p id="dossierErrorMsg" style="color: var(--text-main); font-size: 0.9rem; margin-top: 4px;"></p>
+            <p id="dossierErrorMsg" style="color: var(--text-main); font-size: 0.92rem; margin: 4px 0;"></p>
+            <div id="dossierErrorSuggestions" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 6px;">
+                <span style="font-size: 0.8rem; color: var(--text-muted); font-weight: 600;">Benchmark Entities:</span>
+                <button type="button" class="quick-chip chip-danger" onclick="quickPickCustomer('C0022')">🚨 C0022</button>
+                <button type="button" class="quick-chip chip-danger" onclick="quickPickCustomer('C0061')">⚠️ C0061</button>
+                <button type="button" class="quick-chip chip-warning" onclick="quickPickCustomer('C0020')">🔍 C0020</button>
+                <button type="button" class="quick-chip chip-success" onclick="quickPickCustomer('C0001')">✅ C0001</button>
+            </div>
         </div>
 
-        <!-- Populated Dossier Content -->
-        <div id="dossierContent">
+        <!-- Populated Dossier Content (Hidden initially until validated) -->
+        <div id="dossierContent" style="display: none;">
 
             <!-- Customer Header Meta Bar -->
             <div class="dossier-header-bar">
@@ -150,8 +165,18 @@
                     </div>
                 </div>
 
-                <div>
-                    <span id="dossierRiskBadge" class="risk-pill-high">EVALUATING</span>
+                <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                    <div class="action-btn-group">
+                        <button type="button" class="utility-btn" onclick="copyCustomerId()" title="Copy Customer ID">
+                            <span>📋 Copy ID</span>
+                        </button>
+                        <button type="button" class="utility-btn" onclick="exportDossierReport()" title="Print Investigation Summary">
+                            <span>📄 Export Dossier</span>
+                        </button>
+                    </div>
+                    <div>
+                        <span id="dossierRiskBadge" class="risk-pill-high">EVALUATING</span>
+                    </div>
                 </div>
             </div>
 
@@ -308,6 +333,21 @@
                 </div>
 
                 <div class="table-responsive">
+                    <div class="table-filter-bar">
+                        <input type="text" id="orderSearchInput" class="table-search-input" placeholder="🔍 Filter customer orders by ID, Category..." oninput="filterOrdersTable()">
+                        <div class="table-filter-group">
+                            <span style="font-size: 0.74rem; color: var(--text-muted); font-weight: 700; text-transform: uppercase;">Filter:</span>
+                            <button type="button" class="table-filter-btn active" data-filter="all" onclick="setOrderFilter('all')">
+                                All (<span id="countAllOrders">0</span>)
+                            </button>
+                            <button type="button" class="table-filter-btn" data-filter="returns" onclick="setOrderFilter('returns')">
+                                Returns (<span id="countReturnOrders">0</span>)
+                            </button>
+                            <button type="button" class="table-filter-btn" data-filter="deficits" onclick="setOrderFilter('deficits')">
+                                Weight Deficits (<span id="countDeficitOrders">0</span>)
+                            </button>
+                        </div>
+                    </div>
                     <table class="enterprise-table">
                         <thead>
                             <tr>
@@ -315,9 +355,9 @@
                                 <th>Date</th>
                                 <th>Category</th>
                                 <th>Amount</th>
-                                <th>Delivery</th>
+                                <th>Delivery Status</th>
                                 <th>Return Telemetry</th>
-                                <th>Weight Deficit</th>
+                                <th>Physical Weight Deficit</th>
                                 <th>Condition</th>
                                 <th>SKU Match</th>
                                 <th>Actions</th>
@@ -468,16 +508,22 @@
                 </div>
 
                 <button type="submit" class="btn-execute" id="btnEvaluateSandbox">
-                    <span>⚡ Evaluate Live Transaction Decision</span>
+                    <span id="sbBtnSpinner" class="spinner-ring spinner-sm" style="display: none; margin-right: 6px;"></span>
+                    <span id="sbBtnLabel">⚡ Evaluate Live Transaction Decision</span>
                 </button>
             </form>
         </div>
 
         <!-- Simulation Result Card -->
         <div id="sandboxResultsCard" class="card-box" style="display: none; border-color: var(--accent-cyan);">
-            <h3 style="font-size: 1.2rem; margin-bottom: 14px; color: var(--accent-cyan); font-weight: 700;">
-                🎯 Simulation Decision & Audit Telemetry
-            </h3>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+                <h3 style="font-size: 1.2rem; color: var(--accent-cyan); font-weight: 700; margin: 0;">
+                    🎯 Simulation Decision & Audit Telemetry
+                </h3>
+                <span style="font-size: 0.78rem; color: var(--text-muted); background: rgba(255,255,255,0.04); padding: 4px 10px; border-radius: 6px;">
+                    Model: XGBoost + 14 Expert Rules
+                </span>
+            </div>
 
             <div style="display: grid; grid-template-columns: 190px 1.2fr 1.6fr; gap: 20px; align-items: center;">
                 <div class="gauge-box">
@@ -511,6 +557,15 @@
                     </h4>
                     <ul id="sbReasonsList" class="reasons-timeline"></ul>
                 </div>
+            </div>
+
+            <!-- Plain English Forensic Intelligence Rationale -->
+            <div id="sbVerdictSummary" style="margin-top: 18px; padding: 14px 18px; background: rgba(56, 189, 248, 0.06); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: var(--radius-sm);">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                    <span>🧠</span>
+                    <h4 style="color: var(--accent-cyan); font-size: 0.88rem; margin: 0; font-weight: 700;">Forensic Decision Rationale:</h4>
+                </div>
+                <p id="sbVerdictText" style="color: var(--text-main); font-size: 0.86rem; line-height: 1.5; margin: 0;"></p>
             </div>
         </div>
     </section>
@@ -561,6 +616,10 @@
             <div class="card-box">
                 <h3 style="margin-bottom: 12px; font-size: 1.05rem; font-weight: 700;">Fraud Typology Financial Exposure</h3>
                 <div class="table-responsive">
+                    <div class="table-filter-bar">
+                        <input type="text" id="typologySearchInput" class="table-search-input" placeholder="🔍 Search typologies..." oninput="filterTypologiesTable()">
+                        <span style="font-size: 0.74rem; color: var(--text-muted); font-weight: 600;">Indexed Financial Risk</span>
+                    </div>
                     <table class="enterprise-table">
                         <thead>
                             <tr>
@@ -582,16 +641,27 @@
          ==================================================================== -->
     <section id="tab-rings" class="tab-pane" aria-label="Syndicate Rings">
         <div class="card-box" style="margin-bottom: 20px;">
-            <h2 style="font-size: 1.3rem; color: var(--accent-cyan); margin-bottom: 4px; font-weight: 800;">
-                🕸️ Identity Graph Syndicate & Device Rings
-            </h2>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px;">
+                <h2 style="font-size: 1.3rem; color: var(--accent-cyan); margin: 0; font-weight: 800;">
+                    🕸️ Identity Graph Syndicate & Device Rings
+                </h2>
+                <div style="display: flex; gap: 8px; align-items: center;">
+                    <input type="text" id="ringSearchInput" class="table-search-input" placeholder="🔍 Search ring or customer..." oninput="filterFraudRings()">
+                    <button type="button" class="utility-btn" onclick="loadFraudRings()">
+                        <span>🔄 Refresh Graph</span>
+                    </button>
+                </div>
+            </div>
             <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;">
                 Heterogeneous graph mapping Customer &rarr; Hardware Device &rarr; Phone Hash &rarr; Delivery Address &rarr; Payment Fingerprint.
                 Detects multi-account syndicates, account farming, and organized refund rings.
             </p>
 
             <div id="ringsListContainer">
-                <div class="spinner-ring"></div>
+                <div style="text-align: center; padding: 40px 20px;">
+                    <div class="spinner-ring"></div>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.88rem;">Scanning identity graph clusters...</p>
+                </div>
             </div>
         </div>
     </section>
@@ -602,9 +672,12 @@
     <section id="tab-supply" class="tab-pane" aria-label="Supply Chain">
         <div class="grid-2col">
             <div class="card-box">
-                <h3 style="font-size: 1.05rem; margin-bottom: 12px; color: var(--text-main); font-weight: 700;">
-                    🚚 Delivery Partner Tampering Rates
-                </h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                    <h3 style="font-size: 1.05rem; color: var(--text-main); font-weight: 700; margin: 0;">
+                        🚚 Delivery Partner Tampering Rates
+                    </h3>
+                    <input type="text" id="carrierSearchInput" class="table-search-input" style="min-width: 140px;" placeholder="Search carrier..." oninput="filterCouriersTable()">
+                </div>
                 <div class="table-responsive">
                     <table class="enterprise-table">
                         <thead>
@@ -622,9 +695,12 @@
             </div>
 
             <div class="card-box">
-                <h3 style="font-size: 1.05rem; margin-bottom: 12px; color: var(--text-main); font-weight: 700;">
-                    🏬 Merchant Return Rates & Risk Index
-                </h3>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                    <h3 style="font-size: 1.05rem; color: var(--text-main); font-weight: 700; margin: 0;">
+                        🏬 Merchant Return Rates & Risk Index
+                    </h3>
+                    <input type="text" id="merchantSearchInput" class="table-search-input" style="min-width: 140px;" placeholder="Search merchant..." oninput="filterMerchantsTable()">
+                </div>
                 <div class="table-responsive">
                     <table class="enterprise-table">
                         <thead>
