@@ -1,9 +1,11 @@
 # 🛡️ RefundShield AI – AI-Powered E-Commerce Refund & Return Fraud Detection System
 
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Render Live](https://img.shields.io/badge/Render-Live%20Demo-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://refundshield-ai.onrender.com/)
+[![Swagger API](https://img.shields.io/badge/OpenAPI-Swagger%20Docs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://refundshield-ai.onrender.com/docs)
 [![XGBoost](https://img.shields.io/badge/XGBoost-Models-EB6100?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0+-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
 **RefundShield AI** is an industry-grade, explainable, multi-layer fraud detection platform engineered to protect e-commerce enterprises and payment platforms against repeated, distributed, and coordinated refund and return fraud.
 
@@ -180,9 +182,9 @@ python main.py
 # Or run with uvicorn directly:
 uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 ```
-- **Web Command Center Dashboard**: Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+- **Live Cloud Deployment**: [https://refundshield-ai.onrender.com](https://refundshield-ai.onrender.com)
+- **Local Web Command Center**: Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 - **Interactive Swagger API Documentation**: Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
-- **Alternative Streamlit App (Legacy)**: `streamlit run app.py`
 
 ### 3. Example cURL / API Usage
 
